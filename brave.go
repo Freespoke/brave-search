@@ -152,18 +152,24 @@ const (
 	FreshnessPastWeek
 	FreshnessPastMonth
 	FreshnessPastYear
+)
 
+const (
 	ResultFilterDiscussions ResultFilter = "discussions"
 	ResultFilterFAQ         ResultFilter = "faq"
 	ResultFilterInfoBox     ResultFilter = "infobox"
 	ResultFilterNews        ResultFilter = "news"
 	ResultFilterVideos      ResultFilter = "videos"
 	ResultFilterWeb         ResultFilter = "web"
+)
 
+const (
 	SafesearchModerate Safesearch = iota
 	SafesearchOff
 	SafesearchStrict
+)
 
+const (
 	UnitTypeNone UnitType = iota
 	UnitTypeMetric
 	UnitTypeImperial

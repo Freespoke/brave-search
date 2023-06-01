@@ -20,10 +20,11 @@ func TestWeb(t *testing.T) {
 		t.Fatal(err)
 	}
 
-	res, err := client.WebSearch(context.Background(), "pizza hut",
+	res, err := client.WebSearch(context.Background(), "trump",
 		brave.WithLocCity("Clinton Township"),
 		brave.WithLocState("MI"),
 		brave.WithLocCountry("US"),
+		brave.WithSafesearch(brave.SafesearchStrict),
 		brave.WithResultFilter(
 			brave.ResultFilterDiscussions,
 			brave.ResultFilterFAQ,
