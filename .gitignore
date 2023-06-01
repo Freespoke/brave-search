@@ -1,0 +1,16 @@
+bin/
+__debug_bin
+.DS_Store
+.env
+.envd
+modified-time.status
+.idea/
+*.iml
+*.out
+.vscode
+!docs/.vscode
+internal/build/version/*.json
+!internal/build/version/noop.json
+__pycache__/
+*.pyc
+data-analysis
