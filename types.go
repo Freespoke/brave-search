@@ -263,7 +263,7 @@ type DataProvider struct {
 	Name     string `json:"name"`
 	URL      string `json:"url"`
 	LongName string `json:"long_name"`
-	Image    `json:"img"`
+	Image    string `json:"img"`
 }
 
 type Unit struct {
@@ -410,4 +410,39 @@ type SuggestResult struct {
 
 type SpellcheckResultItem struct {
 	Query string `json:"query"`
+}
+
+type DiscussionResult struct {
+	SearchResult
+
+	Type string    `json:"type"`
+	Data ForumData `json:"data"`
+}
+
+type ForumData struct {
+	ForumName  string `json:"forum_name"`
+	NumAnswers int    `json:"num_answers"`
+	Score      string `json:"score"`
+	Question   string `json:"question"`
+	TopComment string `json:"top_comment"`
+}
+
+type GraphInfoBox struct {
+	Result
+
+	Type            string         `json:"type"`
+	Position        int            `json:"position"`
+	Label           string         `json:"label"`
+	Category        string         `json:"category"`
+	LongDesc        string         `json:"long_desc"`
+	Thumbnail       *Thumbnail     `json:"thumbnail"`
+	Attributes      []any          `json:"attributes"`
+	Profiles        []Profile      `json:"profiles"`
+	WebsiteURL      string         `json:"website_url"`
+	AttributesShown int            `json:"attributes_shown"`
+	Ratings         []Rating       `json:"ratings"`
+	Providers       []DataProvider `json:"providers"`
+	Distance        *Unit          `json:"distance"`
+	Images          []Thumbnail    `json:"images"`
+	Movie           *MovieData     `json:"movie"`
 }

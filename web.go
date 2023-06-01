@@ -3,8 +3,6 @@ package brave
 import (
 	"context"
 	"encoding/json"
-	"io"
-	"log"
 	"net/http"
 
 	"github.com/google/go-querystring/query"
@@ -41,9 +39,6 @@ func (b *brave) WebSearch(ctx context.Context, term string, options ...SearchOpt
 
 	defer res.Body.Close()
 
-	bb, _ := io.ReadAll(res.Body)
-	log.Println(string(bb))
-
 	var resp WebSearchResult
 	if err := json.NewDecoder(res.Body).Decode(&resp); err != nil {
 		return nil, err
@@ -53,16 +48,16 @@ func (b *brave) WebSearch(ctx context.Context, term string, options ...SearchOpt
 }
 
 type WebSearchResult struct {
-	Type        string                         `json:"type"`
-	Discussions any                            `json:"discussions"`
-	FAQ         any                            `json:"faq"`
-	InfoBox     any                            `json:"infobox"`
-	Locations   any                            `json:"locations"`
-	Mixed       *Mixed                         `json:"mixed"`
-	News        *ResultContainer[NewsResult]   `json:"news"`
-	Query       *Query                         `json:"query"`
-	Videos      *ResultContainer[VideoResult]  `json:"videos"`
-	Web         *ResultContainer[SearchResult] `json:"web"`
+	Type        string                             `json:"type"`
+	Discussions *ResultContainer[DiscussionResult] `json:"discussions"`
+	FAQ         any                                `json:"faq"`
+	InfoBox     *ResultContainer[GraphInfoBox]     `json:"infobox"`
+	Locations   any                                `json:"locations"`
+	Mixed       *Mixed                             `json:"mixed"`
+	News        *ResultContainer[NewsResult]       `json:"news"`
+	Query       *Query                             `json:"query"`
+	Videos      *ResultContainer[VideoResult]      `json:"videos"`
+	Web         *ResultContainer[SearchResult]     `json:"web"`
 }
 
 type webSearchParams struct {
