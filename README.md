@@ -1,5 +1,7 @@
 # Brave Search API for Go
 
+[![Go Reference](https://pkg.go.dev/badge/dev.freespoke.com/brave-search.svg)](https://pkg.go.dev/dev.freespoke.com/brave-search)
+
 A Go client for the [Brave Search API](https://api.search.brave.com/).
 
 ## Install
