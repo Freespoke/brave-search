@@ -2,7 +2,6 @@ package brave
 
 import (
 	"context"
-	"encoding/json"
 	"net/http"
 
 	"github.com/google/go-querystring/query"
@@ -23,7 +22,7 @@ func (b *brave) WebSearch(ctx context.Context, term string, options ...SearchOpt
 		return nil, err
 	}
 
-	u.RawQuery = rawQuery(opts.getResultFilter(), values)
+	u.RawQuery = values.Encode()
 
 	req, err := http.NewRequestWithContext(ctx, http.MethodGet, u.String(), nil)
 	if err != nil {
@@ -32,19 +31,7 @@ func (b *brave) WebSearch(ctx context.Context, term string, options ...SearchOpt
 
 	opts.applyRequestHeaders(b.subscriptionToken, req)
 
-	res, err := b.client.Do(req)
-	if err != nil {
-		return nil, err
-	}
-
-	defer res.Body.Close()
-
-	var resp WebSearchResult
-	if err := json.NewDecoder(res.Body).Decode(&resp); err != nil {
-		return nil, err
-	}
-
-	return &resp, nil
+	return handleRequest[WebSearchResult](ctx, b.client, req)
 }
 
 type WebSearchResult struct {
@@ -61,31 +48,33 @@ type WebSearchResult struct {
 }
 
 type webSearchParams struct {
-	Term            string `url:"q"`
-	Country         string `url:"country,omitempty"`
-	SearchLang      string `url:"search_lang,omitempty"`
-	UILang          string `url:"ui_lang,omitempty"`
-	Count           int    `url:"count,omitempty"`
-	Offset          int    `url:"offset,omitempty"`
-	Safesearch      string `url:"safesearch,omitempty"`
-	Freshness       string `url:"freshness,omitempty"`
-	TextDecorations bool   `url:"text_decorations,omitempty"`
-	GogglesID       string `url:"goggles_id,omitempty"`
-	Units           string `url:"units,omitempty"`
-	ExtraSnippets   bool   `url:"extra_snippets,omitempty"`
+	Count           int      `url:"count,omitempty"`
+	Country         string   `url:"country,omitempty"`
+	ExtraSnippets   bool     `url:"extra_snippets,omitempty"`
+	Freshness       string   `url:"freshness,omitempty"`
+	GogglesID       string   `url:"goggles_id,omitempty"`
+	Offset          int      `url:"offset,omitempty"`
+	ResultFilter    []string `url:"result_filter,omitempty,comma"`
+	Safesearch      string   `url:"safesearch,omitempty"`
+	SearchLang      string   `url:"search_lang,omitempty"`
+	Term            string   `url:"q"`
+	TextDecorations bool     `url:"text_decorations,omitempty"`
+	UILang          string   `url:"ui_lang,omitempty"`
+	Units           string   `url:"units,omitempty"`
 }
 
 func (w *webSearchParams) fromSearchOptions(term string, options searchOptions) {
-	w.Term = term
-	w.Country = options.country
-	w.SearchLang = options.lang
-	w.UILang = options.uiLang
 	w.Count = options.count
-	w.Offset = options.offset
-	w.Safesearch = options.safesearch.String()
-	w.Freshness = options.getFreshness()
-	w.TextDecorations = options.textDecorations
-	w.GogglesID = options.gogglesID
-	w.Units = options.units.String()
+	w.Country = options.country
 	w.ExtraSnippets = options.extraSnippets
+	w.Freshness = options.getFreshness()
+	w.GogglesID = options.gogglesID
+	w.Offset = options.offset
+	w.ResultFilter = options.getResultFilter()
+	w.Safesearch = options.safesearch.String()
+	w.SearchLang = options.lang
+	w.Term = term
+	w.TextDecorations = options.textDecorations
+	w.UILang = options.uiLang
+	w.Units = options.units.String()
 }

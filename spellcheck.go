@@ -2,7 +2,6 @@ package brave
 
 import (
 	"context"
-	"encoding/json"
 	"net/http"
 
 	"github.com/google/go-querystring/query"
@@ -32,19 +31,7 @@ func (b *brave) Spellcheck(ctx context.Context, term string, options ...SearchOp
 
 	opts.applyRequestHeaders(b.subscriptionToken, req)
 
-	res, err := b.client.Do(req)
-	if err != nil {
-		return nil, err
-	}
-
-	defer res.Body.Close()
-
-	var resp SpellcheckResult
-	if err := json.NewDecoder(res.Body).Decode(&resp); err != nil {
-		return nil, err
-	}
-
-	return &resp, nil
+	return handleRequest[SpellcheckResult](ctx, b.client, req)
 }
 
 type SpellcheckResult struct {

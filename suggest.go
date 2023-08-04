@@ -2,7 +2,6 @@ package brave
 
 import (
 	"context"
-	"encoding/json"
 	"net/http"
 
 	"github.com/google/go-querystring/query"
@@ -32,19 +31,7 @@ func (b *brave) SuggestSearch(ctx context.Context, term string, options ...Searc
 
 	opts.applyRequestHeaders(b.subscriptionToken, req)
 
-	res, err := b.client.Do(req)
-	if err != nil {
-		return nil, err
-	}
-
-	defer res.Body.Close()
-
-	var resp SuggestSearchResult
-	if err := json.NewDecoder(res.Body).Decode(&resp); err != nil {
-		return nil, err
-	}
-
-	return &resp, nil
+	return handleRequest[SuggestSearchResult](ctx, b.client, req)
 }
 
 type SuggestSearchResult struct {

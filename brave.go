@@ -5,7 +5,6 @@ import (
 	"fmt"
 	"net/http"
 	"net/url"
-	"strings"
 	"time"
 )
 
@@ -669,13 +668,4 @@ func applyOpts[T any, F ~func(T) T](cfg *T, opts []F, setDefaults F) {
 	if setDefaults != nil {
 		*cfg = setDefaults(*cfg)
 	}
-}
-
-func rawQuery(resultFilter []string, v url.Values) string {
-	str := []string{
-		v.Encode(),
-		fmt.Sprintf("result_filter=%s", strings.Join(resultFilter, ",")),
-	}
-
-	return strings.Join(str, "&")
 }
