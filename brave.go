@@ -9,11 +9,13 @@ import (
 )
 
 const (
-	defaultBaseURL    = "https://api.search.brave.com/res/v1/"
-	webSearchPath     = "web/search"
-	suggestSearchPath = "suggest/search"
-	spellcheckPath    = "spellcheck/search"
 	apiVersion        = "2023-06-01"
+	defaultBaseURL    = "https://api.search.brave.com/res/v1/"
+	imageSearchPath   = "images/search"
+	spellcheckPath    = "spellcheck/search"
+	suggestSearchPath = "suggest/search"
+	videoSearchPath   = "videos/search"
+	webSearchPath     = "web/search"
 )
 
 // Brave is an interface for fetching results from the Brave Search API.
@@ -26,6 +28,12 @@ type Brave interface {
 
 	// Spellcheck returns spelling suggestions.
 	Spellcheck(ctx context.Context, term string, options ...SearchOption) (*SpellcheckResult, error)
+
+	// ImageSearch returns image search results.
+	ImageSearch(ctx context.Context, term string, options ...SearchOption) (*ImageSearchResult, error)
+
+	// VideoSearch returns video search results.
+	VideoSearch(ctx context.Context, term string, options ...SearchOption) (*VideoSearchResult, error)
 }
 
 type brave struct {
@@ -160,6 +168,7 @@ const (
 	ResultFilterNews        ResultFilter = "news"
 	ResultFilterVideos      ResultFilter = "videos"
 	ResultFilterWeb         ResultFilter = "web"
+	ResultFilterImages      ResultFilter = "images"
 )
 
 const (
@@ -247,11 +256,11 @@ func (s searchOptions) applyRequestHeaders(subscriptionToken string, req *http.R
 	}
 
 	if s.locLatitude != nil {
-		req.Header.Add("X-Loc-Lat", fmt.Sprintf("%f", *s.locLatitude))
+		req.Header.Add("X-Loc-Lat", fmt.Sprintf("%.3f", *s.locLatitude))
 	}
 
 	if s.locLongitude != nil {
-		req.Header.Add("X-Loc-Long", fmt.Sprintf("%f", *s.locLongitude))
+		req.Header.Add("X-Loc-Long", fmt.Sprintf("%.3f", *s.locLongitude))
 	}
 
 	if s.locTimezone != nil {

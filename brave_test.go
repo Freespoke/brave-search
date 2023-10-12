@@ -35,6 +35,7 @@ func TestWeb(t *testing.T) {
 			brave.ResultFilterNews,
 			brave.ResultFilterVideos,
 			brave.ResultFilterWeb,
+			brave.ResultFilterImages,
 		),
 	)
 
@@ -43,4 +44,34 @@ func TestWeb(t *testing.T) {
 	}
 
 	log.Println(res)
+}
+
+func TestImage(t *testing.T) {
+	key := os.Getenv("BRAVE_API_KEY")
+	if key == "" {
+		t.Skip("missing BRAVE_API_KEY env")
+	}
+
+	client, err := brave.New(key)
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	res, err := client.ImageSearch(context.Background(), "trump")
+	log.Println(res, err)
+}
+
+func TestVideo(t *testing.T) {
+	key := os.Getenv("BRAVE_API_KEY")
+	if key == "" {
+		t.Skip("missing BRAVE_API_KEY env")
+	}
+
+	client, err := brave.New(key)
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	res, err := client.VideoSearch(context.Background(), "trump")
+	log.Println(res, err)
 }
