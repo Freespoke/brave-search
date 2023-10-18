@@ -23,7 +23,45 @@ func TestWeb(t *testing.T) {
 
 	res, err := client.WebSearch(context.Background(), "speaker of the house")
 	assert.Nil(t, err)
-	assert.NotNil(t, res)
+	if res == nil {
+		t.Fatal("res was nil")
+	}
+
+	if res.Query == nil {
+		t.Fatal("res.Query was nil")
+	}
+
+	assert.Equal(t, "facebook", res.Query.Original)
+	assert.Equal(t, "modified", res.Query.Altered)
+	assert.True(t, res.Query.ShowStrictWarning)
+	assert.True(t, res.Query.Safesearch)
+	assert.True(t, res.Query.IsNavigational)
+	assert.True(t, res.Query.IsGeolocal)
+	assert.Equal(t, "drop", res.Query.LocalDecision)
+	assert.Equal(t, 1, res.Query.LocalLocationsIdx)
+	assert.True(t, res.Query.IsTrending)
+	assert.True(t, res.Query.IsNewsBreaking)
+	assert.True(t, res.Query.AskForLocation)
+	assert.Equal(t, "foo", res.Query.Language.Main)
+	assert.True(t, res.Query.SpellcheckOff)
+	assert.Equal(t, "us", res.Query.Country)
+	assert.True(t, res.Query.BadResults)
+	assert.True(t, res.Query.ShouldFallback)
+	assert.Equal(t, "180.00", res.Query.Lat)
+	assert.Equal(t, "-1.1", res.Query.Long)
+	assert.Equal(t, "48999", res.Query.PostalCode)
+	assert.Equal(t, "Detroit", res.Query.City)
+	assert.Equal(t, "MI", res.Query.State)
+	assert.Equal(t, "us", res.Query.HeaderCountry)
+	assert.True(t, res.Query.MoreResultsAvailable)
+	assert.Equal(t, "Detroit, Michigan, US", res.Query.CustomLocationLabel)
+
+	if res.Videos == nil {
+		t.Fatal("res.Videos was nil")
+	}
+
+	assert.Len(t, res.Videos.Results, 3)
+	assert.True(t, res.Videos.MutatedByGoggles)
 }
 
 func TestImage(t *testing.T) {

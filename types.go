@@ -17,31 +17,31 @@ type ResultContainer[T any] struct {
 }
 
 type Query struct {
-	Original             string   `json:"original"`
-	ShowStrictWarning    bool     `json:"show_strict_warning"`
-	Altered              string   `json:"altered"`
-	Safesearch           bool     `json:"safesearch"`
-	IsNavigational       bool     `json:"is_navigational"`
-	IsGeolocal           bool     `json:"is_geolocal"`
-	LocalDecision        string   `json:"local_decision"`
-	LocalLocationsIdx    int      `json:"local_locations_idx"`
-	IsTrending           bool     `json:"is_trending"`
-	IsNewsBreaking       bool     `json:"is_news_breaking"`
-	AskForLocation       bool     `json:"ask_for_location"`
-	Language             Language `json:"language"`
-	SpellcheckOff        bool     `json:"spellcheck_off"`
-	Country              string   `json:"country"`
-	BadResults           bool     `json:"bad_results"`
-	ShouldFallback       bool     `json:"should_fallback"`
-	Lat                  string   `json:"lat"`
-	Long                 string   `json:"long"`
-	PostalCode           string   `json:"postal_code"`
-	City                 string   `json:"city"`
-	State                string   `json:"state"`
-	HeaderCountry        string   `json:"header_country"`
-	MoreResultsAvailable bool     `json:"more_results_available"`
-	CustomLocationLabel  string   `json:"custom_location_label"`
-	RedditCluster        string   `json:"reddit_cluster"`
+	Original             string    `json:"original"`
+	ShowStrictWarning    bool      `json:"show_strict_warning"`
+	Altered              string    `json:"altered"`
+	Safesearch           bool      `json:"safesearch"`
+	IsNavigational       bool      `json:"is_navigational"`
+	IsGeolocal           bool      `json:"is_geolocal"`
+	LocalDecision        string    `json:"local_decision"`
+	LocalLocationsIdx    int       `json:"local_locations_idx"`
+	IsTrending           bool      `json:"is_trending"`
+	IsNewsBreaking       bool      `json:"is_news_breaking"`
+	AskForLocation       bool      `json:"ask_for_location"`
+	Language             *Language `json:"language"`
+	SpellcheckOff        bool      `json:"spellcheck_off"`
+	Country              string    `json:"country"`
+	BadResults           bool      `json:"bad_results"`
+	ShouldFallback       bool      `json:"should_fallback"`
+	Lat                  string    `json:"lat"`
+	Long                 string    `json:"long"`
+	PostalCode           string    `json:"postal_code"`
+	City                 string    `json:"city"`
+	State                string    `json:"state"`
+	HeaderCountry        string    `json:"header_country"`
+	MoreResultsAvailable bool      `json:"more_results_available"`
+	CustomLocationLabel  string    `json:"custom_location_label"`
+	RedditCluster        string    `json:"reddit_cluster"`
 }
 
 type Language struct {

@@ -1,21 +1,31 @@
 {
     "query": {
         "original": "facebook",
-        "show_strict_warning": false,
+        "altered": "modified",
+        "show_strict_warning": true,
+        "safesearch": true,
+        "is_geolocal": true,
+        "is_trending": true,
         "is_navigational": true,
+        "ask_for_location": true,
         "local_decision": "drop",
-        "local_locations_idx": 0,
-        "is_news_breaking": false,
+        "local_locations_idx": 1,
+        "is_news_breaking": true,
         "spellcheck_off": true,
         "country": "us",
-        "bad_results": false,
-        "should_fallback": false,
-        "postal_code": "48038",
-        "city": "Clinton Township",
+        "bad_results": true,
+        "should_fallback": true,
+        "postal_code": "48999",
+        "city": "Detroit",
         "header_country": "us",
         "more_results_available": true,
         "state": "MI",
-        "custom_location_label": "Clinton, Michigan, US"
+        "custom_location_label": "Detroit, Michigan, US",
+        "lat": "180.00",
+        "long": "-1.1",
+        "language": {
+            "main": "foo"
+        }
     },
     "infobox": {
         "type": "graph",
@@ -374,7 +384,7 @@
                 }
             }
         ],
-        "mutated_by_goggles": false
+        "mutated_by_goggles": true
     },
     "web": {
         "type": "search",
