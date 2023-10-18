@@ -1,5 +1,15 @@
 package brave
 
+import (
+	"fmt"
+	"regexp"
+	"strconv"
+	"strings"
+	"time"
+
+	anytime "github.com/ijt/go-anytime"
+)
+
 type ResultContainer[T any] struct {
 	Type             string `json:"type"`
 	Results          []T    `json:"results"`
@@ -7,31 +17,31 @@ type ResultContainer[T any] struct {
 }
 
 type Query struct {
-	Original             string   `json:"original"`
-	ShowStrictWarning    bool     `json:"show_strict_warning"`
-	Altered              string   `json:"altered"`
-	Safesearch           bool     `json:"safesearch"`
-	IsNavigational       bool     `json:"is_navigational"`
-	IsGeolocal           bool     `json:"is_geolocal"`
-	LocalDecision        string   `json:"local_decision"`
-	LocalLocationsIdx    int      `json:"local_locations_idx"`
-	IsTrending           bool     `json:"is_trending"`
-	IsNewsBreaking       bool     `json:"is_news_breaking"`
-	AskForLocation       bool     `json:"ask_for_location"`
-	Language             Language `json:"language"`
-	SpellcheckOff        bool     `json:"spellcheck_off"`
-	Country              string   `json:"country"`
-	BadResults           bool     `json:"bad_results"`
-	ShouldFallback       bool     `json:"should_fallback"`
-	Lat                  string   `json:"lat"`
-	Long                 string   `json:"long"`
-	PostalCode           string   `json:"postal_code"`
-	City                 string   `json:"city"`
-	State                string   `json:"state"`
-	HeaderCountry        string   `json:"header_country"`
-	MoreResultsAvailable bool     `json:"more_results_available"`
-	CustomLocationLabel  string   `json:"custom_location_label"`
-	RedditCluster        string   `json:"reddit_cluster"`
+	Original             string    `json:"original"`
+	ShowStrictWarning    bool      `json:"show_strict_warning"`
+	Altered              string    `json:"altered"`
+	Safesearch           bool      `json:"safesearch"`
+	IsNavigational       bool      `json:"is_navigational"`
+	IsGeolocal           bool      `json:"is_geolocal"`
+	LocalDecision        string    `json:"local_decision"`
+	LocalLocationsIdx    int       `json:"local_locations_idx"`
+	IsTrending           bool      `json:"is_trending"`
+	IsNewsBreaking       bool      `json:"is_news_breaking"`
+	AskForLocation       bool      `json:"ask_for_location"`
+	Language             *Language `json:"language"`
+	SpellcheckOff        bool      `json:"spellcheck_off"`
+	Country              string    `json:"country"`
+	BadResults           bool      `json:"bad_results"`
+	ShouldFallback       bool      `json:"should_fallback"`
+	Lat                  string    `json:"lat"`
+	Long                 string    `json:"long"`
+	PostalCode           string    `json:"postal_code"`
+	City                 string    `json:"city"`
+	State                string    `json:"state"`
+	HeaderCountry        string    `json:"header_country"`
+	MoreResultsAvailable bool      `json:"more_results_available"`
+	CustomLocationLabel  string    `json:"custom_location_label"`
+	RedditCluster        string    `json:"reddit_cluster"`
 }
 
 type Language struct {
@@ -52,16 +62,16 @@ type ResultReference struct {
 }
 
 type Result struct {
-	Title          string   `json:"title"`
-	URL            string   `json:"url"`
-	IsSourceLocal  bool     `json:"is_source_local"`
-	IsSourceBoth   bool     `json:"is_source_both"`
-	Description    string   `json:"description"`
-	PageAge        string   `json:"page_age"`
-	PageFetched    string   `json:"page_fetched"`
-	Profile        *Profile `json:"profile"`
-	Language       string   `json:"language"`
-	FamilyFriendly bool     `json:"family_friendly"`
+	Title          string     `json:"title"`
+	URL            string     `json:"url"`
+	IsSourceLocal  bool       `json:"is_source_local"`
+	IsSourceBoth   bool       `json:"is_source_both"`
+	Description    string     `json:"description"`
+	PageAge        *Timestamp `json:"page_age"`
+	PageFetched    string     `json:"page_fetched"`
+	Profile        *Profile   `json:"profile"`
+	Language       string     `json:"language"`
+	FamilyFriendly bool       `json:"family_friendly"`
 }
 
 type Profile struct {
@@ -77,21 +87,21 @@ type NewsResult struct {
 	Source    string     `json:"source"`
 	Breaking  bool       `json:"breaking"`
 	Thumbnail *Thumbnail `json:"thumbnail"`
-	Age       string     `json:"age"`
+	Age       *Timestamp `json:"age"`
 }
 
 type VideoResult struct {
 	Result
 	Type      string     `json:"type"`
-	Data      *VideoData `json:"data"`
+	Data      *VideoData `json:"video"`
 	MetaURL   MetaURL    `json:"meta_url"`
 	Thumbnail *Thumbnail `json:"thumbnail"`
-	Age       string     `json:"age"`
+	Age       *Timestamp `json:"age"`
 }
 
 type VideoData struct {
-	Duration  string     `json:"duration"`
-	Views     string     `json:"views"`
+	Duration  *Duration  `json:"duration"`
+	Views     int        `json:"views"`
 	Creator   string     `json:"creator"`
 	Publisher string     `json:"publisher"`
 	Thumbnail *Thumbnail `json:"thumbnail"`
@@ -124,7 +134,7 @@ type SearchResult struct {
 	Schemas     any             `json:"schemas"`
 	MetaURL     MetaURL         `json:"meta_url"`
 	Thumbnail   *Thumbnail      `json:"thumbnail"`
-	Age         string          `json:"age"`
+	Age         *Timestamp      `json:"age"`
 	Language    string          `json:"language"`
 	Restaurant  *LocationResult `json:"restaurant"`
 	Locations   *Locations      `json:"locations"`
@@ -144,6 +154,17 @@ type SearchResult struct {
 	Review         *Review         `json:"review"`
 	Software       *Software       `json:"software"`
 	ContentType    string          `json:"content_type"`
+}
+
+type ImageResult struct {
+	Type        string           `json:"type"`
+	Title       string           `json:"title"`
+	URL         string           `json:"url"`
+	Source      string           `json:"source"`
+	PageFetched *Timestamp       `json:"page_fetched"`
+	Thumbnail   *Thumbnail       `json:"thumbnail"`
+	Properties  *ImageProperties `json:"properties"`
+	MetaURL     *MetaURL         `json:"meta_url"`
 }
 
 type DeepResult struct {
@@ -202,6 +223,7 @@ type ImageProperties struct {
 	Width       int    `json:"width"`
 	Format      string `json:"format"`
 	ContentSize string `json:"content_size"`
+	Placeholder string `json:"placeholder"`
 }
 
 type LocationResult struct {
@@ -446,3 +468,133 @@ type GraphInfoBox struct {
 	Images          []Thumbnail    `json:"images"`
 	Movie           *MovieData     `json:"movie"`
 }
+
+type ErrorResponse struct {
+	ID     string     `json:"id"`
+	Status int        `json:"status"`
+	Code   string     `json:"code"`
+	Detail string     `json:"detail"`
+	Meta   ErrorMeta  `json:"meta"`
+	Time   *Timestamp `json:"-"`
+}
+
+func (er ErrorResponse) Error() string {
+	return er.Detail
+}
+
+type ErrorMeta struct {
+	Component string           `json:"component"`
+	Errors    []ErrorMetaError `json:"errors"`
+}
+
+type ErrorMetaError struct {
+	Loc     []string     `json:"loc"`
+	Message string       `json:"msg"`
+	Type    string       `json:"type"`
+	Context ErrorContext `json:"ctx"`
+}
+
+type ErrorContext struct {
+	EnumValues []string `json:"enum_values"`
+}
+
+type Duration time.Duration
+
+func (d *Duration) Duration() *time.Duration {
+	if d == nil {
+		return nil
+	}
+
+	tt := time.Duration(*d)
+	return &tt
+}
+
+func (d *Duration) UnmarshalJSON(in []byte) error {
+	str := string(in)
+	if !strings.Contains(str, `"`) {
+		return nil
+	}
+
+	str = strings.Trim(string(in), `"`)
+	matches := durationRegex.FindAllString(str, -1)
+	if l := len(matches); l < 3 {
+		for l < 3 {
+			matches = append([]string{"00"}, matches...)
+			l++
+		}
+	}
+
+	dur, err := time.ParseDuration(fmt.Sprintf("%sh%sm%ss", matches[0], matches[1], matches[2]))
+	if err != nil {
+		return err
+	}
+
+	*d = Duration(dur)
+	return nil
+}
+
+type Timestamp time.Time
+
+func (t *Timestamp) Time() *time.Time {
+	if t == nil {
+		return nil
+	}
+
+	tt := time.Time(*t)
+	return &tt
+}
+
+func (t *Timestamp) UnmarshalJSON(in []byte) (err error) {
+	var res time.Time
+	str := string(in)
+	if strings.Contains(str, `"`) {
+		str = strings.Trim(string(in), `"`)
+		var err error
+		for _, fmt := range timeFormats {
+			res, err = time.Parse(fmt, str)
+			if err == nil {
+				err = nil
+				break
+			}
+		}
+
+		if err != nil {
+			var err2 error
+			res, err2 = anytime.Parse(str, time.Now())
+			if err2 != nil && strings.Contains(str, "second") {
+				matches := durationRegex.FindAllString(str, 1)
+				if len(matches) == 0 {
+					return nil
+				}
+
+				seconds, _ := strconv.Atoi(matches[0])
+				if seconds == 0 {
+					res = time.Now()
+				} else {
+					res = time.Now().Add(-time.Duration(seconds) * time.Second)
+				}
+			} else if err2 != nil {
+				return nil
+			}
+		}
+	} else {
+		i, err := strconv.Atoi(str)
+		if err != nil {
+			return err
+		}
+
+		res = time.Unix(int64(i), 0)
+	}
+
+	*t = Timestamp(res)
+	return nil
+}
+
+var (
+	timeFormats = []string{
+		time.RFC3339,
+		"January 2, 2006",
+	}
+
+	durationRegex = regexp.MustCompile(`(\d{1,2})`)
+)

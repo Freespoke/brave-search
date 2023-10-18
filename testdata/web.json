@@ -1,0 +1,918 @@
+{
+    "query": {
+        "original": "facebook",
+        "altered": "modified",
+        "show_strict_warning": true,
+        "safesearch": true,
+        "is_geolocal": true,
+        "is_trending": true,
+        "is_navigational": true,
+        "ask_for_location": true,
+        "local_decision": "drop",
+        "local_locations_idx": 1,
+        "is_news_breaking": true,
+        "spellcheck_off": true,
+        "country": "us",
+        "bad_results": true,
+        "should_fallback": true,
+        "postal_code": "48999",
+        "city": "Detroit",
+        "header_country": "us",
+        "more_results_available": true,
+        "state": "MI",
+        "custom_location_label": "Detroit, Michigan, US",
+        "lat": "180.00",
+        "long": "-1.1",
+        "language": {
+            "main": "foo"
+        }
+    },
+    "infobox": {
+        "type": "graph",
+        "results": [
+            {
+                "title": "Facebook",
+                "url": "https://en.wikipedia.org/wiki/Facebook",
+                "is_source_local": false,
+                "is_source_both": false,
+                "full_title": null,
+                "description": "American online social media and social networking service",
+                "page_age": null,
+                "page_fetched": null,
+                "profile": null,
+                "language": null,
+                "family_friendly": true,
+                "bo_debug": {},
+                "type": "infobox",
+                "position": 2,
+                "label": null,
+                "category": null,
+                "long_desc": "Facebook is an online social media and social networking service owned by American technology giant Meta Platforms. Created in 2004 by Mark Zuckerberg with 4 other Harvard College students and roommates Eduardo Saverin, Andrew McCollum, Dustin Moskovitz, and Chris Hughes, its name derives from ...",
+                "thumbnail": null,
+                "attributes": [
+                    [
+                        "Screenshot",
+                        "Mark Zuckerberg's profile (viewed when <a href='https://en.wikipedia.org/wiki/Login'>logged out</a>)"
+                    ],
+                    [
+                        "Type of site",
+                        "<a href='https://en.wikipedia.org/wiki/Social_networking_service'>Social networking service</a>"
+                    ],
+                    [
+                        "Available in",
+                        "112 languages"
+                    ],
+                    [
+                        "Founded",
+                        "February 4, 2004; 19 years ago (2004-02-04) in <a href='https://en.wikipedia.org/wiki/Cambridge,_Massachusetts'>Cambridge, Massachusetts</a>"
+                    ],
+                    [
+                        "Area served",
+                        "Worldwide, except <a href='https://en.wikipedia.org/wiki/Censorship_of_Facebook'>blocking countries</a>"
+                    ],
+                    [
+                        "Owner",
+                        "<a href='https://en.wikipedia.org/wiki/Meta_Platforms'>Meta Platforms</a>"
+                    ],
+                    [
+                        "Founder(s)",
+                        "<a href='https://en.wikipedia.org/wiki/Mark_Zuckerberg'>Mark Zuckerberg</a><br><a href='https://en.wikipedia.org/wiki/Dustin_Moskovitz'>Dustin Moskovitz</a><br><a href='https://en.wikipedia.org/wiki/Chris_Hughes'>Chris Hughes</a><br><a href='https://en.wikipedia.org/wiki/Andrew_McCollum'>Andrew McCollum</a><br><a href='https://en.wikipedia.org/wiki/Eduardo_Saverin'>Eduardo Saverin</a>"
+                    ],
+                    [
+                        "CEO",
+                        "Mark Zuckerberg"
+                    ],
+                    [
+                        "URL",
+                        "facebook.com"
+                    ],
+                    [
+                        "Registration",
+                        "Required (to do any activity)"
+                    ],
+                    [
+                        "Users",
+                        "2.94 billion monthly active users (as of 31 March 2022)"
+                    ],
+                    [
+                        "Launched",
+                        "February 4, 2004; 19 years ago (2004-02-04)"
+                    ],
+                    [
+                        "Current status",
+                        "Active"
+                    ],
+                    [
+                        "Written in",
+                        "<a href='https://en.wikipedia.org/wiki/C%2B%2B'>C++</a>, <a href='https://en.wikipedia.org/wiki/Hack_(programming_language)'>Hack</a> (as <a href='https://en.wikipedia.org/wiki/HHVM'>HHVM</a>) and <a href='https://en.wikipedia.org/wiki/PHP'>PHP</a>"
+                    ]
+                ],
+                "profiles": [
+                    {
+                        "name": "Wikipedia",
+                        "url": "https://en.wikipedia.org/wiki/Facebook",
+                        "long_name": "en.wikipedia.org",
+                        "img": "https://imgs.search.brave.com/0kxnVOiqv-faZvOJc7zpym4Zin1CTs1f1svfNZSzmfU/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNjQwNGZhZWY0/ZTQ1YWUzYzQ3MDUw/MmMzMGY3NTQ0ZjNj/NDUwMDk5ZTI3MWRk/NWYyNTM4N2UwOTE0/NTI3ZDQzNy9lbi53/aWtpcGVkaWEub3Jn/Lw"
+                    },
+                    {
+                        "name": "Reddit",
+                        "url": "https://www.reddit.com/t/facebook",
+                        "long_name": "reddit.com",
+                        "img": "https://imgs.search.brave.com/mAZYEK9Wi13WLDUge7XZ8YuDTwm6DP6gBjvz1GdYZVY/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvN2ZiNTU0M2Nj/MTFhZjRiYWViZDlk/MjJiMjBjMzFjMDRk/Y2IzYWI0MGI0MjVk/OGY5NzQzOGQ5NzQ5/NWJhMWI0NC93d3cu/cmVkZGl0LmNvbS8"
+                    },
+                    {
+                        "name": "Facebook",
+                        "url": "https://www.facebook.com/FacebookApp",
+                        "long_name": "facebook.com",
+                        "img": "https://imgs.search.brave.com/dayBEAKYlZqlTVEWI-S_UZ67vOFXcvlKHmgNBEsYPjw/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOWM3NjZkMmE4/MTU1MTk4ZDU5YzU3/NjUxY2ExZTdjNWQx/NjJlNTY1Y2VlODM4/MmRmMDgzZDBiMmI3/YzU4NmU4ZS93d3cu/ZmFjZWJvb2suY29t/Lw"
+                    },
+                    {
+                        "name": "YouTube",
+                        "url": "https://www.youtube.com/@facebookapp",
+                        "long_name": "youtube.com",
+                        "img": "https://imgs.search.brave.com/Ux4Hee4evZhvjuTKwtapBycOGjGDci2Gvn2pbSzvbC0/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOTkyZTZiMWU3/YzU3Nzc5YjExYzUy/N2VhZTIxOWNlYjM5/ZGVjN2MyZDY4Nzdh/ZDYzMTYxNmI5N2Rk/Y2Q3N2FkNy93d3cu/eW91dHViZS5jb20v"
+                    },
+                    {
+                        "name": "Twitter",
+                        "url": "https://twitter.com/FacebookApp",
+                        "long_name": "twitter.com",
+                        "img": "https://imgs.search.brave.com/Zq483bGX0GnSgym-1P7iyOyEDX3PkDZSNT8m56F862A/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvN2MxOTUxNzhj/OTY1ZTQ3N2I0MjJk/MTY5NGM0MTRlYWVi/MjU1YWE2NDUwYmQ2/YTA2MDFhMDlkZDEx/NTAzZGNiNi90d2l0/dGVyLmNvbS8"
+                    },
+                    {
+                        "name": "Instagram",
+                        "url": "https://www.instagram.com/facebook/",
+                        "long_name": "instagram.com",
+                        "img": "https://imgs.search.brave.com/7A-upEbZhKg3zcLw2J4VdqF63kB8ow6z3oq0uJL0Xlw/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvN2RiYmJiZDA4/NTBkNWQ0ZmQ3NDE5/OGUxOGI4NzE5ZDI0/Zjk0M2ExMDkzZmJm/ODA0MmJiMzkwZjMy/ZDM4YWVkOS93d3cu/aW5zdGFncmFtLmNv/bS8"
+                    },
+                    {
+                        "name": "Britannica",
+                        "url": "https://www.britannica.com/topic/Facebook",
+                        "long_name": "britannica.com",
+                        "img": "https://imgs.search.brave.com/hcLf2uAEj_yDbSzYRgdkKMQIWeIcfmsuchdJkpCh2_g/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNzJmYzgxOWRk/Y2FhNWI2MzQzMjQ4/MWVhZDZhNGY3ZjY0/MDgxZTM3YWU5MzYz/NGU2MzM3Y2Y2YTYz/M2IyM2Y0NC93d3cu/YnJpdGFubmljYS5j/b20v"
+                    },
+                    {
+                        "name": "GitHub",
+                        "url": "https://github.com/topics/facebook",
+                        "long_name": "github.com",
+                        "img": "https://imgs.search.brave.com/v8685zI4XInM0zxlNI2s7oE_2Sb-EL7lAy81WXbkQD8/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYWQyNWM1NjA5/ZjZmZjNlYzI2MDNk/N2VkNmJhYjE2MzZl/MDY5ZTMxMDUzZmY1/NmU3NWIzNWVmMjk0/NTBjMjJjZi9naXRo/dWIuY29tLw"
+                    },
+                    {
+                        "name": "Quora",
+                        "url": "https://www.quora.com/topic/Facebook-product",
+                        "long_name": "quora.com",
+                        "img": "https://imgs.search.brave.com/h-UMKefr-GC4QAyvmDqJX6In84keNLnjKLoM-VE4l_w/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYjg3ZTk4MDVm/ZTE3YzUxZTc4Yjc3/YTE2MGI3MGVhNmQ2/MGE0Yjc4NzRhMmM1/ODMxYTIwNzI1ZjI0/NDkyZDI2Yy93d3cu/cXVvcmEuY29tLw"
+                    },
+                    {
+                        "name": "App Store",
+                        "url": "https://apps.apple.com/app/id284882215",
+                        "long_name": "apps.apple.com",
+                        "img": "https://imgs.search.brave.com/iktEJu7kZeT3CfbaUks7hwi0rIyHMTzAy8VlwSSq5ng/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMDYzNzRkMjA3/NzAwOWZhNjI1MmM5/NzRiMzIwZGQ4YzZl/ZDgwYmM0Zjk3MDE2/ZDM1Y2FlMDBiNjVi/OWEzZDIzNy9hcHBz/LmFwcGxlLmNvbS8"
+                    }
+                ],
+                "website_url": "https://www.facebook.com",
+                "qanda": null,
+                "attributes_shown": 3,
+                "ratings": [
+                    {
+                        "ratingValue": 2.3,
+                        "bestRating": 5.0,
+                        "reviewCount": 1544571,
+                        "profile": {
+                            "name": "App Store",
+                            "url": "https://apps.apple.com/us/app/facebook/id284882215",
+                            "long_name": "apps.apple.com",
+                            "img": "https://imgs.search.brave.com/iktEJu7kZeT3CfbaUks7hwi0rIyHMTzAy8VlwSSq5ng/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMDYzNzRkMjA3/NzAwOWZhNjI1MmM5/NzRiMzIwZGQ4YzZl/ZDgwYmM0Zjk3MDE2/ZDM1Y2FlMDBiNjVi/OWEzZDIzNy9hcHBz/LmFwcGxlLmNvbS8"
+                        },
+                        "is_tripadvisor": false
+                    }
+                ],
+                "providers": [
+                    {
+                        "type": "external",
+                        "name": "Wikipedia",
+                        "url": "https://en.wikipedia.org/wiki/Facebook",
+                        "long_name": null,
+                        "img": "https://imgs.search.brave.com/0kxnVOiqv-faZvOJc7zpym4Zin1CTs1f1svfNZSzmfU/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNjQwNGZhZWY0/ZTQ1YWUzYzQ3MDUw/MmMzMGY3NTQ0ZjNj/NDUwMDk5ZTI3MWRk/NWYyNTM4N2UwOTE0/NTI3ZDQzNy9lbi53/aWtpcGVkaWEub3Jn/Lw"
+                    },
+                    {
+                        "type": "external",
+                        "name": "Apple",
+                        "url": "https://apps.apple.com/us/app/facebook/id284882215",
+                        "long_name": null,
+                        "img": "https://imgs.search.brave.com/iktEJu7kZeT3CfbaUks7hwi0rIyHMTzAy8VlwSSq5ng/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMDYzNzRkMjA3/NzAwOWZhNjI1MmM5/NzRiMzIwZGQ4YzZl/ZDgwYmM0Zjk3MDE2/ZDM1Y2FlMDBiNjVi/OWEzZDIzNy9hcHBz/LmFwcGxlLmNvbS8"
+                    }
+                ],
+                "distance": null,
+                "images": [
+                    {
+                        "src": "https://imgs.search.brave.com/jgZp2Mw8CFV0-c7Swzb3i0jLRRXfHjBLtwRAWFGAfTE/rs:fit:560:320:1/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi9iL2I5LzIw/MjNfRmFjZWJvb2tf/aWNvbi5zdmcvNTEy/cHgtMjAyM19GYWNl/Ym9va19pY29uLnN2/Zy5wbmc",
+                        "height": null,
+                        "width": null,
+                        "bg_color": null,
+                        "original": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2023_Facebook_icon.svg/512px-2023_Facebook_icon.svg.png",
+                        "logo": true,
+                        "duplicated": null,
+                        "theme": null
+                    },
+                    {
+                        "src": "https://imgs.search.brave.com/TiG3_oJewWevXzIKsEDzGXT3gGhx5o6KSDh6aJ_dtsQ/rs:fit:560:320:1/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvZW4vNi82NC9G/YWNlYm9va191c2Vy/X3BhZ2UucG5n",
+                        "height": null,
+                        "width": null,
+                        "bg_color": null,
+                        "original": "https://upload.wikimedia.org/wikipedia/en/6/64/Facebook_user_page.png",
+                        "logo": false,
+                        "duplicated": null,
+                        "theme": null
+                    }
+                ],
+                "movie": null,
+                "subtype": "generic",
+                "found_in_urls": []
+            }
+        ]
+    },
+    "mixed": {
+        "type": "mixed",
+        "main": [
+            {
+                "type": "web",
+                "index": 0,
+                "all": false
+            },
+            {
+                "type": "infobox",
+                "index": 0,
+                "all": false
+            },
+            {
+                "type": "web",
+                "index": 1,
+                "all": false
+            },
+            {
+                "type": "videos",
+                "all": true
+            },
+            {
+                "type": "web",
+                "index": 2,
+                "all": false
+            },
+            {
+                "type": "web",
+                "index": 3,
+                "all": false
+            },
+            {
+                "type": "web",
+                "index": 4,
+                "all": false
+            },
+            {
+                "type": "web",
+                "index": 5,
+                "all": false
+            },
+            {
+                "type": "web",
+                "index": 6,
+                "all": false
+            },
+            {
+                "type": "web",
+                "index": 7,
+                "all": false
+            },
+            {
+                "type": "web",
+                "index": 8,
+                "all": false
+            },
+            {
+                "type": "web",
+                "index": 9,
+                "all": false
+            },
+            {
+                "type": "web",
+                "index": 10,
+                "all": false
+            },
+            {
+                "type": "web",
+                "index": 11,
+                "all": false
+            },
+            {
+                "type": "web",
+                "index": 12,
+                "all": false
+            },
+            {
+                "type": "web",
+                "index": 13,
+                "all": false
+            },
+            {
+                "type": "web",
+                "index": 14,
+                "all": false
+            }
+        ],
+        "top": [],
+        "side": []
+    },
+    "type": "search",
+    "videos": {
+        "type": "videos",
+        "results": [
+            {
+                "type": "video_result",
+                "url": "https://www.youtube.com/watch?v=IO6uuNSjg2I",
+                "title": "Facebook to pay $725 million class action payout l GMA - YouTube",
+                "description": "ABC News’ Becky Worley explains how to register for the payout and receive a check from the company.SUBSCRIBE to ABC News on YouTube: https://bit.ly/2vZb6yPL...",
+                "age": "April 20, 2023",
+                "video": {},
+                "meta_url": {
+                    "scheme": "https",
+                    "netloc": "youtube.com",
+                    "hostname": "www.youtube.com",
+                    "favicon": "https://imgs.search.brave.com/Ux4Hee4evZhvjuTKwtapBycOGjGDci2Gvn2pbSzvbC0/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOTkyZTZiMWU3/YzU3Nzc5YjExYzUy/N2VhZTIxOWNlYjM5/ZGVjN2MyZDY4Nzdh/ZDYzMTYxNmI5N2Rk/Y2Q3N2FkNy93d3cu/eW91dHViZS5jb20v",
+                    "path": "› watch"
+                },
+                "thumbnail": {
+                    "src": "https://imgs.search.brave.com/grVcYitad5dwKRFmYCjvCLh4EUn7HL9NkHdMSmcCkpg/rs:fit:200:200:1/g:ce/aHR0cHM6Ly9pLnl0/aW1nLmNvbS92aS9J/TzZ1dU5TamcySS9t/YXhyZXNkZWZhdWx0/LmpwZw"
+                }
+            },
+            {
+                "type": "video_result",
+                "url": "https://www.youtube.com/watch?v=B7-Vxl0F4yY",
+                "title": "Another Alex Jones trial, Ethereum goes green, Facebook's existential ...",
+                "description": "“The New York Times’” Elizabeth Williamson tells “Nightcap’s” Jon Sarlin what's at stake in the latest Alex Jones trial. Plus crypto podcaster Laura Shin exp...",
+                "age": "September 15, 2022",
+                "video": {},
+                "meta_url": {
+                    "scheme": "https",
+                    "netloc": "youtube.com",
+                    "hostname": "www.youtube.com",
+                    "favicon": "https://imgs.search.brave.com/Ux4Hee4evZhvjuTKwtapBycOGjGDci2Gvn2pbSzvbC0/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOTkyZTZiMWU3/YzU3Nzc5YjExYzUy/N2VhZTIxOWNlYjM5/ZGVjN2MyZDY4Nzdh/ZDYzMTYxNmI5N2Rk/Y2Q3N2FkNy93d3cu/eW91dHViZS5jb20v",
+                    "path": "› watch"
+                },
+                "thumbnail": {
+                    "src": "https://imgs.search.brave.com/Xygbl74Y1vidGCLD0t90MMaJ8rtqh9-AhfSI2oVnBIU/rs:fit:200:200:1/g:ce/aHR0cHM6Ly9pLnl0/aW1nLmNvbS92aS9C/Ny1WeGwwRjR5WS9t/YXhyZXNkZWZhdWx0/LmpwZw"
+                }
+            },
+            {
+                "type": "video_result",
+                "url": "https://www.cnn.com/videos/business/2022/09/15/nightcap-ethereum-facebook-tiktok-full-orig.cnn",
+                "title": "Ethereum merge, Facebook vs. Tik Tok and the latest on Alex Jones' ...",
+                "description": "The New York Times’ Elizabeth Williamson tells “Nightcap’s” Jon Sarlin what’s at stake in the latest Alex Jones trial. Plus crypto podcaster Laura Shin explains the Ethereum merge. And Recode’s Shirin Ghaffary describes the existential moment of change at Facebook. To get the day’s ...",
+                "age": "September 15, 2022",
+                "video": {
+                    "duration": "14:33",
+                    "publisher": "CNN"
+                },
+                "meta_url": {
+                    "scheme": "https",
+                    "netloc": "cnn.com",
+                    "hostname": "www.cnn.com",
+                    "favicon": "https://imgs.search.brave.com/DAZA4ewRkBeQvRJZDdAr2hK4QARKCzxuHhJeDZq9wJc/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNWE3MWZjOTZk/NGRhM2RmZDQzMjZh/NjE3OGQ3NzQ3MDI5/NDJiOGI2ZDdkZDFj/ODI3N2MzYWU3OGU4/YzQ3YTNkNC93d3cu/Y25uLmNvbS8",
+                    "path": "› videos  › business  › 2022  › 09  › 15  › nightcap-ethereum-facebook-tiktok-full-orig.cnn"
+                },
+                "thumbnail": {
+                    "src": "https://imgs.search.brave.com/OjzE7DfexCOCKvBWPAYAlz8gzeCkzI_ZD8EjRYVOlFQ/rs:fit:200:200:1/g:ce/aHR0cHM6Ly9tZWRp/YS5jbm4uY29tL2Fw/aS92MS9pbWFnZXMv/c3RlbGxhci9wcm9k/LzIyMDkxNTE1MDQw/Mi1uaWdodGNhcC1m/dWxsLXNob3ctOTE1/MjItMTZ4OS1sb2dv/LmpwZz9jPTE2eDkm/cT13XzgwMCxjX2Zp/bGw"
+                }
+            }
+        ],
+        "mutated_by_goggles": true
+    },
+    "web": {
+        "type": "search",
+        "results": [
+            {
+                "title": "Facebook",
+                "url": "https://www.facebook.com/",
+                "is_source_local": false,
+                "is_source_both": false,
+                "description": "See posts, photos and more on <strong>Facebook</strong>",
+                "profile": {
+                    "name": "Facebook",
+                    "url": "https://www.facebook.com/",
+                    "long_name": "facebook.com",
+                    "img": "https://imgs.search.brave.com/dayBEAKYlZqlTVEWI-S_UZ67vOFXcvlKHmgNBEsYPjw/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOWM3NjZkMmE4/MTU1MTk4ZDU5YzU3/NjUxY2ExZTdjNWQx/NjJlNTY1Y2VlODM4/MmRmMDgzZDBiMmI3/YzU4NmU4ZS93d3cu/ZmFjZWJvb2suY29t/Lw"
+                },
+                "language": "en",
+                "family_friendly": true,
+                "type": "search_result",
+                "subtype": "generic",
+                "meta_url": {
+                    "scheme": "https",
+                    "netloc": "facebook.com",
+                    "hostname": "www.facebook.com",
+                    "favicon": "https://imgs.search.brave.com/dayBEAKYlZqlTVEWI-S_UZ67vOFXcvlKHmgNBEsYPjw/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOWM3NjZkMmE4/MTU1MTk4ZDU5YzU3/NjUxY2ExZTdjNWQx/NjJlNTY1Y2VlODM4/MmRmMDgzZDBiMmI3/YzU4NmU4ZS93d3cu/ZmFjZWJvb2suY29t/Lw",
+                    "path": ""
+                },
+                "age": "November 13, 2022",
+                "cluster": [
+                    {
+                        "title": "About",
+                        "url": "https://about.facebook.com/company-info",
+                        "is_source_local": false,
+                        "is_source_both": false,
+                        "description": "Meta&#x27;s mission is to give people the power to build community and bring the world closer together. Learn more about our culture, employees and leadership team",
+                        "family_friendly": true
+                    },
+                    {
+                        "title": "Messenger",
+                        "url": "https://www.messenger.com",
+                        "is_source_local": false,
+                        "is_source_both": false,
+                        "description": "Messenger makes it easy and fun to stay close to your favourite people",
+                        "family_friendly": true
+                    },
+                    {
+                        "title": "Facebook Watch",
+                        "url": "https://www.facebook.com/watch",
+                        "is_source_local": false,
+                        "is_source_both": false,
+                        "description": "Original shows and popular videos in different categories from producers and creators you love",
+                        "family_friendly": true
+                    },
+                    {
+                        "title": "Places",
+                        "url": "https://www.facebook.com/places",
+                        "is_source_local": false,
+                        "is_source_both": false,
+                        "description": "Let your friends help you discover restaurants, hotels, museums and more",
+                        "family_friendly": true
+                    }
+                ]
+            },
+            {
+                "title": "Facebook - Apps on Google Play",
+                "url": "https://play.google.com/store/apps/details?id=com.facebook.katana&hl=en_US&gl=US",
+                "is_source_local": false,
+                "is_source_both": false,
+                "description": "Explore, connect and share your interests with real people",
+                "profile": {
+                    "name": "Google Play",
+                    "url": "https://play.google.com/store/apps/details?id=com.facebook.katana&hl=en_US&gl=US",
+                    "long_name": "play.google.com",
+                    "img": "https://imgs.search.brave.com/XVPaEkdEfr7OKP4u2Z1BQJe3aezjRplHvvY_xQqANyE/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYjgwZWUzMzVj/YTc2M2VmMDJlYjE2/YmIyYzA3Y2IwZDkx/ZGViYmUxOGU1Njk4/NGI0NDNhOTQ1N2Mw/MDYyNjk4Ny9wbGF5/Lmdvb2dsZS5jb20v"
+                },
+                "language": "en",
+                "family_friendly": true,
+                "type": "search_result",
+                "subtype": "creative_work",
+                "meta_url": {
+                    "scheme": "https",
+                    "netloc": "play.google.com",
+                    "hostname": "play.google.com",
+                    "favicon": "https://imgs.search.brave.com/XVPaEkdEfr7OKP4u2Z1BQJe3aezjRplHvvY_xQqANyE/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYjgwZWUzMzVj/YTc2M2VmMDJlYjE2/YmIyYzA3Y2IwZDkx/ZGViYmUxOGU1Njk4/NGI0NDNhOTQ1N2Mw/MDYyNjk4Ny9wbGF5/Lmdvb2dsZS5jb20v",
+                    "path": "› store  › apps  › details"
+                },
+                "thumbnail": {
+                    "src": "https://imgs.search.brave.com/1kC79ZO5fXrWGyD51Ag-J7cdcEsoA0bvDaFAQR_ZgIM/rs:fit:200:200:1/g:ce/aHR0cHM6Ly9wbGF5/LWxoLmdvb2dsZXVz/ZXJjb250ZW50LmNv/bS9LQ01UWXVpVHJL/b200VnlmMEc0Zm9l/dFZPd2hLV3pOYkhX/dW1WNzNJWGV4QUl5/NVRUZ1ppcEw1MldU/dDhJQ0wtb0lv",
+                    "original": "https://play-lh.googleusercontent.com/KCMTYuiTrKom4Vyf0G4foetVOwhKWzNbHWumV73IXexAIy5TTgZipL52WTt8ICL-oIo",
+                    "logo": false
+                },
+                "age": "1 month ago",
+                "creative_work": {
+                    "name": "Facebook",
+                    "rating": {
+                        "ratingValue": 3.3,
+                        "bestRating": 5.0,
+                        "reviewCount": 135748817,
+                        "is_tripadvisor": false
+                    },
+                    "thumbnail": {
+                        "src": "https://imgs.search.brave.com/1kC79ZO5fXrWGyD51Ag-J7cdcEsoA0bvDaFAQR_ZgIM/rs:fit:200:200:1/g:ce/aHR0cHM6Ly9wbGF5/LWxoLmdvb2dsZXVz/ZXJjb250ZW50LmNv/bS9LQ01UWXVpVHJL/b200VnlmMEc0Zm9l/dFZPd2hLV3pOYkhX/dW1WNzNJWGV4QUl5/NVRUZ1ppcEw1MldU/dDhJQ0wtb0lv",
+                        "original": "https://play-lh.googleusercontent.com/KCMTYuiTrKom4Vyf0G4foetVOwhKWzNbHWumV73IXexAIy5TTgZipL52WTt8ICL-oIo"
+                    }
+                }
+            },
+            {
+                "title": "Facebook - Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Facebook",
+                "is_source_local": false,
+                "is_source_both": false,
+                "description": "<strong>Facebook</strong> is an online social media and social networking service owned by American technology giant Meta Platforms. Created in 2004 by Mark Zuckerberg with 4 other Harvard College students and roommates Eduardo Saverin, Andrew McCollum, Dustin Moskovitz, and Chris Hughes, its name derives from ...",
+                "profile": {
+                    "name": "Wikipedia",
+                    "url": "https://en.wikipedia.org/wiki/Facebook",
+                    "long_name": "en.wikipedia.org",
+                    "img": "https://imgs.search.brave.com/0kxnVOiqv-faZvOJc7zpym4Zin1CTs1f1svfNZSzmfU/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNjQwNGZhZWY0/ZTQ1YWUzYzQ3MDUw/MmMzMGY3NTQ0ZjNj/NDUwMDk5ZTI3MWRk/NWYyNTM4N2UwOTE0/NTI3ZDQzNy9lbi53/aWtpcGVkaWEub3Jn/Lw"
+                },
+                "language": "en",
+                "family_friendly": true,
+                "type": "search_result",
+                "subtype": "generic",
+                "meta_url": {
+                    "scheme": "https",
+                    "netloc": "en.wikipedia.org",
+                    "hostname": "en.wikipedia.org",
+                    "favicon": "https://imgs.search.brave.com/0kxnVOiqv-faZvOJc7zpym4Zin1CTs1f1svfNZSzmfU/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNjQwNGZhZWY0/ZTQ1YWUzYzQ3MDUw/MmMzMGY3NTQ0ZjNj/NDUwMDk5ZTI3MWRk/NWYyNTM4N2UwOTE0/NTI3ZDQzNy9lbi53/aWtpcGVkaWEub3Jn/Lw",
+                    "path": "› wiki  › Facebook"
+                },
+                "age": "15 hours ago"
+            },
+            {
+                "title": "Live updates: Jim Jordan fails to win House speakership on first ...",
+                "url": "https://www.cnn.com/politics/live-news/house-speaker-race-vote-10-17-23/index.html",
+                "is_source_local": false,
+                "is_source_both": false,
+                "description": "Rep. Jim Jordan failed to win the House speakership during a floor vote Tuesday. Follow here for the latest live news updates.",
+                "profile": {
+                    "name": "CNN",
+                    "url": "https://www.cnn.com/politics/live-news/house-speaker-race-vote-10-17-23/index.html",
+                    "long_name": "Cable News Network",
+                    "img": "https://imgs.search.brave.com/DAZA4ewRkBeQvRJZDdAr2hK4QARKCzxuHhJeDZq9wJc/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNWE3MWZjOTZk/NGRhM2RmZDQzMjZh/NjE3OGQ3NzQ3MDI5/NDJiOGI2ZDdkZDFj/ODI3N2MzYWU3OGU4/YzQ3YTNkNC93d3cu/Y25uLmNvbS8"
+                },
+                "language": "en",
+                "family_friendly": true,
+                "type": "search_result",
+                "subtype": "video",
+                "meta_url": {
+                    "scheme": "https",
+                    "netloc": "cnn.com",
+                    "hostname": "www.cnn.com",
+                    "favicon": "https://imgs.search.brave.com/DAZA4ewRkBeQvRJZDdAr2hK4QARKCzxuHhJeDZq9wJc/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNWE3MWZjOTZk/NGRhM2RmZDQzMjZh/NjE3OGQ3NzQ3MDI5/NDJiOGI2ZDdkZDFj/ODI3N2MzYWU3OGU4/YzQ3YTNkNC93d3cu/Y25uLmNvbS8",
+                    "path": "› politics  › live-news  › house-speaker-race-vote-10-17-23  › index.html"
+                },
+                "thumbnail": {
+                    "src": "https://imgs.search.brave.com/SIzGADDHdL1B8_yUFf_BAOPiof0_GF02CbhF-K82ssM/rs:fit:200:200:1/g:ce/aHR0cHM6Ly9jZG4u/Y25uLmNvbS9jbm5u/ZXh0L2RhbS9hc3Nl/dHMvMjMxMDE3MTM0/MDI5LTA3LWhvdXNl/LXNwZWFrZXItcmFj/ZS0xMDE3MjMtc3Vw/ZXItdGVhc2UuanBn",
+                    "original": "https://cdn.cnn.com/cnnnext/dam/assets/231017134029-07-house-speaker-race-101723-super-tease.jpg",
+                    "logo": false
+                },
+                "age": "8 hours ago",
+                "video": {
+                    "thumbnail": {
+                        "src": "https://imgs.search.brave.com/SIzGADDHdL1B8_yUFf_BAOPiof0_GF02CbhF-K82ssM/rs:fit:200:200:1/g:ce/aHR0cHM6Ly9jZG4u/Y25uLmNvbS9jbm5u/ZXh0L2RhbS9hc3Nl/dHMvMjMxMDE3MTM0/MDI5LTA3LWhvdXNl/LXNwZWFrZXItcmFj/ZS0xMDE3MjMtc3Vw/ZXItdGVhc2UuanBn",
+                        "original": "https://cdn.cnn.com/cnnnext/dam/assets/231017134029-07-house-speaker-race-101723-super-tease.jpg"
+                    }
+                },
+                "article": {
+                    "author": [
+                        {
+                            "type": "person",
+                            "name": "By Mike Hayes, Elise Hammond, Tori B. Powell, Jack Forrest and Maureen Chowdhury, CNN"
+                        }
+                    ],
+                    "date": "Oct 17, 2023",
+                    "publisher": {
+                        "type": "organization",
+                        "name": "CNN",
+                        "thumbnail": {
+                            "src": "https://imgs.search.brave.com/E8tMeTWJHqX_BuNl2wBHjLe3vHUTMCuhsXDGmd5Jqs8/rs:fit:200:200:1/g:ce/aHR0cHM6Ly9keW5h/aW1hZ2UuY2RuLmNu/bi5jb20vY25uL3Ff/YXV0byxoXzYwLyUy/RiUyRmNkbi5jbm4u/Y29tJTJGY25uJTJG/LmUlMkZpbWclMkY0/LjAlMkZsb2dvcyUy/RmNubl9sb2dvX3Nv/Y2lhbC5qcGc",
+                            "original": "https://dynaimage.cdn.cnn.com/cnn/q_auto,h_60/%2F%2Fcdn.cnn.com%2Fcnn%2F.e%2Fimg%2F4.0%2Flogos%2Fcnn_logo_social.jpg"
+                        }
+                    }
+                }
+            },
+            {
+                "title": "Facebook",
+                "url": "https://twitter.com/facebook",
+                "is_source_local": false,
+                "is_source_both": false,
+                "description": "<strong>Facebook</strong>",
+                "profile": {
+                    "name": "Twitter",
+                    "url": "https://twitter.com/facebook",
+                    "long_name": "twitter.com",
+                    "img": "https://imgs.search.brave.com/Zq483bGX0GnSgym-1P7iyOyEDX3PkDZSNT8m56F862A/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvN2MxOTUxNzhj/OTY1ZTQ3N2I0MjJk/MTY5NGM0MTRlYWVi/MjU1YWE2NDUwYmQ2/YTA2MDFhMDlkZDEx/NTAzZGNiNi90d2l0/dGVyLmNvbS8"
+                },
+                "language": "en",
+                "family_friendly": true,
+                "type": "search_result",
+                "subtype": "generic",
+                "meta_url": {
+                    "scheme": "https",
+                    "netloc": "twitter.com",
+                    "hostname": "twitter.com",
+                    "favicon": "https://imgs.search.brave.com/Zq483bGX0GnSgym-1P7iyOyEDX3PkDZSNT8m56F862A/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvN2MxOTUxNzhj/OTY1ZTQ3N2I0MjJk/MTY5NGM0MTRlYWVi/MjU1YWE2NDUwYmQ2/YTA2MDFhMDlkZDEx/NTAzZGNiNi90d2l0/dGVyLmNvbS8",
+                    "path": "› facebook"
+                },
+                "age": "June 16, 2023"
+            },
+            {
+                "title": "Pensacola man charged with kidnapping, sexually assaulting woman ...",
+                "url": "https://www.al.com/news/2023/10/pensacola-man-charged-with-kidnapping-sexually-assaulting-woman-he-met-on-facebook-dating.html",
+                "is_source_local": false,
+                "is_source_both": false,
+                "description": "The victim told deputies the suspect -- identified as Caleb Nathaniel Fast -- had been holding her against her will since last Thursday and that the two had connected through <strong>Facebook</strong> Dating. The woman said Fast struck her repeatedly, sexually assaulted her and threatened her with a firearm ...",
+                "profile": {
+                    "name": "Al",
+                    "url": "https://www.al.com/news/2023/10/pensacola-man-charged-with-kidnapping-sexually-assaulting-woman-he-met-on-facebook-dating.html",
+                    "long_name": "al.com",
+                    "img": "https://imgs.search.brave.com/egRqy9dS7GQYYzv8U0tFnebCSQXoK3kz-OcX1gbWLVc/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvZDBlYjUwODY4/OTM0NDFkNjBlMzUy/NDhiNjlkMWRmZmYy/MzM5OWZlMzljZjMw/MDI4YmI2MGQwZGM1/NTEzZjVmOC93d3cu/YWwuY29tLw"
+                },
+                "language": "en",
+                "family_friendly": true,
+                "type": "search_result",
+                "subtype": "article",
+                "meta_url": {
+                    "scheme": "https",
+                    "netloc": "al.com",
+                    "hostname": "www.al.com",
+                    "favicon": "https://imgs.search.brave.com/egRqy9dS7GQYYzv8U0tFnebCSQXoK3kz-OcX1gbWLVc/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvZDBlYjUwODY4/OTM0NDFkNjBlMzUy/NDhiNjlkMWRmZmYy/MzM5OWZlMzljZjMw/MDI4YmI2MGQwZGM1/NTEzZjVmOC93d3cu/YWwuY29tLw",
+                    "path": "› news  › 2023  › 10  › pensacola-man-charged-with-kidnapping-sexually-assaulting-woman-he-met-on-facebook-dating.html"
+                },
+                "thumbnail": {
+                    "src": "https://imgs.search.brave.com/arkDXBmRsqj4eKfCCWxco8xEP7VYwaMhCyo-enKuHmY/rs:fit:200:200:1/g:ce/aHR0cHM6Ly93d3cu/YWwuY29tL3Jlc2l6/ZXIvalFSb2p3ZlI4/a2hMMldhNDBNbEFo/R0U5emlRPS8xMjgw/eDAvc21hcnQvY2xv/dWRmcm9udC11cy1l/YXN0LTEuaW1hZ2Vz/LmFyY3B1Ymxpc2hp/bmcuY29tL2FkdmFu/Y2Vsb2NhbC83N1JC/VUY2QVhGQk9ISU9J/NU1aTEVEN1VTNC5q/cGc",
+                    "original": "https://www.al.com/resizer/jQRojwfR8khL2Wa40MlAhGE9ziQ=/1280x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/77RBUF6AXFBOHIOI5MZLED7US4.jpg",
+                    "logo": false
+                },
+                "age": "16 hours ago",
+                "article": {
+                    "author": [
+                        {
+                            "type": "person",
+                            "name": "Warren Kulo | wkulo@al.com"
+                        }
+                    ],
+                    "date": "Oct 17, 2023"
+                }
+            },
+            {
+                "title": "Facebook (@facebook) • Instagram photos and videos",
+                "url": "https://www.instagram.com/facebook/",
+                "is_source_local": false,
+                "is_source_both": false,
+                "description": "See Instagram photos and videos from <strong>Facebook</strong> (@<strong>facebook</strong>)",
+                "profile": {
+                    "name": "Instagram",
+                    "url": "https://www.instagram.com/facebook/",
+                    "long_name": "instagram.com",
+                    "img": "https://imgs.search.brave.com/7A-upEbZhKg3zcLw2J4VdqF63kB8ow6z3oq0uJL0Xlw/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvN2RiYmJiZDA4/NTBkNWQ0ZmQ3NDE5/OGUxOGI4NzE5ZDI0/Zjk0M2ExMDkzZmJm/ODA0MmJiMzkwZjMy/ZDM4YWVkOS93d3cu/aW5zdGFncmFtLmNv/bS8"
+                },
+                "language": "en",
+                "family_friendly": true,
+                "type": "search_result",
+                "subtype": "generic",
+                "meta_url": {
+                    "scheme": "https",
+                    "netloc": "instagram.com",
+                    "hostname": "www.instagram.com",
+                    "favicon": "https://imgs.search.brave.com/7A-upEbZhKg3zcLw2J4VdqF63kB8ow6z3oq0uJL0Xlw/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvN2RiYmJiZDA4/NTBkNWQ0ZmQ3NDE5/OGUxOGI4NzE5ZDI0/Zjk0M2ExMDkzZmJm/ODA0MmJiMzkwZjMy/ZDM4YWVkOS93d3cu/aW5zdGFncmFtLmNv/bS8",
+                    "path": "› facebook"
+                },
+                "age": "January 4, 2022"
+            },
+            {
+                "title": "Woman kidnapped by man met on 'Facebook Dating' app, was beaten ...",
+                "url": "https://lawandcrime.com/crime/woman-escapes-dayslong-facebook-dating-app-nightmare-when-her-alleged-rapist-and-captor-becomes-passed-out-drunk-on-wine/",
+                "is_source_local": false,
+                "is_source_both": false,
+                "description": "Caleb Fast was arrested for allegedly holding captive a woman he met on &quot;<strong>Facebook</strong> Dating,&quot; beating, and sexually assaulting her before she escaped",
+                "profile": {
+                    "name": "Lawandcrime",
+                    "url": "https://lawandcrime.com/crime/woman-escapes-dayslong-facebook-dating-app-nightmare-when-her-alleged-rapist-and-captor-becomes-passed-out-drunk-on-wine/",
+                    "long_name": "lawandcrime.com",
+                    "img": "https://imgs.search.brave.com/GQ65Y1mdRRlpcj4fFq2N62komWOdq6e7uxMAK4gENuM/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOTdjMGQ5YTlh/MmI1MDA3NDU1YWQx/ZjIxZmNjNTA3NjIw/MzU3YzU3ZmE1ODM0/MjQ2NzgwYzRiNWZk/NDgwNmUwOS9sYXdh/bmRjcmltZS5jb20v"
+                },
+                "language": "en",
+                "family_friendly": true,
+                "type": "search_result",
+                "subtype": "generic",
+                "meta_url": {
+                    "scheme": "https",
+                    "netloc": "lawandcrime.com",
+                    "hostname": "lawandcrime.com",
+                    "favicon": "https://imgs.search.brave.com/GQ65Y1mdRRlpcj4fFq2N62komWOdq6e7uxMAK4gENuM/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOTdjMGQ5YTlh/MmI1MDA3NDU1YWQx/ZjIxZmNjNTA3NjIw/MzU3YzU3ZmE1ODM0/MjQ2NzgwYzRiNWZk/NDgwNmUwOS9sYXdh/bmRjcmltZS5jb20v",
+                    "path": "› crime  › woman-escapes-dayslong-facebook-dating-app-nightmare-when-her-alleged-rapist-and-captor-becomes-passed-out-drunk-on-wine"
+                },
+                "thumbnail": {
+                    "src": "https://imgs.search.brave.com/XsK7ezksYLz5BGTKRagQqHxV34r_L0kXRO2zlYV56f4/rs:fit:200:200:1/g:ce/aHR0cHM6Ly9sYXdh/bmRjcmltZS5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMjMv/MTAvQ2FsZWItRmFz/dC1Fc2NhbWJpYS1D/b3VudHktU2hlcmlm/ZnMtT2ZmaWNlLmpw/Zw",
+                    "original": "https://lawandcrime.com/wp-content/uploads/2023/10/Caleb-Fast-Escambia-County-Sheriffs-Office.jpg",
+                    "logo": false
+                },
+                "age": "18 hours ago"
+            },
+            {
+                "title": "‎Facebook on the App Store",
+                "url": "https://apps.apple.com/us/app/facebook/id284882215",
+                "is_source_local": false,
+                "is_source_both": false,
+                "description": "Read reviews, compare customer ratings, see screenshots, and learn more about <strong>Facebook</strong>. Download <strong>Facebook</strong> and enjoy it on your iPhone, iPad, and iPod touch.",
+                "profile": {
+                    "name": "App Store",
+                    "url": "https://apps.apple.com/us/app/facebook/id284882215",
+                    "long_name": "apps.apple.com",
+                    "img": "https://imgs.search.brave.com/iktEJu7kZeT3CfbaUks7hwi0rIyHMTzAy8VlwSSq5ng/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMDYzNzRkMjA3/NzAwOWZhNjI1MmM5/NzRiMzIwZGQ4YzZl/ZDgwYmM0Zjk3MDE2/ZDM1Y2FlMDBiNjVi/OWEzZDIzNy9hcHBz/LmFwcGxlLmNvbS8"
+                },
+                "language": "en",
+                "family_friendly": true,
+                "type": "search_result",
+                "subtype": "creative_work",
+                "meta_url": {
+                    "scheme": "https",
+                    "netloc": "apps.apple.com",
+                    "hostname": "apps.apple.com",
+                    "favicon": "https://imgs.search.brave.com/iktEJu7kZeT3CfbaUks7hwi0rIyHMTzAy8VlwSSq5ng/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMDYzNzRkMjA3/NzAwOWZhNjI1MmM5/NzRiMzIwZGQ4YzZl/ZDgwYmM0Zjk3MDE2/ZDM1Y2FlMDBiNjVi/OWEzZDIzNy9hcHBz/LmFwcGxlLmNvbS8",
+                    "path": "› us  › app  › facebook  › id284882215"
+                },
+                "thumbnail": {
+                    "src": "https://imgs.search.brave.com/XfUBnd0tTlnA8Ul4odArrCeMWih-VwZkV5hBQxHz6u0/rs:fit:200:200:1/g:ce/aHR0cHM6Ly9pczEt/c3NsLm16c3RhdGlj/LmNvbS9pbWFnZS90/aHVtYi9QdXJwbGUx/MTYvdjQvMTEvYzgv/NTgvMTFjODU4YjAt/N2FmMC1hNjcyLWYw/ZTUtZmNjNDMzODRk/OTY1L0ljb24tUHJv/ZHVjdGlvbi0wLTF4/X1UwMDdlbWFya2V0/aW5nLTAtNy0wLTg1/LTIyMC0wLnBuZy8x/MjAweDYzMHdhLnBu/Zw",
+                    "original": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/11/c8/58/11c858b0-7af0-a672-f0e5-fcc43384d965/Icon-Production-0-1x_U007emarketing-0-7-0-85-220-0.png/1200x630wa.png",
+                    "logo": false
+                },
+                "age": "1 month ago",
+                "creative_work": {
+                    "name": "Facebook",
+                    "rating": {
+                        "ratingValue": 2.3,
+                        "bestRating": 5.0,
+                        "reviewCount": 1544571,
+                        "is_tripadvisor": false
+                    },
+                    "thumbnail": {
+                        "src": "https://imgs.search.brave.com/XfUBnd0tTlnA8Ul4odArrCeMWih-VwZkV5hBQxHz6u0/rs:fit:200:200:1/g:ce/aHR0cHM6Ly9pczEt/c3NsLm16c3RhdGlj/LmNvbS9pbWFnZS90/aHVtYi9QdXJwbGUx/MTYvdjQvMTEvYzgv/NTgvMTFjODU4YjAt/N2FmMC1hNjcyLWYw/ZTUtZmNjNDMzODRk/OTY1L0ljb24tUHJv/ZHVjdGlvbi0wLTF4/X1UwMDdlbWFya2V0/aW5nLTAtNy0wLTg1/LTIyMC0wLnBuZy8x/MjAweDYzMHdhLnBu/Zw",
+                        "original": "https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/11/c8/58/11c858b0-7af0-a672-f0e5-fcc43384d965/Icon-Production-0-1x_U007emarketing-0-7-0-85-220-0.png/1200x630wa.png"
+                    }
+                }
+            },
+            {
+                "title": "Messenger",
+                "url": "https://www.messenger.com/",
+                "is_source_local": false,
+                "is_source_both": false,
+                "description": "We cannot provide a description for this page right now",
+                "profile": {
+                    "name": "Messenger",
+                    "url": "https://www.messenger.com/",
+                    "long_name": "messenger.com",
+                    "img": "https://imgs.search.brave.com/qtDjvyhgQ47J3-5jjKrIRsKEClIFf58-zWlWFk-bhAc/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMTBhODhmMzQw/YmM5ZTYyNWFiYzVl/MTQwMjk1YjBjZjNm/OTRiZDQ1YWExNDlk/NDY1OTViNjhjZTEw/NTMzM2RkYy93d3cu/bWVzc2VuZ2VyLmNv/bS8"
+                },
+                "language": "en",
+                "family_friendly": true,
+                "type": "search_result",
+                "subtype": "generic",
+                "meta_url": {
+                    "scheme": "https",
+                    "netloc": "messenger.com",
+                    "hostname": "www.messenger.com",
+                    "favicon": "https://imgs.search.brave.com/qtDjvyhgQ47J3-5jjKrIRsKEClIFf58-zWlWFk-bhAc/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMTBhODhmMzQw/YmM5ZTYyNWFiYzVl/MTQwMjk1YjBjZjNm/OTRiZDQ1YWExNDlk/NDY1OTViNjhjZTEw/NTMzM2RkYy93d3cu/bWVzc2VuZ2VyLmNv/bS8",
+                    "path": ""
+                },
+                "age": "September 30, 2020"
+            },
+            {
+                "title": "You’re Temporarily Blocked",
+                "url": "https://mbasic.facebook.com/login/",
+                "is_source_local": false,
+                "is_source_both": false,
+                "description": "<strong>Facebook</strong> · You’re Temporarily Blocked · It looks like you were misusing this feature by going too fast. You’ve been temporarily blocked from using it. If you think this doesn&#x27;t go against our Community Standards let us know",
+                "profile": {
+                    "name": "Facebook",
+                    "url": "https://mbasic.facebook.com/login/",
+                    "long_name": "mbasic.facebook.com",
+                    "img": "https://imgs.search.brave.com/Q7V9YcGdAvK0Zcgcf6n8e18w_UsfSYVBoNIehJ2uAL4/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvZjRjMzVkMTIz/OTIxMWUzNjNhYmU5/OTU5NGQ3ZGY0NzVj/ZDEwNDdlZjcyNmE5/MzQ5ZmI5NDljNDEy/ODJmMGU1OS9tYmFz/aWMuZmFjZWJvb2su/Y29tLw"
+                },
+                "language": "en",
+                "family_friendly": true,
+                "type": "search_result",
+                "subtype": "generic",
+                "meta_url": {
+                    "scheme": "https",
+                    "netloc": "mbasic.facebook.com",
+                    "hostname": "mbasic.facebook.com",
+                    "favicon": "https://imgs.search.brave.com/Q7V9YcGdAvK0Zcgcf6n8e18w_UsfSYVBoNIehJ2uAL4/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvZjRjMzVkMTIz/OTIxMWUzNjNhYmU5/OTU5NGQ3ZGY0NzVj/ZDEwNDdlZjcyNmE5/MzQ5ZmI5NDljNDEy/ODJmMGU1OS9tYmFz/aWMuZmFjZWJvb2su/Y29tLw",
+                    "path": "› login"
+                }
+            },
+            {
+                "title": "Log in or sign up to view",
+                "url": "https://www.facebook.com/login/",
+                "is_source_local": false,
+                "is_source_both": false,
+                "description": "See posts, photos and more on <strong>Facebook</strong>",
+                "profile": {
+                    "name": "Facebook",
+                    "url": "https://www.facebook.com/login/",
+                    "long_name": "facebook.com",
+                    "img": "https://imgs.search.brave.com/dayBEAKYlZqlTVEWI-S_UZ67vOFXcvlKHmgNBEsYPjw/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOWM3NjZkMmE4/MTU1MTk4ZDU5YzU3/NjUxY2ExZTdjNWQx/NjJlNTY1Y2VlODM4/MmRmMDgzZDBiMmI3/YzU4NmU4ZS93d3cu/ZmFjZWJvb2suY29t/Lw"
+                },
+                "language": "en",
+                "family_friendly": true,
+                "type": "search_result",
+                "subtype": "generic",
+                "meta_url": {
+                    "scheme": "https",
+                    "netloc": "facebook.com",
+                    "hostname": "www.facebook.com",
+                    "favicon": "https://imgs.search.brave.com/dayBEAKYlZqlTVEWI-S_UZ67vOFXcvlKHmgNBEsYPjw/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOWM3NjZkMmE4/MTU1MTk4ZDU5YzU3/NjUxY2ExZTdjNWQx/NjJlNTY1Y2VlODM4/MmRmMDgzZDBiMmI3/YzU4NmU4ZS93d3cu/ZmFjZWJvb2suY29t/Lw",
+                    "path": "› login"
+                },
+                "age": "December 10, 2013"
+            },
+            {
+                "title": "Meta | Social Metaverse Company",
+                "url": "https://about.meta.com/",
+                "is_source_local": false,
+                "is_source_both": false,
+                "description": "Meta (formerly the <strong>Facebook</strong> company) builds technologies that help people connect, find communities and grow businesses. We&#x27;re moving beyond 2D screens and into immersive experiences like virtual and augmented reality, helping create the next evolution of social technology.",
+                "profile": {
+                    "name": "Meta",
+                    "url": "https://about.meta.com/",
+                    "long_name": "about.meta.com",
+                    "img": "https://imgs.search.brave.com/lbHAsY-3CrnmZ6jdDpPbtt1GBD5Xxqr51G67y7qzHj4/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOTQzZjllMWRj/MTNlNzMyYWZkODkw/MWNmOTUzYTFkOGE2/MDJhYThmMWM2OWY1/ZmZiOGYxN2QxZTg1/MGZlYmRjNS9hYm91/dC5tZXRhLmNvbS8"
+                },
+                "language": "en",
+                "family_friendly": true,
+                "type": "search_result",
+                "subtype": "generic",
+                "meta_url": {
+                    "scheme": "https",
+                    "netloc": "about.meta.com",
+                    "hostname": "about.meta.com",
+                    "favicon": "https://imgs.search.brave.com/lbHAsY-3CrnmZ6jdDpPbtt1GBD5Xxqr51G67y7qzHj4/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOTQzZjllMWRj/MTNlNzMyYWZkODkw/MWNmOTUzYTFkOGE2/MDJhYThmMWM2OWY1/ZmZiOGYxN2QxZTg1/MGZlYmRjNS9hYm91/dC5tZXRhLmNvbS8",
+                    "path": ""
+                },
+                "thumbnail": {
+                    "src": "https://imgs.search.brave.com/YN0DdcbPk4ipJuysJrFnUZSI5VmN6lkYZUdSBr2h8QI/rs:fit:200:200:1/g:ce/aHR0cHM6Ly9zY29u/dGVudC1kZnc1LTIu/eHguZmJjZG4ubmV0/L3YvdDM5Ljg1NjIt/Ni8yODc4Nzc3MzBf/NDI1NTUyODEyNzcx/MjI3Xzc1NjEyMjMw/ODYyMDUxNTc2ODFf/bi5qcGc_X25jX2Nh/dD0xMDAmYW1wO2Nj/Yj0xLTcmYW1wO19u/Y19zaWQ9NjgyNWM1/JmFtcDtfbmNfb2hj/PUUtYlZkb3BrYlFn/QVgtNmlFaDUmYW1w/O19uY19odD1zY29u/dGVudC1kZnc1LTIu/eHgmYW1wO29oPTAw/X0FmQ3B2cXhNVnVV/UUt4dUNqSnZBTWpw/MUQ2VEIwQjd5VFJ1/QmFPcWVKQWE3Q0Em/YW1wO29lPTY1MERF/RjNB",
+                    "original": "https://scontent-dfw5-2.xx.fbcdn.net/v/t39.8562-6/287877730_425552812771227_7561223086205157681_n.jpg?_nc_cat=100&amp;ccb=1-7&amp;_nc_sid=6825c5&amp;_nc_ohc=E-bVdopkbQgAX-6iEh5&amp;_nc_ht=scontent-dfw5-2.xx&amp;oh=00_AfCpvqxMVuUQKxuCjJvAMjp1D6TB0B7yTRuBaOqeJAa7CA&amp;oe=650DEF3A",
+                    "logo": false
+                },
+                "age": "December 22, 2022"
+            },
+            {
+                "title": "Facebook | Overview, History, & Facts | Britannica",
+                "url": "https://www.britannica.com/topic/Facebook",
+                "is_source_local": false,
+                "is_source_both": false,
+                "description": "<strong>Facebook</strong>, American online social network service that is part of the company Meta Platforms. <strong>Facebook</strong> was founded in 2004 by Mark Zuckerberg, Eduardo Saverin, Dustin Moskovitz, and Chris Hughes, all students at Harvard University. It became the largest social network in the world.",
+                "profile": {
+                    "name": "Britannica",
+                    "url": "https://www.britannica.com/topic/Facebook",
+                    "long_name": "britannica.com",
+                    "img": "https://imgs.search.brave.com/hcLf2uAEj_yDbSzYRgdkKMQIWeIcfmsuchdJkpCh2_g/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNzJmYzgxOWRk/Y2FhNWI2MzQzMjQ4/MWVhZDZhNGY3ZjY0/MDgxZTM3YWU5MzYz/NGU2MzM3Y2Y2YTYz/M2IyM2Y0NC93d3cu/YnJpdGFubmljYS5j/b20v"
+                },
+                "language": "en",
+                "family_friendly": true,
+                "type": "search_result",
+                "subtype": "article",
+                "meta_url": {
+                    "scheme": "https",
+                    "netloc": "britannica.com",
+                    "hostname": "www.britannica.com",
+                    "favicon": "https://imgs.search.brave.com/hcLf2uAEj_yDbSzYRgdkKMQIWeIcfmsuchdJkpCh2_g/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNzJmYzgxOWRk/Y2FhNWI2MzQzMjQ4/MWVhZDZhNGY3ZjY0/MDgxZTM3YWU5MzYz/NGU2MzM3Y2Y2YTYz/M2IyM2Y0NC93d3cu/YnJpdGFubmljYS5j/b20v",
+                    "path": "  › politics, law & government  › banking & business"
+                },
+                "thumbnail": {
+                    "src": "https://imgs.search.brave.com/PksSAFVLoz3nDYVRZ1C86_c-2UoFFFQ7KhtRjTNDh2k/rs:fit:200:200:1/g:ce/aHR0cHM6Ly9jZG4u/YnJpdGFubmljYS5j/b20vNTQvMTg3MzU0/LTA1MC1CRTA1MzBB/Ri9GYWNlYm9vay1G/b3VuZGVyLUNFTy1N/YXJrLVp1Y2tlcmJl/cmctZW1haWwtbWVz/c2FnaW5nLXN5c3Rl/bS1TdC1SZWdpcy5q/cGc",
+                    "original": "https://cdn.britannica.com/54/187354-050-BE0530AF/Facebook-Founder-CEO-Mark-Zuckerberg-email-messaging-system-St-Regis.jpg",
+                    "logo": false
+                },
+                "age": "1 month ago",
+                "article": {
+                    "author": [
+                        {
+                            "type": "person",
+                            "name": "Mark Hall",
+                            "url": "https://www.britannica.com/contributor/Mark-Hall/4349"
+                        }
+                    ],
+                    "date": "May 27, 2008",
+                    "publisher": {
+                        "type": "organization",
+                        "name": "Encyclopedia Britannica",
+                        "thumbnail": {
+                            "src": "https://imgs.search.brave.com/wkHuUAUz6J32exmOLRjL5LaMO1hLDNf1iwC8RcWQiJ0/rs:fit:200:200:1/g:ce/aHR0cHM6Ly9jb3Jw/b3JhdGUuYnJpdGFu/bmljYS5jb20vd3At/Y29udGVudC90aGVt/ZXMvZWItY29ycG9y/YXRlL19pbWcvbG9n/by5wbmc",
+                            "original": "https://corporate.britannica.com/wp-content/themes/eb-corporate/_img/logo.png"
+                        }
+                    }
+                }
+            },
+            {
+                "title": "What is Facebook?",
+                "url": "https://www.techtarget.com/whatis/definition/Facebook",
+                "is_source_local": false,
+                "is_source_both": false,
+                "description": "<strong>Facebook</strong> is a popular free social networking website that enables users to share information and photos and keep in touch with family and friends.",
+                "profile": {
+                    "name": "Techtarget",
+                    "url": "https://www.techtarget.com/whatis/definition/Facebook",
+                    "long_name": "techtarget.com",
+                    "img": "https://imgs.search.brave.com/Uvss73qJLks_ZrWMPzQG4aRYEtFnmR4o84kP14gykRQ/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvZjhkYjViOTRh/NzMwOGYxYzBmNGU4/MTJjOTE3YjE2NTBj/NmVkZGQyYjMwNTlj/YzAxNzI0NzcyMzQz/ZDc0YTY0ZC93d3cu/dGVjaHRhcmdldC5j/b20v"
+                },
+                "language": "en",
+                "family_friendly": true,
+                "type": "search_result",
+                "subtype": "generic",
+                "meta_url": {
+                    "scheme": "https",
+                    "netloc": "techtarget.com",
+                    "hostname": "www.techtarget.com",
+                    "favicon": "https://imgs.search.brave.com/Uvss73qJLks_ZrWMPzQG4aRYEtFnmR4o84kP14gykRQ/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvZjhkYjViOTRh/NzMwOGYxYzBmNGU4/MTJjOTE3YjE2NTBj/NmVkZGQyYjMwNTlj/YzAxNzI0NzcyMzQz/ZDc0YTY0ZC93d3cu/dGVjaHRhcmdldC5j/b20v",
+                    "path": "› whatis  › definition  › Facebook"
+                },
+                "thumbnail": {
+                    "src": "https://imgs.search.brave.com/neq99G3BxW21WP9GV80s4uMDuu-JhydOwHFLgc0nry8/rs:fit:200:200:1/g:ce/aHR0cHM6Ly9jZG4u/dHRndG1lZGlhLmNv/bS9ybXMvYW1wL0FN/UGRlZmF1bHRJbWFn/ZS5qcGc",
+                    "original": "https://cdn.ttgtmedia.com/rms/amp/AMPdefaultImage.jpg",
+                    "logo": false
+                }
+            }
+        ],
+        "family_friendly": true
+    }
+}
