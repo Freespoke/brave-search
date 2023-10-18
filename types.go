@@ -1,9 +1,13 @@
 package brave
 
 import (
+	"fmt"
+	"regexp"
 	"strconv"
 	"strings"
 	"time"
+
+	anytime "github.com/ijt/go-anytime"
 )
 
 type ResultContainer[T any] struct {
@@ -58,16 +62,16 @@ type ResultReference struct {
 }
 
 type Result struct {
-	Title          string   `json:"title"`
-	URL            string   `json:"url"`
-	IsSourceLocal  bool     `json:"is_source_local"`
-	IsSourceBoth   bool     `json:"is_source_both"`
-	Description    string   `json:"description"`
-	PageAge        string   `json:"page_age"`
-	PageFetched    string   `json:"page_fetched"`
-	Profile        *Profile `json:"profile"`
-	Language       string   `json:"language"`
-	FamilyFriendly bool     `json:"family_friendly"`
+	Title          string     `json:"title"`
+	URL            string     `json:"url"`
+	IsSourceLocal  bool       `json:"is_source_local"`
+	IsSourceBoth   bool       `json:"is_source_both"`
+	Description    string     `json:"description"`
+	PageAge        *Timestamp `json:"page_age"`
+	PageFetched    string     `json:"page_fetched"`
+	Profile        *Profile   `json:"profile"`
+	Language       string     `json:"language"`
+	FamilyFriendly bool       `json:"family_friendly"`
 }
 
 type Profile struct {
@@ -83,7 +87,7 @@ type NewsResult struct {
 	Source    string     `json:"source"`
 	Breaking  bool       `json:"breaking"`
 	Thumbnail *Thumbnail `json:"thumbnail"`
-	Age       string     `json:"age"`
+	Age       *Timestamp `json:"age"`
 }
 
 type VideoResult struct {
@@ -92,11 +96,11 @@ type VideoResult struct {
 	Data      *VideoData `json:"video"`
 	MetaURL   MetaURL    `json:"meta_url"`
 	Thumbnail *Thumbnail `json:"thumbnail"`
-	Age       string     `json:"age"`
+	Age       *Timestamp `json:"age"`
 }
 
 type VideoData struct {
-	Duration  string     `json:"duration"`
+	Duration  *Duration  `json:"duration"`
 	Views     int        `json:"views"`
 	Creator   string     `json:"creator"`
 	Publisher string     `json:"publisher"`
@@ -130,7 +134,7 @@ type SearchResult struct {
 	Schemas     any             `json:"schemas"`
 	MetaURL     MetaURL         `json:"meta_url"`
 	Thumbnail   *Thumbnail      `json:"thumbnail"`
-	Age         string          `json:"age"`
+	Age         *Timestamp      `json:"age"`
 	Language    string          `json:"language"`
 	Restaurant  *LocationResult `json:"restaurant"`
 	Locations   *Locations      `json:"locations"`
@@ -494,15 +498,84 @@ type ErrorContext struct {
 	EnumValues []string `json:"enum_values"`
 }
 
+type Duration time.Duration
+
+func (d *Duration) Duration() *time.Duration {
+	if d == nil {
+		return nil
+	}
+
+	tt := time.Duration(*d)
+	return &tt
+}
+
+func (d *Duration) UnmarshalJSON(in []byte) error {
+	str := string(in)
+	if !strings.Contains(str, `"`) {
+		return nil
+	}
+
+	str = strings.Trim(string(in), `"`)
+	matches := durationRegex.FindAllString(str, -1)
+	if l := len(matches); l < 3 {
+		for l < 3 {
+			matches = append([]string{"00"}, matches...)
+			l++
+		}
+	}
+
+	dur, err := time.ParseDuration(fmt.Sprintf("%sh%sm%ss", matches[0], matches[1], matches[2]))
+	if err != nil {
+		return err
+	}
+
+	*d = Duration(dur)
+	return nil
+}
+
 type Timestamp time.Time
+
+func (t *Timestamp) Time() *time.Time {
+	if t == nil {
+		return nil
+	}
+
+	tt := time.Time(*t)
+	return &tt
+}
 
 func (t *Timestamp) UnmarshalJSON(in []byte) (err error) {
 	var res time.Time
 	str := string(in)
 	if strings.Contains(str, `"`) {
-		res, err = time.Parse(time.RFC3339, strings.Trim(string(in), `"`))
+		str = strings.Trim(string(in), `"`)
+		var err error
+		for _, fmt := range timeFormats {
+			res, err = time.Parse(fmt, str)
+			if err == nil {
+				err = nil
+				break
+			}
+		}
+
 		if err != nil {
-			return err
+			var err2 error
+			res, err2 = anytime.Parse(str, time.Now())
+			if err2 != nil && strings.Contains(str, "second") {
+				matches := durationRegex.FindAllString(str, 1)
+				if len(matches) == 0 {
+					return nil
+				}
+
+				seconds, _ := strconv.Atoi(matches[0])
+				if seconds == 0 {
+					res = time.Now()
+				} else {
+					res = time.Now().Add(-time.Duration(seconds) * time.Second)
+				}
+			} else if err2 != nil {
+				return nil
+			}
 		}
 	} else {
 		i, err := strconv.Atoi(str)
@@ -516,3 +589,12 @@ func (t *Timestamp) UnmarshalJSON(in []byte) (err error) {
 	*t = Timestamp(res)
 	return nil
 }
+
+var (
+	timeFormats = []string{
+		time.RFC3339,
+		"January 2, 2006",
+	}
+
+	durationRegex = regexp.MustCompile(`(\d{1,2})`)
+)

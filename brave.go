@@ -9,7 +9,7 @@ import (
 )
 
 const (
-	apiVersion        = "2023-06-01"
+	apiVersion        = "2023-10-18"
 	defaultBaseURL    = "https://api.search.brave.com/res/v1/"
 	imageSearchPath   = "images/search"
 	spellcheckPath    = "spellcheck/search"
