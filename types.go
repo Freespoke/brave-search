@@ -101,10 +101,34 @@ type VideoResult struct {
 
 type VideoData struct {
 	Duration  *Duration  `json:"duration"`
-	Views     int        `json:"views"`
+	Views     VideoViews `json:"views"`
 	Creator   string     `json:"creator"`
 	Publisher string     `json:"publisher"`
 	Thumbnail *Thumbnail `json:"thumbnail"`
+}
+
+type VideoViews int
+
+func (v *VideoViews) UnmarshalJSON(in []byte) error {
+	str := string(in)
+	if strings.Contains(str, `"`) {
+		str = strings.ToLower(strings.Trim(str, `"`))
+	}
+
+	// this is so stupid.
+	if strings.HasSuffix(str, "k") {
+		str = strings.TrimSuffix(str, "k") + "000"
+	} else if strings.HasSuffix(str, "m") {
+		str = strings.TrimSuffix(str, "m") + "000000"
+	}
+
+	vv, err := strconv.Atoi(str)
+	if err != nil {
+		return err
+	}
+
+	*v = VideoViews(vv)
+	return nil
 }
 
 type MetaURL struct {
