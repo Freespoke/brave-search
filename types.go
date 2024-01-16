@@ -391,7 +391,7 @@ type Book struct {
 	Author    []Person `json:"author"`
 	Date      string   `json:"date"`
 	Price     *Price   `json:"price"`
-	Pages     string   `json:"pages"`
+	Pages     Number   `json:"pages"`
 	Publisher *Person  `json:"publisher"`
 	Rating    *Rating  `json:"rating"`
 }
@@ -611,6 +611,20 @@ func (t *Timestamp) UnmarshalJSON(in []byte) (err error) {
 	}
 
 	*t = Timestamp(res)
+	return nil
+}
+
+type Number int
+
+func (n *Number) UnmarshalJSON(b []byte) error {
+	str := string(b)
+	str = strings.Trim(str, `"`)
+	num, err := strconv.Atoi(str)
+	if err != nil {
+		return nil
+	}
+
+	*n = Number(num)
 	return nil
 }
 

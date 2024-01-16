@@ -1,0 +1,951 @@
+{
+    "query": {
+      "original": "guapa",
+      "show_strict_warning": false,
+      "is_navigational": false,
+      "local_decision": "drop",
+      "local_locations_idx": 0,
+      "is_news_breaking": false,
+      "spellcheck_off": true,
+      "country": "us",
+      "bad_results": false,
+      "should_fallback": false,
+      "postal_code": "",
+      "city": "",
+      "header_country": "",
+      "more_results_available": true,
+      "state": ""
+    },
+    "mixed": {
+      "type": "mixed",
+      "main": [
+        {
+          "type": "web",
+          "index": 0,
+          "all": false
+        },
+        {
+          "type": "web",
+          "index": 1,
+          "all": false
+        },
+        {
+          "type": "videos",
+          "all": true
+        },
+        {
+          "type": "web",
+          "index": 2,
+          "all": false
+        },
+        {
+          "type": "web",
+          "index": 3,
+          "all": false
+        },
+        {
+          "type": "web",
+          "index": 4,
+          "all": false
+        },
+        {
+          "type": "web",
+          "index": 5,
+          "all": false
+        },
+        {
+          "type": "web",
+          "index": 6,
+          "all": false
+        },
+        {
+          "type": "web",
+          "index": 7,
+          "all": false
+        },
+        {
+          "type": "web",
+          "index": 8,
+          "all": false
+        },
+        {
+          "type": "web",
+          "index": 9,
+          "all": false
+        },
+        {
+          "type": "web",
+          "index": 10,
+          "all": false
+        },
+        {
+          "type": "web",
+          "index": 11,
+          "all": false
+        },
+        {
+          "type": "web",
+          "index": 12,
+          "all": false
+        },
+        {
+          "type": "web",
+          "index": 13,
+          "all": false
+        },
+        {
+          "type": "web",
+          "index": 14,
+          "all": false
+        },
+        {
+          "type": "web",
+          "index": 15,
+          "all": false
+        },
+        {
+          "type": "web",
+          "index": 16,
+          "all": false
+        },
+        {
+          "type": "web",
+          "index": 17,
+          "all": false
+        },
+        {
+          "type": "web",
+          "index": 18,
+          "all": false
+        },
+        {
+          "type": "web",
+          "index": 19,
+          "all": false
+        }
+      ],
+      "top": [],
+      "side": []
+    },
+    "type": "search",
+    "videos": {
+      "type": "videos",
+      "results": [
+        {
+          "type": "video_result",
+          "url": "https://www.youtube.com/watch?v=7nFsapjBgv0",
+          "title": "Guapa - YouTube",
+          "description": "Provided to YouTube by Blue Magic CorpGuapa · Guy2BezbarGuapa℗ 2023 Blue Magic Corp distributed by Sony Music Entertainment SASReleased on: 2023-05-26Compose...",
+          "age": "May 25, 2023",
+          "page_age": "2023-05-25T15:48:12",
+          "video": {},
+          "meta_url": {
+            "scheme": "https",
+            "netloc": "youtube.com",
+            "hostname": "www.youtube.com",
+            "favicon": "https://imgs.search.brave.com/Ux4Hee4evZhvjuTKwtapBycOGjGDci2Gvn2pbSzvbC0/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOTkyZTZiMWU3/YzU3Nzc5YjExYzUy/N2VhZTIxOWNlYjM5/ZGVjN2MyZDY4Nzdh/ZDYzMTYxNmI5N2Rk/Y2Q3N2FkNy93d3cu/eW91dHViZS5jb20v",
+            "path": "› watch"
+          },
+          "thumbnail": {
+            "src": "https://imgs.search.brave.com/GsJWcK6Ru7ALf95k4vO84noqYTcfUQAPstnWhZArVQc/rs:fit:200:200:1/g:ce/aHR0cHM6Ly9pLnl0/aW1nLmNvbS92aS83/bkZzYXBqQmd2MC9t/YXhyZXNkZWZhdWx0/LmpwZw"
+          }
+        },
+        {
+          "type": "video_result",
+          "url": "https://www.youtube.com/watch?v=FK505t-B5tE",
+          "title": "Guapa - Something Good (Official Video) - YouTube",
+          "description": "🔔 Turn on notifications to stay updated with new uploads!→ Buy/Stream: https://spoti.fi/3WKfIAN→ Spotify playlist: http://spoti.fi/29jI012→ Apple Music: htt",
+          "age": "November 8, 2022",
+          "page_age": "2022-11-08T15:59:40",
+          "video": {},
+          "meta_url": {
+            "scheme": "https",
+            "netloc": "youtube.com",
+            "hostname": "www.youtube.com",
+            "favicon": "https://imgs.search.brave.com/Ux4Hee4evZhvjuTKwtapBycOGjGDci2Gvn2pbSzvbC0/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOTkyZTZiMWU3/YzU3Nzc5YjExYzUy/N2VhZTIxOWNlYjM5/ZGVjN2MyZDY4Nzdh/ZDYzMTYxNmI5N2Rk/Y2Q3N2FkNy93d3cu/eW91dHViZS5jb20v",
+            "path": "› watch"
+          },
+          "thumbnail": {
+            "src": "https://imgs.search.brave.com/fGkIH4kZei6sJIwT5kWtOwjJx0R_VgQ8VkClirPopv8/rs:fit:200:200:1/g:ce/aHR0cHM6Ly9pLnl0/aW1nLmNvbS92aS9G/SzUwNXQtQjV0RS9t/YXhyZXNkZWZhdWx0/LmpwZw"
+          }
+        }
+      ],
+      "mutated_by_goggles": false
+    },
+    "web": {
+      "type": "search",
+      "results": [
+        {
+          "title": "guapa - translated from Spanish to English",
+          "url": "https://www.deepl.com/en/translator/q/es/guapa/en/beautiful/3ea713cf",
+          "is_source_local": false,
+          "is_source_both": false,
+          "description": "Translate texts &amp; full document files instantly. Accurate translations for individuals and Teams. Millions translate with DeepL every day.",
+          "profile": {
+            "name": "Deepl",
+            "url": "https://www.deepl.com/en/translator/q/es/guapa/en/beautiful/3ea713cf",
+            "long_name": "deepl.com",
+            "img": "https://imgs.search.brave.com/hJSMLdsjjFGcKKEG4ku5l9LiAIdnFF4IyULZZKkZ0Y4/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYzA2NTliYjU5/ODRmYmNlZTcwMzdk/MDI4NjAxMjYyNDM0/NTdlYzY0YWFkM2Fi/ZmFiYzA3MTI2NTdi/YjhhYjAyMC93d3cu/ZGVlcGwuY29tLw"
+          },
+          "language": "en",
+          "family_friendly": true,
+          "type": "search_result",
+          "subtype": "generic",
+          "meta_url": {
+            "scheme": "https",
+            "netloc": "deepl.com",
+            "hostname": "www.deepl.com",
+            "favicon": "https://imgs.search.brave.com/hJSMLdsjjFGcKKEG4ku5l9LiAIdnFF4IyULZZKkZ0Y4/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYzA2NTliYjU5/ODRmYmNlZTcwMzdk/MDI4NjAxMjYyNDM0/NTdlYzY0YWFkM2Fi/ZmFiYzA3MTI2NTdi/YjhhYjAyMC93d3cu/ZGVlcGwuY29tLw",
+            "path": "› en  › translator  › q  › es  › guapa  › en  › beautiful  › 3ea713cf"
+          },
+          "thumbnail": {
+            "src": "https://imgs.search.brave.com/TXcW3ZR3OZ0QjTMjI67qtofgXhK_btYaez51N2vJUVU/rs:fit:200:200:1/g:ce/aHR0cHM6Ly9zdGF0/aWMuZGVlcGwuY29t/L2ltZy9mYXZpY29u/L2F1dG9tYXRpY19z/b2NpYWxfc2hhcmVf/ZGVlcGwuanBn",
+            "original": "https://static.deepl.com/img/favicon/automatic_social_share_deepl.jpg",
+            "logo": false
+          },
+          "extra_snippets": [
+            "Translate texts & full document files instantly. Accurate translations for individuals and Teams. Millions translate with DeepL every day."
+          ]
+        },
+        {
+          "title": "guapa | translation Spanish to English: Cambridge Dictionary",
+          "url": "https://dictionary.cambridge.org/us/dictionary/spanish-english/guapa",
+          "is_source_local": false,
+          "is_source_both": false,
+          "description": "<strong>guapa</strong> translations: beautiful. Learn more in the Cambridge Spanish-English Dictionary.",
+          "profile": {
+            "name": "Cambridge Dictionary",
+            "url": "https://dictionary.cambridge.org/us/dictionary/spanish-english/guapa",
+            "long_name": "dictionary.cambridge.org",
+            "img": "https://imgs.search.brave.com/ZtiwgC_pHx_yBzYJJwjkgW5uL3RyznycH6B5v8XjBFI/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNmM5NTEzZDcy/YzJhZjBlMjg4ODRk/Zjk2OTc5OThhOTQ2/ZDBmM2JjZjEzZDgw/YzcxNjlkMGEwZTIy/ZmUxYzhkNy9kaWN0/aW9uYXJ5LmNhbWJy/aWRnZS5vcmcv"
+          },
+          "language": "en",
+          "family_friendly": true,
+          "type": "search_result",
+          "subtype": "generic",
+          "meta_url": {
+            "scheme": "https",
+            "netloc": "dictionary.cambridge.org",
+            "hostname": "dictionary.cambridge.org",
+            "favicon": "https://imgs.search.brave.com/ZtiwgC_pHx_yBzYJJwjkgW5uL3RyznycH6B5v8XjBFI/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNmM5NTEzZDcy/YzJhZjBlMjg4ODRk/Zjk2OTc5OThhOTQ2/ZDBmM2JjZjEzZDgw/YzcxNjlkMGEwZTIy/ZmUxYzhkNy9kaWN0/aW9uYXJ5LmNhbWJy/aWRnZS5vcmcv",
+            "path": "› us  › dictionary  › spanish-english  › guapa"
+          },
+          "thumbnail": {
+            "src": "https://imgs.search.brave.com/BsVljCrojbyydnBEcrQBojRe1XpuVRLJogKGJ8VcmvE/rs:fit:200:200:1/g:ce/aHR0cHM6Ly9kaWN0/aW9uYXJ5LmNhbWJy/aWRnZS5vcmcvdXMv/ZXh0ZXJuYWwvaW1h/Z2VzL29nLWltYWdl/LnBuZw",
+            "original": "https://dictionary.cambridge.org/us/external/images/og-image.png",
+            "logo": false
+          },
+          "extra_snippets": [
+            "Add guapa to one of your lists below, or create a new one.",
+            "guapa translations: beautiful. Learn more in the Cambridge Spanish-English Dictionary."
+          ]
+        },
+        {
+          "title": "What does 'guapa' mean in Spanish? How is it commonly used? - Quora",
+          "url": "https://www.quora.com/What-does-guapa-mean-in-Spanish-How-is-it-commonly-used",
+          "is_source_local": false,
+          "is_source_both": false,
+          "description": "Answer (1 of 11): Guapa means <strong>good looking</strong> and it is used most of the time as a compliment. But it has other meanings and uses. In Venezuela, for example, guapa is used as an adjective to indicate that a woman is brave or bold. In Spain, guapa is often used as a term or endearment: Te quiero, ...",
+          "page_age": "2017-11-19T00:00:00",
+          "profile": {
+            "name": "Quora",
+            "url": "https://www.quora.com/What-does-guapa-mean-in-Spanish-How-is-it-commonly-used",
+            "long_name": "quora.com",
+            "img": "https://imgs.search.brave.com/h-UMKefr-GC4QAyvmDqJX6In84keNLnjKLoM-VE4l_w/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYjg3ZTk4MDVm/ZTE3YzUxZTc4Yjc3/YTE2MGI3MGVhNmQ2/MGE0Yjc4NzRhMmM1/ODMxYTIwNzI1ZjI0/NDkyZDI2Yy93d3cu/cXVvcmEuY29tLw"
+          },
+          "language": "en",
+          "family_friendly": true,
+          "type": "search_result",
+          "subtype": "generic",
+          "meta_url": {
+            "scheme": "https",
+            "netloc": "quora.com",
+            "hostname": "www.quora.com",
+            "favicon": "https://imgs.search.brave.com/h-UMKefr-GC4QAyvmDqJX6In84keNLnjKLoM-VE4l_w/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYjg3ZTk4MDVm/ZTE3YzUxZTc4Yjc3/YTE2MGI3MGVhNmQ2/MGE0Yjc4NzRhMmM1/ODMxYTIwNzI1ZjI0/NDkyZDI2Yy93d3cu/cXVvcmEuY29tLw",
+            "path": "› What-does-guapa-mean-in-Spanish-How-is-it-commonly-used"
+          },
+          "thumbnail": {
+            "src": "https://imgs.search.brave.com/bmB7TQnWBg0z6jI6j5IDpsTKcg0EOrEKc1ebpEtcVKg/rs:fit:200:200:1/g:ce/aHR0cHM6Ly9xcGgu/Y2YyLnF1b3JhY2Ru/Lm5ldC9tYWluLWN1/c3RvbS10LTEzOTM4/OTgtNjAweDMxNS1j/dm9kamNyenBlenVy/Z3pxcWprZmxzZmlw/bHZoZGl5eC5qcGVn",
+            "original": "https://qph.cf2.quoracdn.net/main-custom-t-1393898-600x315-cvodjcrzpezurgzqqjkflsfiplvhdiyx.jpeg",
+            "logo": false
+          },
+          "age": "November 19, 2017",
+          "extra_snippets": [
+            "Answer (1 of 11): Guapa means good looking and it is used most of the time as a compliment. But it has other meanings and uses. In Venezuela, for example, guapa is used as an adjective to indicate that a woman is brave or bold. In Spain, guapa is often used as a term or endearment: Te quiero, ..."
+          ]
+        },
+        {
+          "title": "GUAPA Resort Wear India",
+          "url": "https://www.guaparesortwear.com/",
+          "is_source_local": false,
+          "is_source_both": false,
+          "description": "Guapa is <strong>all about love</strong> – and that love extends to our planet. Our swimwear is made with sustainable Econyl fabric derived from recycled ocean and landfill waste. Excellent fit, bold colours and versatile reversible styles- watch out for Guapa Swim.",
+          "profile": {
+            "name": "Guaparesortwear",
+            "url": "https://www.guaparesortwear.com/",
+            "long_name": "guaparesortwear.com",
+            "img": "https://imgs.search.brave.com/r-BG7EodwtOpw2plaTCkR_8of4e9maqsyQZLL5UfzKI/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYmRjMmRjYWE0/OGFhNGQ0MWEyNGQ5/MmZmZTI4M2Q3OWI5/NjE1NjFhNjg3M2U1/NDFkYmI3YWEzMGI2/NzBiNGE1Zi93d3cu/Z3VhcGFyZXNvcnR3/ZWFyLmNvbS8"
+          },
+          "language": "en",
+          "family_friendly": true,
+          "type": "search_result",
+          "subtype": "product",
+          "meta_url": {
+            "scheme": "https",
+            "netloc": "guaparesortwear.com",
+            "hostname": "www.guaparesortwear.com",
+            "favicon": "https://imgs.search.brave.com/r-BG7EodwtOpw2plaTCkR_8of4e9maqsyQZLL5UfzKI/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYmRjMmRjYWE0/OGFhNGQ0MWEyNGQ5/MmZmZTI4M2Q3OWI5/NjE1NjFhNjg3M2U1/NDFkYmI3YWEzMGI2/NzBiNGE1Zi93d3cu/Z3VhcGFyZXNvcnR3/ZWFyLmNvbS8",
+            "path": ""
+          },
+          "thumbnail": {
+            "src": "https://imgs.search.brave.com/sunQ2RJ46ZlddEhxSpghu96ZXXlFjXOu0kR5BlqdX7U/rs:fit:200:200:1/g:ce/aHR0cHM6Ly93d3cu/Z3VhcGFyZXNvcnR3/ZWFyLmNvbS9jZG4v/c2hvcC9wcm9kdWN0/cy9VbnRpdGxlZC0z/NF8xMDI0eDEwMjQu/anBnP3Y9MTY2NzIx/MDQ4Mg",
+            "original": "https://www.guaparesortwear.com/cdn/shop/products/Untitled-34_1024x1024.jpg?v=1667210482",
+            "logo": false
+          },
+          "product": {
+            "type": "Product",
+            "name": "Rodeo Gold Beaded Shift Mini Dress",
+            "price": "37500.0",
+            "thumbnail": {
+              "src": "https://imgs.search.brave.com/LGrL5xHBdqaVf93GAutxNt-dJ5qNGVDJPHGVyZ9fx_g/rs:fit:360:283:1/g:ce/aHR0cHM6Ly93d3cu/Z3VhcGFyZXNvcnR3/ZWFyLmNvbS9jZG4v/c2hvcC9wcm9kdWN0/cy9VbnRpdGxlZC0z/NF8xMDI0eDEwMjQu/anBnP3Y9MTY2NzIx/MDQ4Mg",
+              "original": "https://www.guaparesortwear.com/cdn/shop/products/Untitled-34_1024x1024.jpg?v=1667210482"
+            },
+            "description": "Get ready for the party season with this stunning hand glass beaded, gold and silver number. It took over 100 man hours to bring this beauty to life.\n\nMaterial: 100% Glass Beads\nGold, Silver\nCotton lining\n\nA-line\nDry Clean Only\nHandmade in India\n\n\nAbout the Island Capsule CollectionSandy toes, sunkissed nose, good vibes, happy tides…your tan will fade but memories of your blissful retreat will last forever. Artisanal prints with neon hues, Scarf print styles and sustainable breathable fabrics – get ready for some Vitamin Sea with our Island collection.",
+            "offers": [
+              {
+                "url": "https://www.guaparesortwear.com/products/copy-of-copy-of-passion-buttondown-shorts-set?variant=41095518027908",
+                "priceCurrency": "INR",
+                "price": "37500.0"
+              },
+              {
+                "url": "https://www.guaparesortwear.com/products/copy-of-copy-of-passion-buttondown-shorts-set?variant=41095518060676",
+                "priceCurrency": "INR",
+                "price": "37500.0"
+              },
+              {
+                "url": "https://www.guaparesortwear.com/products/copy-of-copy-of-passion-buttondown-shorts-set?variant=41095518093444",
+                "priceCurrency": "INR",
+                "price": "37500.0"
+              },
+              {
+                "url": "https://www.guaparesortwear.com/products/copy-of-copy-of-passion-buttondown-shorts-set?variant=41095518126212",
+                "priceCurrency": "INR",
+                "price": "37500.0"
+              },
+              {
+                "url": "https://www.guaparesortwear.com/products/copy-of-copy-of-passion-buttondown-shorts-set?variant=41095518158980",
+                "priceCurrency": "INR",
+                "price": "37500.0"
+              }
+            ]
+          },
+          "extra_snippets": [
+            "Guapa is all about love – and that love extends to our planet. Our swimwear is made with sustainable Econyl fabric derived from recycled ocean and landfill waste. Excellent fit, bold colours and versatile reversible styles- watch out for Guapa Swim.",
+            "Resort Wear label that is fun, effortless and comfortable. Shop for Dresses, Boho blouses, shirts, skirts, shorts, blazers and coverups. We ship worldwide."
+          ]
+        },
+        {
+          "title": "Becky G - GUAPA (Audio) - YouTube",
+          "url": "https://www.youtube.com/watch?v=5wdEzJUweGE",
+          "is_source_local": false,
+          "is_source_both": false,
+          "description": "<strong>Becky G</strong> - GUAPA (Audio)ESQUEMAS (Album): Apple Music: https://beckyg.lnk.to/ESQUEMAS/applemusic Spotify: https://beckyg.lnk.to/ESQUEMAS/spotify Amazon: https...",
+          "page_age": "2022-05-17T03:35:01",
+          "profile": {
+            "name": "YouTube",
+            "url": "https://www.youtube.com/watch?v=5wdEzJUweGE",
+            "long_name": "youtube.com",
+            "img": "https://imgs.search.brave.com/Ux4Hee4evZhvjuTKwtapBycOGjGDci2Gvn2pbSzvbC0/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOTkyZTZiMWU3/YzU3Nzc5YjExYzUy/N2VhZTIxOWNlYjM5/ZGVjN2MyZDY4Nzdh/ZDYzMTYxNmI5N2Rk/Y2Q3N2FkNy93d3cu/eW91dHViZS5jb20v"
+          },
+          "language": "en",
+          "family_friendly": true,
+          "type": "search_result",
+          "subtype": "video",
+          "meta_url": {
+            "scheme": "https",
+            "netloc": "youtube.com",
+            "hostname": "www.youtube.com",
+            "favicon": "https://imgs.search.brave.com/Ux4Hee4evZhvjuTKwtapBycOGjGDci2Gvn2pbSzvbC0/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOTkyZTZiMWU3/YzU3Nzc5YjExYzUy/N2VhZTIxOWNlYjM5/ZGVjN2MyZDY4Nzdh/ZDYzMTYxNmI5N2Rk/Y2Q3N2FkNy93d3cu/eW91dHViZS5jb20v",
+            "path": "  › beckygvevo"
+          },
+          "thumbnail": {
+            "src": "https://imgs.search.brave.com/9rdifL39fyudCJHAr3WyXP97oV2RCkZHdbjDtJF-1Eg/rs:fit:200:200:1/g:ce/aHR0cHM6Ly9pLnl0/aW1nLmNvbS92aS81/d2RFekpVd2VHRS9t/YXhyZXNkZWZhdWx0/LmpwZw",
+            "original": "https://i.ytimg.com/vi/5wdEzJUweGE/maxresdefault.jpg",
+            "logo": false
+          },
+          "age": "May 17, 2022",
+          "video": {
+            "duration": "03:21",
+            "views": "2M",
+            "thumbnail": {
+              "src": "https://imgs.search.brave.com/9rdifL39fyudCJHAr3WyXP97oV2RCkZHdbjDtJF-1Eg/rs:fit:200:200:1/g:ce/aHR0cHM6Ly9pLnl0/aW1nLmNvbS92aS81/d2RFekpVd2VHRS9t/YXhyZXNkZWZhdWx0/LmpwZw",
+              "original": "https://i.ytimg.com/vi/5wdEzJUweGE/maxresdefault.jpg"
+            }
+          },
+          "extra_snippets": [
+            "Becky G - GUAPA (Audio)ESQUEMAS (Album): Apple Music: https://beckyg.lnk.to/ESQUEMAS/applemusic Spotify: https://beckyg.lnk.to/ESQUEMAS/spotify Amazon: https..."
+          ]
+        },
+        {
+          "title": "Guapa by Saleem Haddad: 9781590517697 | PenguinRandomHouse.com: Books",
+          "url": "https://www.penguinrandomhouse.com/books/530961/guapa-by-saleem-haddad/",
+          "is_source_local": false,
+          "is_source_both": false,
+          "description": "A debut novel that tells the story of Rasa, a young gay man coming of age in the Middle East Set over the course of twenty-four hours, <strong>Guapa</strong> follows Rasa, a gay man living in an unnamed...",
+          "page_age": "2016-03-08T00:00:00",
+          "profile": {
+            "name": "Penguinrandomhouse",
+            "url": "https://www.penguinrandomhouse.com/books/530961/guapa-by-saleem-haddad/",
+            "long_name": "penguinrandomhouse.com",
+            "img": "https://imgs.search.brave.com/3rg79o_3zwg4FTSQVgDeJBIR8PFSeMOPIObRyidzKzM/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvZmQzN2IzYTg3/MzIyMDhhOWJiZGEw/Zjk5MGFhMWIxYmEz/NmRlN2NkM2U5ODU5/MThmMDU0NThkYTRm/ZWNkZTRlYS93d3cu/cGVuZ3VpbnJhbmRv/bWhvdXNlLmNvbS8"
+          },
+          "language": "en",
+          "family_friendly": true,
+          "type": "search_result",
+          "subtype": "generic",
+          "meta_url": {
+            "scheme": "https",
+            "netloc": "penguinrandomhouse.com",
+            "hostname": "www.penguinrandomhouse.com",
+            "favicon": "https://imgs.search.brave.com/3rg79o_3zwg4FTSQVgDeJBIR8PFSeMOPIObRyidzKzM/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvZmQzN2IzYTg3/MzIyMDhhOWJiZGEw/Zjk5MGFhMWIxYmEz/NmRlN2NkM2U5ODU5/MThmMDU0NThkYTRm/ZWNkZTRlYS93d3cu/cGVuZ3VpbnJhbmRv/bWhvdXNlLmNvbS8",
+            "path": "› books  › 530961  › guapa-by-saleem-haddad"
+          },
+          "thumbnail": {
+            "src": "https://imgs.search.brave.com/_GNh9Kxn2Nml8yHLzcRwT__lM1z2jMseJeTfu0BzrzE/rs:fit:200:200:1/g:ce/aHR0cHM6Ly9pbWFn/ZXMzLnBlbmd1aW5y/YW5kb21ob3VzZS5j/b20vY292ZXIvOTc4/MTU5MDUxNzY5Nw",
+            "original": "https://images3.penguinrandomhouse.com/cover/9781590517697",
+            "logo": false
+          },
+          "age": "March 8, 2016",
+          "extra_snippets": [
+            "A debut novel that tells the story of Rasa, a young gay man coming of age in the Middle East Set over the course of twenty-four hours, Guapa follows Rasa, a gay man living in an unnamed Arab country, as he tries to carve out a life for himself in the midst of political and social upheaval.",
+            "One night Rasa’s grandmother — the woman who raised him — catches them in bed together. The following day Rasa is consumed by the search for his best friend Maj, a fiery activist and drag queen star of the underground bar, Guapa, who has been arrested by the police.",
+            "Equally astute in its analysis of Arab and American mores, the book’s characters are nuanced and dynamic; it gives fresh life to the maxim ‘the personal is political.’” —The Guardian “Guapa challenges the notion of what a ‘conventional’ love story should look like, and as one of few queer novels with an Arab protagonist, it must not be overlooked.",
+            "Haddad has woven together a fascinating story with elements of a life richly lived, and if Guapa finds its way into the canon of queer literature, we will all be stronger for it.” —Lambda Literary “Those looking for a nuanced portrait of gay life in the modern Middle East will find plenty to admire in this…promising debut.” —Kirkus Reviews “Haddad presents a striking look at gay life, the psychological cost of conformity, and what it means to be true to yourself from a Middle Eastern perspective.” —Booklist “Warmly recommended to all readers who are interested in issues of diversity and the Middle East.” —Library Journal “A remarkable debut.” —The Huffington Post “Haddad’s unwavering dedication to detail, narrative arc, and consequence make Guapa necessarily poignant, uncomfortable, and meaningful."
+          ]
+        },
+        {
+          "title": "Urban Dictionary: guapa",
+          "url": "https://www.urbandictionary.com/define.php?term=guapa",
+          "is_source_local": false,
+          "is_source_both": false,
+          "description": "&#x27;<strong>Guapa</strong>&#x27; means gorgeous/beautiful in Spanish. Particularly used at the start of an sms.",
+          "page_age": "2006-09-30T00:00:00",
+          "profile": {
+            "name": "Urbandictionary",
+            "url": "https://www.urbandictionary.com/define.php?term=guapa",
+            "long_name": "urbandictionary.com",
+            "img": "https://imgs.search.brave.com/uGd6B2_afhnB_ZjLjT-JO3YQ7X3NRC_79W_vniI7ffQ/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYTg4ZmUxODlk/YzM4ZTRkZDg2OWFj/YWRjZTViNzhlN2Nk/NWI3OGY4Y2RmZWNi/NWRhMzBhODJkMTM4/MzMyMzY3OS93d3cu/dXJiYW5kaWN0aW9u/YXJ5LmNvbS8"
+          },
+          "language": "en",
+          "family_friendly": true,
+          "type": "search_result",
+          "subtype": "generic",
+          "meta_url": {
+            "scheme": "https",
+            "netloc": "urbandictionary.com",
+            "hostname": "www.urbandictionary.com",
+            "favicon": "https://imgs.search.brave.com/uGd6B2_afhnB_ZjLjT-JO3YQ7X3NRC_79W_vniI7ffQ/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYTg4ZmUxODlk/YzM4ZTRkZDg2OWFj/YWRjZTViNzhlN2Nk/NWI3OGY4Y2RmZWNi/NWRhMzBhODJkMTM4/MzMyMzY3OS93d3cu/dXJiYW5kaWN0aW9u/YXJ5LmNvbS8",
+            "path": "› define.php"
+          },
+          "age": "September 30, 2006",
+          "extra_snippets": [
+            "FlagGet the guapa mug.",
+            "FlagGet the Hola chica guapa mug.",
+            "FlagGet the guapa chichi mug.",
+            "In the Game Total Overdose Ramiro greets a girl in mexico city saying \"hola chica guapa\""
+          ]
+        },
+        {
+          "title": "\"guapa\" in English | Spanish to English Translator - PROMT.One",
+          "url": "https://www.online-translator.com/translation/spanish-english/guapa",
+          "is_source_local": false,
+          "is_source_both": false,
+          "description": "Translate &quot;<strong>guapa</strong>&quot; from Spanish to English, beauty, pretty, handsome, el sapo a la sapa tienela por <strong>guapa</strong>, . See word usage in contexts, conjugation and declension.",
+          "profile": {
+            "name": "Online-translator",
+            "url": "https://www.online-translator.com/translation/spanish-english/guapa",
+            "long_name": "online-translator.com",
+            "img": "https://imgs.search.brave.com/DIWNvbEisoxZ-RAz9hMcLA85M-LmcI4dwFDM5WHahIc/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMzc1MjcwYmUz/MjcwM2Y2ZDQzZjdl/MTNhYmYyMzFjNWEz/NTBkODllYWIyMjUy/ZTE3NzAwNTliNWRj/ZTg0NTE3Mi93d3cu/b25saW5lLXRyYW5z/bGF0b3IuY29tLw"
+          },
+          "language": "en",
+          "family_friendly": true,
+          "type": "search_result",
+          "subtype": "generic",
+          "meta_url": {
+            "scheme": "https",
+            "netloc": "online-translator.com",
+            "hostname": "www.online-translator.com",
+            "favicon": "https://imgs.search.brave.com/DIWNvbEisoxZ-RAz9hMcLA85M-LmcI4dwFDM5WHahIc/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMzc1MjcwYmUz/MjcwM2Y2ZDQzZjdl/MTNhYmYyMzFjNWEz/NTBkODllYWIyMjUy/ZTE3NzAwNTliNWRj/ZTg0NTE3Mi93d3cu/b25saW5lLXRyYW5z/bGF0b3IuY29tLw",
+            "path": "› translation  › spanish-english  › guapa"
+          },
+          "extra_snippets": [
+            "Es una chica guapa de ver. She is a pretty girl to look at.",
+            "Él vio a una chica guapa. He saw a pretty girl.",
+            "Yo tengo una novia muy guapa. I have a very pretty girlfriend.",
+            "Translate \"guapa\" from Spanish to English, beauty, pretty, handsome, el sapo a la sapa tienela por guapa, . See word usage in contexts, conjugation and declension."
+          ]
+        },
+        {
+          "title": "Guapa - Saleem Haddad",
+          "url": "https://www.europaeditions.co.uk/book/9781787702059/guapa",
+          "is_source_local": false,
+          "is_source_both": false,
+          "description": "Rasa works as an interpreter for Western journalists by day and divides his nights between the <strong>Guapa</strong>, an underground nightclub where the city’s clandestine LGBT community congregates, and his secret lover Taymour. Every night Taymour sneaks into the house Rasa shares with his overbearing ...",
+          "profile": {
+            "name": "Europaeditions",
+            "url": "https://www.europaeditions.co.uk/book/9781787702059/guapa",
+            "long_name": "europaeditions.co.uk",
+            "img": "https://imgs.search.brave.com/xuSc-8gQNjD3ByMsFnWXXZISjUXBBN9qqnYMlAQ7rN8/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYTU2ZjRhN2I0/ZWJmNjNmYmNlZGQ2/ZWI2ZTZiZmY5MmI3/MDY0MmYyMjJlMTJm/MTg0OTVhMmI4YmUy/YWI3OTRmNy93d3cu/ZXVyb3BhZWRpdGlv/bnMuY28udWsv"
+          },
+          "language": "en",
+          "family_friendly": true,
+          "type": "search_result",
+          "subtype": "generic",
+          "meta_url": {
+            "scheme": "https",
+            "netloc": "europaeditions.co.uk",
+            "hostname": "www.europaeditions.co.uk",
+            "favicon": "https://imgs.search.brave.com/xuSc-8gQNjD3ByMsFnWXXZISjUXBBN9qqnYMlAQ7rN8/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYTU2ZjRhN2I0/ZWJmNjNmYmNlZGQ2/ZWI2ZTZiZmY5MmI3/MDY0MmYyMjJlMTJm/MTg0OTVhMmI4YmUy/YWI3OTRmNy93d3cu/ZXVyb3BhZWRpdGlv/bnMuY28udWsv",
+            "path": "› book  › 9781787702059  › guapa"
+          },
+          "thumbnail": {
+            "src": "https://imgs.search.brave.com/CnqI2c1l40EkZcNsc7JPWKB2fijZ9UcThAa9JU0bf1Y/rs:fit:200:200:1/g:ce/aHR0cDovL3d3dy5l/dXJvcGFlZGl0aW9u/cy5jby51ay5jcmlj/Y2hldHRvLmZyZXF1/ZW56ZS5pdC9zcG9v/bC9jb3Zlcl85Nzgx/Nzg3NzAyMDU5X19p/ZDExMDlfdzYwMF90/MTU2MTk4MDMxNF9f/MXguanBn",
+            "original": "http://www.europaeditions.co.uk.cricchetto.frequenze.it/spool/cover_9781787702059__id1109_w600_t1561980314__1x.jpg",
+            "logo": false
+          },
+          "extra_snippets": [
+            "Rasa works as an interpreter for Western journalists by day and divides his nights between the Guapa, an underground nightclub where the city’s clandestine LGBT community congregates, and his secret lover Taymour. Every night Taymour sneaks into the house Rasa shares with his overbearing grandmother, the woman who raised him.",
+            "Wry and aching, irresistibly funny at times, Guapa heralds the arrival of a strong new voice from the Arabic world.",
+            "Join Saleem Haddad to discuss his debut novel “Guapa” Friday 21st October 19:00 at London Piccadilly.",
+            "ALEF Bookstores is delighted to announce that Saleem Haddad is joining us for a much desired discussion about his novel Guapa."
+          ]
+        },
+        {
+          "title": "Guapa by Saleem Haddad | Goodreads",
+          "url": "https://www.goodreads.com/en/book/show/25739241",
+          "is_source_local": false,
+          "is_source_both": false,
+          "description": "Read 461 reviews from the world’s largest community for readers. A debut novel that tells the story of Rasa, a young gay man coming of age in the Middle Ea…",
+          "page_age": "2016-03-08T00:00:00",
+          "profile": {
+            "name": "Goodreads",
+            "url": "https://www.goodreads.com/en/book/show/25739241",
+            "long_name": "goodreads.com",
+            "img": "https://imgs.search.brave.com/3AhhL7k0w3fAz7QrBn5KRSCMOGzEO5eVo4jJhIfH74A/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOWQ0YzMxZDAz/NmNkYTYzMWE2Mjlm/M2IzNzk5OTZlZTIz/YjczZjRmZTQxYzU0/YjQ5YmYyNDM2NTlk/ZWFiZjFlMi93d3cu/Z29vZHJlYWRzLmNv/bS8"
+          },
+          "language": "en",
+          "family_friendly": true,
+          "type": "search_result",
+          "subtype": "book",
+          "meta_url": {
+            "scheme": "https",
+            "netloc": "goodreads.com",
+            "hostname": "www.goodreads.com",
+            "favicon": "https://imgs.search.brave.com/3AhhL7k0w3fAz7QrBn5KRSCMOGzEO5eVo4jJhIfH74A/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOWQ0YzMxZDAz/NmNkYTYzMWE2Mjlm/M2IzNzk5OTZlZTIz/YjczZjRmZTQxYzU0/YjQ5YmYyNDM2NTlk/ZWFiZjFlMi93d3cu/Z29vZHJlYWRzLmNv/bS8",
+            "path": "› en  › book  › show  › 25739241"
+          },
+          "thumbnail": {
+            "src": "https://imgs.search.brave.com/bfLis-1debnnMaS8PZvODJqozLAuvcti_kKVJOBNQlU/rs:fit:200:200:1/g:ce/aHR0cHM6Ly9pbWFn/ZXMtbmEuc3NsLWlt/YWdlcy1hbWF6b24u/Y29tL2ltYWdlcy9T/L2NvbXByZXNzZWQu/cGhvdG8uZ29vZHJl/YWRzLmNvbS9ib29r/cy8xNDQ1NzkyMTYy/aS8yNTczOTI0MS5q/cGc",
+            "original": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1445792162i/25739241.jpg",
+            "logo": false
+          },
+          "age": "March 8, 2016",
+          "book": {
+            "title": "Guapa",
+            "author": [
+              {
+                "type": "person",
+                "name": "Saleem Haddad",
+                "url": "https://www.goodreads.com/author/show/14107015.Saleem_Haddad"
+              }
+            ],
+            "pages": 368,
+            "rating": {
+              "ratingValue": 4.1,
+              "bestRating": 5,
+              "reviewCount": 461,
+              "is_tripadvisor": false
+            }
+          },
+          "extra_snippets": [
+            "A debut novel that tells the story of Rasa, a young gay man coming of age in the Middle East Set over the course of twenty-four hours, Guapa follows Rasa, a gay man living in an unnamed Arab country, as he tries to carve out a life for himself in the midst of political and social upheaval.",
+            "One night Rasa's grandmother—the woman who raised him—catches them in bed together. The following day Rasa is consumed by the search for his best friend Maj, a fiery activist and drag queen star of the underground bar, Guapa, who has been arrested by the police.",
+            "Guapa is well worth reading. There is an exuberance and ragged energy to the prose I admired. Rasa is a young gay man in an \"unnamed Arab country\" who is grappling with a complicated relationship, his grandmother, living a closeted life, and his place in the political turmoil his country is facing.",
+            "For the rest of Guapa, we follow Rasa throughout a 24-hour period filled with political and personal unrest: both the uprising of the Arab Spring protests and the uprising of Rasa’s heart when he realizes he may never be with the man he loves. In interspersed flashbacks, we see Rasa’s tumultuous childhood growing up in a household rife with conflict, his time studying in the United States as a college student, as well as the development of his queer identity."
+          ]
+        },
+        {
+          "title": "Check out the translation for \"guapa\" on SpanishDictionary.com!",
+          "url": "https://www.spanishdict.com/translate/guapa",
+          "is_source_local": false,
+          "is_source_both": false,
+          "description": "Translate <strong>Guapa</strong>. See 18 authoritative translations of <strong>Guapa</strong> in English with example sentences, phrases and audio pronunciations.",
+          "profile": {
+            "name": "Spanishdict",
+            "url": "https://www.spanishdict.com/translate/guapa",
+            "long_name": "spanishdict.com",
+            "img": "https://imgs.search.brave.com/dg4uHEacBJMBHQ7n0ZiXYOyVE2A6HFCunNdbtURUJbw/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYjk0ZTFhYWRm/NWVkYjU0NDU3Nzkx/NGZhMzY3NWFkNjBj/OWU3NWUzNmFjYjY2/NGNlMDU0MTlhYTI2/YTMzOGY1My93d3cu/c3BhbmlzaGRpY3Qu/Y29tLw"
+          },
+          "language": "en",
+          "family_friendly": true,
+          "type": "search_result",
+          "subtype": "generic",
+          "meta_url": {
+            "scheme": "https",
+            "netloc": "spanishdict.com",
+            "hostname": "www.spanishdict.com",
+            "favicon": "https://imgs.search.brave.com/dg4uHEacBJMBHQ7n0ZiXYOyVE2A6HFCunNdbtURUJbw/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYjk0ZTFhYWRm/NWVkYjU0NDU3Nzkx/NGZhMzY3NWFkNjBj/OWU3NWUzNmFjYjY2/NGNlMDU0MTlhYTI2/YTMzOGY1My93d3cu/c3BhbmlzaGRpY3Qu/Y29tLw",
+            "path": "  › spanishdictionary.com  › translate  › guapa"
+          },
+          "thumbnail": {
+            "src": "https://imgs.search.brave.com/DsBPAj6YW0ptOX2jFpyq4i9fArd8hUjC6NbTwp7g7tY/rs:fit:200:200:1/g:ce/aHR0cHM6Ly9kMXE0/a3NoZjZmMGF4aS5j/bG91ZGZyb250Lm5l/dC9pbWcvY29tbW9u/L2xvZ28tc3F1YXJl/LW1lZGl1bS5wbmc",
+            "original": "https://d1q4kshf6f0axi.cloudfront.net/img/common/logo-square-medium.png",
+            "logo": true
+          },
+          "extra_snippets": [
+            "Aún en su vejez esa actriz es muy guapa.Even in her old age that actress is very beautiful.",
+            "Su novia es muy guapa y tiene muy buen tipo.His girlfriend is very pretty and has a very nice figure.",
+            "Elena tiene una casa muy guapa.Elena has a really nice house.",
+            "Todos dicen que Lola es la guapa de las tres hermanas.Everyone says that Lola is the pretty one of the three sisters."
+          ]
+        },
+        {
+          "title": "uso de palabras - Can 'guapa' be used in a friendly way? - Spanish ...",
+          "url": "https://spanish.stackexchange.com/questions/28400/can-guapa-be-used-in-a-friendly-way",
+          "is_source_local": false,
+          "is_source_both": false,
+          "description": "My boyfriend is Spanish. He&#x27;s been messaging another girl constantly and he has said &#x27;<strong>guapa</strong>&#x27; to her quite a lot. When I confronted him about this, he said that &#x27;<strong>guapa</strong>&#x27; does mean &quot;pretty&quot;/&quot;beautifu...",
+          "page_age": "2019-01-21T00:00:00",
+          "profile": {
+            "name": "Stackexchange",
+            "url": "https://spanish.stackexchange.com/questions/28400/can-guapa-be-used-in-a-friendly-way",
+            "long_name": "spanish.stackexchange.com",
+            "img": "https://imgs.search.brave.com/4WA1M5BgYNhyXhC1v3Zu5V1C36ps6OrGiHo2-lsCDnQ/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvODhkYzhkNWNj/NDA4YzE5ODRjMjM3/MmYyMjRjZjJmMmNm/NzkwZjkxMjVkNWZl/NzU5YTBlYTI5MTRj/NzZkZTAyOS9zcGFu/aXNoLnN0YWNrZXhj/aGFuZ2UuY29tLw"
+          },
+          "language": "en",
+          "family_friendly": true,
+          "type": "search_result",
+          "subtype": "qa",
+          "meta_url": {
+            "scheme": "https",
+            "netloc": "spanish.stackexchange.com",
+            "hostname": "spanish.stackexchange.com",
+            "favicon": "https://imgs.search.brave.com/4WA1M5BgYNhyXhC1v3Zu5V1C36ps6OrGiHo2-lsCDnQ/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvODhkYzhkNWNj/NDA4YzE5ODRjMjM3/MmYyMjRjZjJmMmNm/NzkwZjkxMjVkNWZl/NzU5YTBlYTI5MTRj/NzZkZTAyOS9zcGFu/aXNoLnN0YWNrZXhj/aGFuZ2UuY29tLw",
+            "path": "› questions  › 28400  › can-guapa-be-used-in-a-friendly-way"
+          },
+          "thumbnail": {
+            "src": "https://imgs.search.brave.com/5jcJbO-0Hgn95v6o-DkVJH5fv8wpvC_LGRRqURNTo3I/rs:fit:200:200:1/g:ce/aHR0cHM6Ly9jZG4u/c3N0YXRpYy5uZXQv/U2l0ZXMvc3Bhbmlz/aC9JbWcvYXBwbGUt/dG91Y2gtaWNvbkAy/LnBuZz92PTc2MTYy/OGQzYTA3OA",
+            "original": "https://cdn.sstatic.net/Sites/spanish/Img/apple-touch-icon@2.png?v=761628d3a078",
+            "logo": false
+          },
+          "age": "January 21, 2019",
+          "qa": {
+            "question": "Can 'guapa' be used in a friendly way?",
+            "answer": {
+              "text": "<html><body><p>\"Guapa\", in its more common sense, means \"pretty\", beautiful\" and it is indeed used as a compliment. As such, it can be used in several ways.</p>\n<ul>\n<li>It <em>can</em> be used in a friendly way. I myself use it with my female friends now and then just to cheer them up, especially when first greeting them:  \n\n<blockquote>\n<p><em>(FRIEND)—¡Hola walen! Dile a tu mujer que ayer se dejó aquí el chaquetón. (ME)—¡Hola guapa! Claro, se lo diré. ¡Gracias!</em><br/>\n  (FRIEND)—Hi walen! Tell your wife she left her coat here yesterday. (ME)—Hi pretty! Sure, I'll tell her. Thanks!</p>\n</blockquote></li>\n</ul>\n<p>       In this sense, it is maybe akin to \"honey\", as in \"Hi honey!\", though I'm not sure if that's considered \"friendly\" either in e.g. US culture.</p>\n<ul>\n<li>It can be used in a neutral way, i.e. literally tell someone that she is beautiful:  \n\n<blockquote>\n<p><em>—¿Qué tal me queda este vestido? —Muy bien, estás muy guapa.</em><br/>\n  —How do I look in this dress? —Very good, you look beautiful.</p>\n<p><em>—No sé si pasaré la audición. —Seguro que sí: eres guapa, cantas realmente bien... Se pelearán por ti.</em><br/>\n  — I don't know if I'll pass the audition. —Sure you'll do: you're beautiful, you sing really good... They'll fight over you.</p>\n</blockquote></li>\n</ul>\n<p>       (Notice that we say \"estás guapa\" to mean someone <em>looks</em> beautiful, or \"eres guapa\" to mean someone <em>is</em> beautiful.)</p>\n<ul>\n<li>And of course, it <em>can</em> be used to hit on someone:  \n\n<blockquote>\n<p><em>—¡Hola! ¿Qué hace una chica tan guapa aquí sola?</em><br/>\n  —Hi! What's such a beautiful girl doing here all alone?</p>\n<p><em>—Ayer estabas muy guapa, no se me va tu imagen de la cabeza.</em><br/>\n  —You looked very beautiful last night, I can't get your image out of my head.</p>\n</blockquote></li>\n</ul>\n<p>So, to answer your question: <strong>yes, \"guapa\" <em>can</em> be used in a friendly way, but that is not the only way it is used.</strong></p>\n<p>Sadly, the intention behind a compliment is kind of outside the scope of this forum.  </p></body></html>",
+              "author": "user13628",
+              "upvoteCount": 7
+            }
+          },
+          "extra_snippets": [
+            "Yes, words such as \"guapa\" or \"preciosa\" or similar ones can be used in a friendly way. I've used them with friends I've never had the intention to flirt with. But that's just the answer to your linguistic question. With this information I suggest you to ask in the Interpersonal skills site about what to do about your relationship to solve the question you are really concerned about.",
+            "El contexto es importante para poder determinar cuál es la intención; ¿el novio usa la palabra guapa cuando saluda a toda mujer? o solo cuando habla con alguna(s) en particular? El asunto como lo plantea deja de ser semántico y es más un asunto de relaciones interpersonales y de pareja. En películas hechas en España he escuchado con frecuencia la expresión guapa para saludar amistosamente a una mujer sin más connotaciones.",
+            "My boyfriend is Spanish. He's been messaging another girl constantly and he has said 'guapa' to her quite a lot. When I confronted him about this, he said that 'guapa' does mean \"pretty\"/\"beautifu...",
+            "When I confronted him about this, he said that 'guapa' does mean \"pretty\"/\"beautiful\" but that all Spanish people use it in a generic way and he doesn't actually mean to call her beautiful. Is that so?"
+          ]
+        },
+        {
+          "title": "Definition Guapo, guapa | Hotel Borbollón",
+          "url": "https://www.gymglish.com/en/hotel-borbollon/spanish-vocabulary/guapo-guapa",
+          "is_source_local": false,
+          "is_source_both": false,
+          "description": "🌎 Definition: Guapo, <strong>guapa</strong> - with Hotel Borbollón, online personalized daily Spanish lessons for all levels. Free test.",
+          "profile": {
+            "name": "Gymglish",
+            "url": "https://www.gymglish.com/en/hotel-borbollon/spanish-vocabulary/guapo-guapa",
+            "long_name": "gymglish.com",
+            "img": "https://imgs.search.brave.com/ao45iVUcxnQLKNh2zG9NYctMAXDJVWGWnXTa2vL2HnE/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNzdlNTY1ZWMx/NTQ0ZjI3MjYzYjNh/MDFjMDE2OWNkODg2/Y2NiOGFhYzliMzhm/M2JmNzhkNWNiMTRi/MTkyNmI1ZC93d3cu/Z3ltZ2xpc2guY29t/Lw"
+          },
+          "language": "en",
+          "family_friendly": true,
+          "type": "search_result",
+          "subtype": "generic",
+          "meta_url": {
+            "scheme": "https",
+            "netloc": "gymglish.com",
+            "hostname": "www.gymglish.com",
+            "favicon": "https://imgs.search.brave.com/ao45iVUcxnQLKNh2zG9NYctMAXDJVWGWnXTa2vL2HnE/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNzdlNTY1ZWMx/NTQ0ZjI3MjYzYjNh/MDFjMDE2OWNkODg2/Y2NiOGFhYzliMzhm/M2JmNzhkNWNiMTRi/MTkyNmI1ZC93d3cu/Z3ltZ2xpc2guY29t/Lw",
+            "path": "  › accueil  › learn spanish online  › learning spanish vocabulary with hotel borbollón  › guapo, guapa"
+          },
+          "extra_snippets": [
+            "Still having difficulties with 'Guapo, guapa'? Test our online Spanish lessons and receive a free level assessment!",
+            "🌎 Definition: Guapo, guapa - with Hotel Borbollón, online personalized daily Spanish lessons for all levels. Free test."
+          ]
+        },
+        {
+          "title": "Guapa by Saleem Haddad",
+          "url": "https://www.amazon.com/Guapa-Saleem-Haddad/dp/153661789X",
+          "is_source_local": false,
+          "is_source_both": false,
+          "description": "One night Rasa&#x27;s grandmother - the woman who raised him - catches them in bed together. The following day Rasa is consumed by the search for his best friend, Maj, a fiery activist and drag queen star of the underground bar <strong>Guapa</strong>, who has been arrested by the police.",
+          "profile": {
+            "name": "Amazon",
+            "url": "https://www.amazon.com/Guapa-Saleem-Haddad/dp/153661789X",
+            "long_name": "amazon.com",
+            "img": "https://imgs.search.brave.com/FCUnESg6bR8ppf8M-Sfl_r-lrnXkf-3FBfrX0rcFabc/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvODYwYzA4NzE1/OTE2NzM1YTQ1OWNj/Zjg0MmI0Y2U2YzI2/ODE5NmZhNGZjODA4/N2Y0NmI1ZmU4ZWQy/ZmM2MjdmMS93d3cu/YW1hem9uLmNvbS8"
+          },
+          "language": "en",
+          "family_friendly": true,
+          "type": "search_result",
+          "subtype": "generic",
+          "meta_url": {
+            "scheme": "https",
+            "netloc": "amazon.com",
+            "hostname": "www.amazon.com",
+            "favicon": "https://imgs.search.brave.com/FCUnESg6bR8ppf8M-Sfl_r-lrnXkf-3FBfrX0rcFabc/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvODYwYzA4NzE1/OTE2NzM1YTQ1OWNj/Zjg0MmI0Y2U2YzI2/ODE5NmZhNGZjODA4/N2Y0NmI1ZmU4ZWQy/ZmM2MjdmMS93d3cu/YW1hem9uLmNvbS8",
+            "path": "› Guapa-Saleem-Haddad  › dp  › 153661789X"
+          },
+          "extra_snippets": [
+            "One night Rasa's grandmother - the woman who raised him - catches them in bed together. The following day Rasa is consumed by the search for his best friend, Maj, a fiery activist and drag queen star of the underground bar Guapa, who has been arrested by the police.",
+            "So, Rasa, descends further into despair and submits to tatemae (false societal pretense). Even the friendly, familiar confines of Guapa, where he goes prior to the wedding, a gay bar that is sometimes shut down, seems only to depress him further, except for the free drinks.",
+            "Even his best friend Taj, who is the star drag queen at Guapa, and who has been arrested and released, but beaten, seems not to understand Rasa. In many ways the life of a young gay male in an Arab country in the early 2000’s reminds me of what it was like to be gay in America in the 60s.",
+            "Her significance is so omnipresent and oppressive that even the reader feels intimidated by her. All-in-all, while not at all compelling, “Guapa”” is an interesting read. You’ll maybe not care much for any of the characters, but hey, who liked Madame Bouvary anyway?"
+          ]
+        },
+        {
+          "title": "Guapa - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Guapa",
+          "is_source_local": false,
+          "is_source_both": false,
+          "description": "<strong>Guapa</strong> (English: Pretty) is the fourth studio album released on April 25, 2006, by Spanish Pop rock band La Oreja de Van Gogh. On December 5, 2006, Más <strong>Guapa</strong> (English: Prettier) was released exclusively in Spain and Mexico. Two months later, on February 13, 2007, the album was also released ...",
+          "page_age": "2023-05-03T13:48:27",
+          "profile": {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Guapa",
+            "long_name": "en.wikipedia.org",
+            "img": "https://imgs.search.brave.com/0kxnVOiqv-faZvOJc7zpym4Zin1CTs1f1svfNZSzmfU/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNjQwNGZhZWY0/ZTQ1YWUzYzQ3MDUw/MmMzMGY3NTQ0ZjNj/NDUwMDk5ZTI3MWRk/NWYyNTM4N2UwOTE0/NTI3ZDQzNy9lbi53/aWtpcGVkaWEub3Jn/Lw"
+          },
+          "language": "en",
+          "family_friendly": true,
+          "type": "search_result",
+          "subtype": "generic",
+          "deep_results": {
+            "buttons": [
+              {
+                "type": "button_result",
+                "title": "Recording",
+                "url": "https://en.wikipedia.org/wiki/Guapa#Recording"
+              },
+              {
+                "type": "button_result",
+                "title": "Album title",
+                "url": "https://en.wikipedia.org/wiki/Guapa#Album_title"
+              },
+              {
+                "type": "button_result",
+                "title": "Track listing",
+                "url": "https://en.wikipedia.org/wiki/Guapa#Track_listing"
+              },
+              {
+                "type": "button_result",
+                "title": "Personnel",
+                "url": "https://en.wikipedia.org/wiki/Guapa#Personnel"
+              },
+              {
+                "type": "button_result",
+                "title": "Charts",
+                "url": "https://en.wikipedia.org/wiki/Guapa#Charts"
+              },
+              {
+                "type": "button_result",
+                "title": "Sales and certifications",
+                "url": "https://en.wikipedia.org/wiki/Guapa#Sales_and_certifications"
+              }
+            ]
+          },
+          "meta_url": {
+            "scheme": "https",
+            "netloc": "en.wikipedia.org",
+            "hostname": "en.wikipedia.org",
+            "favicon": "https://imgs.search.brave.com/0kxnVOiqv-faZvOJc7zpym4Zin1CTs1f1svfNZSzmfU/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNjQwNGZhZWY0/ZTQ1YWUzYzQ3MDUw/MmMzMGY3NTQ0ZjNj/NDUwMDk5ZTI3MWRk/NWYyNTM4N2UwOTE0/NTI3ZDQzNy9lbi53/aWtpcGVkaWEub3Jn/Lw",
+            "path": "› wiki  › Guapa"
+          },
+          "thumbnail": {
+            "src": "https://imgs.search.brave.com/pfQkBVf_BjSSNxBIu2EZ2zBEPlswIw76-qv9TNeiM-4/rs:fit:200:200:1/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvZW4vNi82Mi9H/dWFwYV9jb3Zlci5q/cGc",
+            "original": "https://upload.wikimedia.org/wikipedia/en/6/62/Guapa_cover.jpg",
+            "logo": false
+          },
+          "age": "May 3, 2023",
+          "extra_snippets": [
+            "Guapa (English: Pretty) is the fourth studio album released on April 25, 2006, by Spanish Pop rock band La Oreja de Van Gogh. On December 5, 2006, Más Guapa (English: Prettier) was released exclusively in Spain and Mexico. Two months later, on February 13, 2007, the album was also released in Chile.",
+            "On December 5, 2006, Más Guapa (English: Prettier) was released exclusively in Spain and Mexico. Two months later, on February 13, 2007, the album was also released in Chile. Más Guapa includes a second disc of previously unreleased material from the Guapa sessions, as well as from recording sessions of previous albums.",
+            "Two months later, on February 13, 2007, the album was also released in Chile. Más Guapa includes a second disc of previously unreleased material from the Guapa sessions, as well as from recording sessions of previous albums. The album won a Latin Grammy Award for Best Pop Album By a Duo or Group.",
+            "Más Guapa includes a second disc of previously unreleased material from the Guapa sessions, as well as from recording sessions of previous albums. The album won a Latin Grammy Award for Best Pop Album By a Duo or Group. Guapa is the band's last album with Amaia Montero as lead singer."
+          ]
+        },
+        {
+          "title": "Bonita vs hermosa vs guapa? | Learn Spanish",
+          "url": "https://preply.com/en/question/bonita-vs-hermosa-vs-guapa-50629",
+          "is_source_local": false,
+          "is_source_both": false,
+          "description": "Which one is for cosas and which one is for mujeres? What&#x27;s the difference?",
+          "page_age": "2020-08-28T22:22:05",
+          "profile": {
+            "name": "Preply",
+            "url": "https://preply.com/en/question/bonita-vs-hermosa-vs-guapa-50629",
+            "long_name": "preply.com",
+            "img": "https://imgs.search.brave.com/axJiXcxtGbXx_qQWEo_FZBazluoe06rjBo8qUACwN9A/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMDVmN2ViZjEz/YTZiMjBiYjk5Mjcy/MjI5ZWUxM2Q3YmZh/NWUwYTBkZDcwM2U3/ZDcxZTY0NmRkZDkz/MTE3YTYwOS9wcmVw/bHkuY29tLw"
+          },
+          "language": "en",
+          "family_friendly": true,
+          "type": "search_result",
+          "subtype": "qa",
+          "meta_url": {
+            "scheme": "https",
+            "netloc": "preply.com",
+            "hostname": "preply.com",
+            "favicon": "https://imgs.search.brave.com/axJiXcxtGbXx_qQWEo_FZBazluoe06rjBo8qUACwN9A/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvMDVmN2ViZjEz/YTZiMjBiYjk5Mjcy/MjI5ZWUxM2Q3YmZh/NWUwYTBkZDcwM2U3/ZDcxZTY0NmRkZDkz/MTE3YTYwOS9wcmVw/bHkuY29tLw",
+            "path": "  › home  › spanish  › bonita vs hermosa vs guapa?"
+          },
+          "age": "August 28, 2020",
+          "qa": {
+            "question": "Bonita vs hermosa vs guapa?",
+            "answer": {
+              "text": "<html><body><p>Hello Rosa, \nGuapa is very commonly used in Spain, you can used to refer to a beautiful woman, and also can be used by friends the same as “girl” ex, “ How are you doing girl?” “ ¿Que tal estás guapa?”\nHermosa and Bonita can be used as well for people but usually are often used to things, landscapes.</p></body></html>",
+              "author": "Vanessa",
+              "upvoteCount": 10
+            }
+          },
+          "extra_snippets": [
+            "Bonita and guapa are very common, and are used to describe things, and women. It's very common to call and address an acquaintance as 'guapa', and even shopkeepers, or waiters will even address you, and greet you in this way! I live in a rural area and this is normal, and not considered to be overly friendly or strange.",
+            "Hello Rosa, Guapa is very commonly used in Spain, you can used to refer to a beautiful woman, and also can be used by friends the same as “girl” ex, “ How are you doing girl?” “ ¿Que tal estás guapa?” Hermosa and Bonita can be used as well for people but usually are often used to things, landscapes.",
+            "Which one is for cosas and which one is for mujeres? What's the difference?"
+          ]
+        },
+        {
+          "title": "What does guapa mean? | SpanishDictionary.com Answers",
+          "url": "https://www.spanishdict.com/answers/4945/what-does-guapa-mean",
+          "is_source_local": false,
+          "is_source_both": false,
+          "description": "When a man tells a woman she&#x27;s <strong>guapa</strong>, is he saying she&#x27;s simply attractive or that she&#x27;s pretty. It may seem dumb - but to me, there&#x27;s a difference between the two and being called pretty is really great. There are degrees of compliments. Ie: cute, a...",
+          "page_age": "2017-03-04T00:00:00",
+          "profile": {
+            "name": "Spanishdict",
+            "url": "https://www.spanishdict.com/answers/4945/what-does-guapa-mean",
+            "long_name": "spanishdict.com",
+            "img": "https://imgs.search.brave.com/dg4uHEacBJMBHQ7n0ZiXYOyVE2A6HFCunNdbtURUJbw/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYjk0ZTFhYWRm/NWVkYjU0NDU3Nzkx/NGZhMzY3NWFkNjBj/OWU3NWUzNmFjYjY2/NGNlMDU0MTlhYTI2/YTMzOGY1My93d3cu/c3BhbmlzaGRpY3Qu/Y29tLw"
+          },
+          "language": "en",
+          "family_friendly": true,
+          "type": "search_result",
+          "subtype": "generic",
+          "meta_url": {
+            "scheme": "https",
+            "netloc": "spanishdict.com",
+            "hostname": "www.spanishdict.com",
+            "favicon": "https://imgs.search.brave.com/dg4uHEacBJMBHQ7n0ZiXYOyVE2A6HFCunNdbtURUJbw/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYjk0ZTFhYWRm/NWVkYjU0NDU3Nzkx/NGZhMzY3NWFkNjBj/OWU3NWUzNmFjYjY2/NGNlMDU0MTlhYTI2/YTMzOGY1My93d3cu/c3BhbmlzaGRpY3Qu/Y29tLw",
+            "path": "  › spanishdictionary.com  › answers  › what does guapa mean?"
+          },
+          "thumbnail": {
+            "src": "https://imgs.search.brave.com/DsBPAj6YW0ptOX2jFpyq4i9fArd8hUjC6NbTwp7g7tY/rs:fit:200:200:1/g:ce/aHR0cHM6Ly9kMXE0/a3NoZjZmMGF4aS5j/bG91ZGZyb250Lm5l/dC9pbWcvY29tbW9u/L2xvZ28tc3F1YXJl/LW1lZGl1bS5wbmc",
+            "original": "https://d1q4kshf6f0axi.cloudfront.net/img/common/logo-square-medium.png",
+            "logo": true
+          },
+          "age": "March 4, 2017",
+          "extra_snippets": [
+            "When a man tells a woman she's guapa, is he saying she's simply attractive or that she's pretty. It may seem dumb - but to me, there's a difference between the two and being called pretty is really great. There are degrees of compliments. Ie: cute, attractive, pretty, and finally - beautiful.",
+            "Thank you. I was interested in knowing how people perceive guapa as a compliment. Not only on this site, but on other sites as well and the answers have been all over the place. It's pretty funny actually. The reference is for all countries' version of Spanish but I'm specifically interested in Mexico's.",
+            "I'd rather be called guapa than any of the other. A girl can be 'bonita? (beautiful) but not guapa. Guapa is someone who looks 'sexy, appealing, sophisticated? To me for example someone like 'Catherine Zeta Jones? is guapa. I guess bonita is sweeter, but it's more girly, VS. guapa is more woman-ish.",
+            "A girl can be 'bonita? (beautiful) but not guapa. Guapa is someone who looks 'sexy, appealing, sophisticated? To me for example someone like 'Catherine Zeta Jones? is guapa. I guess bonita is sweeter, but it's more girly, VS. guapa is more woman-ish. Know what I mean?"
+          ]
+        },
+        {
+          "title": "guapa - Wiktionary, the free dictionary",
+          "url": "https://en.wiktionary.org/wiki/guapa",
+          "is_source_local": false,
+          "is_source_both": false,
+          "description": "<strong>guapa</strong> · From Wiktionary, the free dictionary · Jump to navigation Jump to search · Contents · 1 Asturian · 1.1 Adjective · 2 Catalan · 2.1 Pronunciation · 2.2 Adjective · 3 Spanish",
+          "profile": {
+            "name": "Wiktionary",
+            "url": "https://en.wiktionary.org/wiki/guapa",
+            "long_name": "en.wiktionary.org",
+            "img": "https://imgs.search.brave.com/kSrIoIQfDYkjlcJ29aESL2BGdfrSyD2cKEy1jhCduQ4/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNGRhMWY0NGNi/NmRhZWY4ODQ1NWEw/ODdmYTRmZDM1OWEy/Mjk4NWZiOGQ2ZDIy/MjE4YzkyZWRiYjI2/OWU5YjI3Zi9lbi53/aWt0aW9uYXJ5Lm9y/Zy8"
+          },
+          "language": "en",
+          "family_friendly": true,
+          "type": "search_result",
+          "subtype": "generic",
+          "meta_url": {
+            "scheme": "https",
+            "netloc": "en.wiktionary.org",
+            "hostname": "en.wiktionary.org",
+            "favicon": "https://imgs.search.brave.com/kSrIoIQfDYkjlcJ29aESL2BGdfrSyD2cKEy1jhCduQ4/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNGRhMWY0NGNi/NmRhZWY4ODQ1NWEw/ODdmYTRmZDM1OWEy/Mjk4NWZiOGQ2ZDIy/MjE4YzkyZWRiYjI2/OWU5YjI3Zi9lbi53/aWt0aW9uYXJ5Lm9y/Zy8",
+            "path": "› wiki  › guapa"
+          }
+        },
+        {
+          "title": "Guapa (disambiguation) - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Guapa_(disambiguation)",
+          "is_source_local": false,
+          "is_source_both": false,
+          "description": "Look up <strong>guapa</strong> in Wiktionary, the free dictionary. <strong>Guapa</strong> is an album released by the band La Oreja de Van Gogh",
+          "page_age": "2023-10-01T16:10:09",
+          "profile": {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Guapa_(disambiguation)",
+            "long_name": "en.wikipedia.org",
+            "img": "https://imgs.search.brave.com/0kxnVOiqv-faZvOJc7zpym4Zin1CTs1f1svfNZSzmfU/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNjQwNGZhZWY0/ZTQ1YWUzYzQ3MDUw/MmMzMGY3NTQ0ZjNj/NDUwMDk5ZTI3MWRk/NWYyNTM4N2UwOTE0/NTI3ZDQzNy9lbi53/aWtpcGVkaWEub3Jn/Lw"
+          },
+          "language": "en",
+          "family_friendly": true,
+          "type": "search_result",
+          "subtype": "generic",
+          "meta_url": {
+            "scheme": "https",
+            "netloc": "en.wikipedia.org",
+            "hostname": "en.wikipedia.org",
+            "favicon": "https://imgs.search.brave.com/0kxnVOiqv-faZvOJc7zpym4Zin1CTs1f1svfNZSzmfU/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvNjQwNGZhZWY0/ZTQ1YWUzYzQ3MDUw/MmMzMGY3NTQ0ZjNj/NDUwMDk5ZTI3MWRk/NWYyNTM4N2UwOTE0/NTI3ZDQzNy9lbi53/aWtpcGVkaWEub3Jn/Lw",
+            "path": "› wiki  › Guapa_(disambiguation)"
+          },
+          "age": "October 1, 2023",
+          "extra_snippets": [
+            "Look up guapa in Wiktionary, the free dictionary. Guapa is an album released by the band La Oreja de Van Gogh",
+            "Guapa is an album released by the band La Oreja de Van Gogh"
+          ]
+        },
+        {
+          "title": "What Does the Spanish Word Guapa/Guapo Mean in English? – Seriously ...",
+          "url": "https://seriouslyspain.com/what-does-the-spanish-word-guapaguapo-mean-in-english",
+          "is_source_local": false,
+          "is_source_both": false,
+          "description": "When I first arrived in Spain, I had several men (and a few women) say to me “<strong>Guapa</strong>“. Both as I walked past them in the street, and when I was buying something in a shop or ordering a drink at a bar — “Hola, <strong>Guapa</strong>!”.",
+          "page_age": "2012-05-23T00:00:00",
+          "profile": {
+            "name": "Seriouslyspain",
+            "url": "https://seriouslyspain.com/what-does-the-spanish-word-guapaguapo-mean-in-english",
+            "long_name": "seriouslyspain.com",
+            "img": "https://imgs.search.brave.com/LDsQ64_vmNyclkS42ItAdw-B0fZv3HHVwoCwhknOYwE/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYWYwMTAzZjFm/Nzc4MWVmYTM3OTRj/YTMzNjA4OTVlYWE0/OGE4ODU3M2U0MjM1/ZmYxNDA3ODI3NDky/NmZlNjJmOS9zZXJp/b3VzbHlzcGFpbi5j/b20v"
+          },
+          "language": "en",
+          "family_friendly": true,
+          "type": "search_result",
+          "subtype": "generic",
+          "meta_url": {
+            "scheme": "https",
+            "netloc": "seriouslyspain.com",
+            "hostname": "seriouslyspain.com",
+            "favicon": "https://imgs.search.brave.com/LDsQ64_vmNyclkS42ItAdw-B0fZv3HHVwoCwhknOYwE/rs:fit:32:32:1/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvYWYwMTAzZjFm/Nzc4MWVmYTM3OTRj/YTMzNjA4OTVlYWE0/OGE4ODU3M2U0MjM1/ZmYxNDA3ODI3NDky/NmZlNjJmOS9zZXJp/b3VzbHlzcGFpbi5j/b20v",
+            "path": "› what-does-the-spanish-word-guapaguapo-mean-in-english"
+          },
+          "age": "May 23, 2012",
+          "extra_snippets": [
+            "When I first arrived in Spain, I had several men (and a few women) say to me “Guapa“. Both as I walked past them in the street, and when I was buying something in a shop or ordering a drink at a bar — “Hola, Guapa!”.",
+            "I soon found out Guapa, (or Guapo, if the word is said to a man), means ‘Beautiful’ or ‘Handsome’ in English. It can also be used to simply mean ‘Hot’.",
+            "Don’t forget too, like most Spanish adjectives, Guapa is easy to use, and can be used in hundreds of different sentences, or even just on its own as an exclamation, “Guapa!”.",
+            "And, if you want to see how Guapa/Guapo is used to talk about someone being ‘hot’, check out the excellent video from Butterfly Spanish for an explanation below."
+          ]
+        }
+      ],
+      "family_friendly": true
+    }
+  }
