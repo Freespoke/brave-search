@@ -14,7 +14,7 @@ import (
 )
 
 func TestWeb(t *testing.T) {
-	svr := getTestServer("testdata/web.json", 200)
+	svr := getTestServer("testdata/web_0.json", 200)
 
 	client, err := brave.New("fake", brave.WithHTTPClient(svr.Client()), brave.WithBaseURL(svr.URL))
 	if err != nil {
