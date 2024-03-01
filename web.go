@@ -39,7 +39,7 @@ type WebSearchResult struct {
 	Discussions *ResultContainer[DiscussionResult] `json:"discussions"`
 	FAQ         any                                `json:"faq"`
 	InfoBox     *ResultContainer[GraphInfoBox]     `json:"infobox"`
-	Locations   any                                `json:"locations"`
+	Locations   *Locations                         `json:"locations"`
 	Mixed       *Mixed                             `json:"mixed"`
 	News        *ResultContainer[NewsResult]       `json:"news"`
 	Query       *Query                             `json:"query"`
