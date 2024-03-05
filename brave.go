@@ -187,30 +187,31 @@ const (
 type SearchOption func(searchOptions) searchOptions
 
 type searchOptions struct {
-	country         string
-	lang            string
-	uiLang          string
 	count           int
-	offset          int
-	safesearch      Safesearch
-	freshness       Freshness
+	country         string
 	customFreshness []time.Time
-	textDecorations bool
-	resultFilter    []ResultFilter
-	gogglesID       string
-	units           UnitType
 	extraSnippets   bool
-	rich            bool
-	noCache         bool
-	userAgent       string
+	freshness       Freshness
+	gogglesID       string
+	lang            string
+	locCity         string
+	locCountry      string
 	locLatitude     *float32
 	locLongitude    *float32
-	locTimezone     *time.Location
-	locCity         string
+	locPostalCode   string
 	locState        string
 	locStateName    string
-	locCountry      string
-	locPostalCode   string
+	locTimezone     *time.Location
+	noCache         bool
+	offset          int
+	resultFilter    []ResultFilter
+	rich            bool
+	safesearch      Safesearch
+	spellcheck      *bool
+	textDecorations bool
+	uiLang          string
+	units           UnitType
+	userAgent       string
 }
 
 func (s searchOptions) getFreshness() string {
@@ -633,6 +634,13 @@ func WithLocCountry(v string) SearchOption {
 func WithLocPostalCode(v string) SearchOption {
 	return func(o searchOptions) searchOptions {
 		o.locPostalCode = v
+		return o
+	}
+}
+
+func WithSpellcheck(v bool) SearchOption {
+	return func(o searchOptions) searchOptions {
+		o.spellcheck = &v
 		return o
 	}
 }

@@ -57,6 +57,7 @@ type webSearchParams struct {
 	ResultFilter    []string `url:"result_filter,omitempty,comma"`
 	Safesearch      string   `url:"safesearch,omitempty"`
 	SearchLang      string   `url:"search_lang,omitempty"`
+	Spellcheck      *bool    `url:"spellcheck,omitempty"`
 	Term            string   `url:"q"`
 	TextDecorations bool     `url:"text_decorations,omitempty"`
 	UILang          string   `url:"ui_lang,omitempty"`
@@ -73,6 +74,7 @@ func (w *webSearchParams) fromSearchOptions(term string, options searchOptions) 
 	w.ResultFilter = options.getResultFilter()
 	w.Safesearch = options.safesearch.String()
 	w.SearchLang = options.lang
+	w.Spellcheck = options.spellcheck
 	w.Term = term
 	w.TextDecorations = options.textDecorations
 	w.UILang = options.uiLang
