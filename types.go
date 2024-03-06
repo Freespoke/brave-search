@@ -631,6 +631,7 @@ func (n *Number) UnmarshalJSON(b []byte) error {
 var (
 	timeFormats = []string{
 		time.RFC3339,
+		"2006-01-02T15:04:05",
 		"January 2, 2006",
 	}
 
