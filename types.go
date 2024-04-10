@@ -267,6 +267,7 @@ type LocationResult struct {
 	Profiles      []DataProvider  `json:"profiles"`
 	Reviews       *Reviews        `json:"reviews"`
 	Pictures      *PictureResults `json:"pictures"`
+	ServesCuisine []string        `json:"serves_cuisine"`
 }
 
 type PostalAddress struct {
