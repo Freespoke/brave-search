@@ -31,7 +31,7 @@ func (b *brave) VideoSearch(ctx context.Context, term string, options ...SearchO
 
 	opts.applyRequestHeaders(b.subscriptionToken, req)
 
-	return handleRequest[VideoSearchResult](ctx, b.client, req)
+	return handleRequest[VideoSearchResult](b.client, req)
 }
 
 type VideoSearchResult struct {

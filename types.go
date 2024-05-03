@@ -42,6 +42,7 @@ type Query struct {
 	MoreResultsAvailable bool      `json:"more_results_available"`
 	CustomLocationLabel  string    `json:"custom_location_label"`
 	RedditCluster        string    `json:"reddit_cluster"`
+	SummaryKey           string    `json:"summary_key"`
 }
 
 type Language struct {
@@ -253,21 +254,23 @@ type ImageProperties struct {
 type LocationResult struct {
 	Result
 
-	Type          string          `json:"type"`
-	ProviderURL   string          `json:"provider_url"`
-	Coordinates   []float32       `json:"coordinates"`
-	ZoomLevel     int             `json:"zoom_level"`
-	Thumbnail     *Thumbnail      `json:"thumbnail"`
-	PostalAddress *PostalAddress  `json:"postal_address"`
-	OpeningHours  *OpeningHours   `json:"opening_hours"`
-	Contact       *Contact        `json:"contact"`
-	PriceRange    string          `json:"price_range"`
-	Rating        *Rating         `json:"rating"`
-	Distance      *Unit           `json:"distance"`
-	Profiles      []DataProvider  `json:"profiles"`
-	Reviews       *Reviews        `json:"reviews"`
-	Pictures      *PictureResults `json:"pictures"`
-	ServesCuisine []string        `json:"serves_cuisine"`
+	Type           string          `json:"type"`
+	ProviderURL    string          `json:"provider_url"`
+	Coordinates    []float32       `json:"coordinates"`
+	ZoomLevel      int             `json:"zoom_level"`
+	Thumbnail      *Thumbnail      `json:"thumbnail"`
+	PostalAddress  *PostalAddress  `json:"postal_address"`
+	OpeningHours   *OpeningHours   `json:"opening_hours"`
+	Contact        *Contact        `json:"contact"`
+	PriceRange     string          `json:"price_range"`
+	Rating         *Rating         `json:"rating"`
+	Distance       *Unit           `json:"distance"`
+	Profiles       []DataProvider  `json:"profiles"`
+	Reviews        *Reviews        `json:"reviews"`
+	Pictures       *PictureResults `json:"pictures"`
+	ServesCuisine  []string        `json:"serves_cuisine"`
+	Timezone       string          `json:"timezone"`
+	TimezoneOffset float32         `json:"timezone_offset"`
 }
 
 type PostalAddress struct {
@@ -446,6 +449,8 @@ type Software struct {
 	IsNPM          bool   `json:"is_npm"`
 	IsPyPi         bool   `json:"is_pypi"`
 }
+
+type SummarizerSearchResult struct{}
 
 type SuggestResult struct {
 	Query       string `json:"string"`

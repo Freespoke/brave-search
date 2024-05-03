@@ -31,7 +31,7 @@ func (b *brave) Spellcheck(ctx context.Context, term string, options ...SearchOp
 
 	opts.applyRequestHeaders(b.subscriptionToken, req)
 
-	return handleRequest[SpellcheckResult](ctx, b.client, req)
+	return handleRequest[SpellcheckResult](b.client, req)
 }
 
 type SpellcheckResult struct {

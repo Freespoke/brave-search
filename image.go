@@ -38,7 +38,7 @@ func (b *brave) ImageSearch(ctx context.Context, term string, options ...SearchO
 
 	opts.applyRequestHeaders(b.subscriptionToken, req)
 
-	return handleRequest[ImageSearchResult](ctx, b.client, req)
+	return handleRequest[ImageSearchResult](b.client, req)
 }
 
 type ImageSearchResult struct {
