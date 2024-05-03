@@ -31,7 +31,7 @@ func (b *brave) WebSearch(ctx context.Context, term string, options ...SearchOpt
 
 	opts.applyRequestHeaders(b.subscriptionToken, req)
 
-	return handleRequest[WebSearchResult](ctx, b.client, req)
+	return handleRequest[WebSearchResult](b.client, req)
 }
 
 type WebSearchResult struct {

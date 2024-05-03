@@ -31,7 +31,7 @@ func (b *brave) SuggestSearch(ctx context.Context, term string, options ...Searc
 
 	opts.applyRequestHeaders(b.subscriptionToken, req)
 
-	return handleRequest[SuggestSearchResult](ctx, b.client, req)
+	return handleRequest[SuggestSearchResult](b.client, req)
 }
 
 type SuggestSearchResult struct {

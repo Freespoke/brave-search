@@ -1,12 +1,11 @@
 package brave
 
 import (
-	"context"
 	"encoding/json"
 	"net/http"
 )
 
-func handleRequest[T any](ctx context.Context, client *http.Client, req *http.Request) (*T, error) {
+func handleRequest[T any](client *http.Client, req *http.Request) (*T, error) {
 	res, err := client.Do(req)
 	if err != nil {
 		return nil, err

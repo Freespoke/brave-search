@@ -9,7 +9,6 @@ import (
 )
 
 const (
-	apiVersion        = "2023-10-18"
 	defaultBaseURL    = "https://api.search.brave.com/res/v1/"
 	imageSearchPath   = "images/search"
 	spellcheckPath    = "spellcheck/search"
@@ -34,6 +33,9 @@ type Brave interface {
 
 	// VideoSearch returns video search results.
 	VideoSearch(ctx context.Context, term string, options ...SearchOption) (*VideoSearchResult, error)
+
+	// SummarizerSearch returns AI summaries of a search result.
+	SummarizerSearch(ctx context.Context, key string, options ...SearchOption) (*SummarizerSearchResult, error)
 }
 
 type brave struct {
@@ -212,6 +214,7 @@ type searchOptions struct {
 	uiLang          string
 	units           UnitType
 	userAgent       string
+	apiVersion      string
 }
 
 func (s searchOptions) getFreshness() string {
@@ -286,6 +289,10 @@ func (s searchOptions) applyRequestHeaders(subscriptionToken string, req *http.R
 
 	if s.locPostalCode != "" {
 		req.Header.Add("X-Loc-Postal-Code", s.locPostalCode)
+	}
+
+	if s.apiVersion != "" {
+		req.Header.Add("Api-Version", s.apiVersion)
 	}
 }
 
@@ -638,9 +645,18 @@ func WithLocPostalCode(v string) SearchOption {
 	}
 }
 
+// WithSpellcheck toggles spellchecking on or off.
 func WithSpellcheck(v bool) SearchOption {
 	return func(o searchOptions) searchOptions {
 		o.spellcheck = &v
+		return o
+	}
+}
+
+// WithAPIVersion specifies the version of the API to use for a request.
+func WithAPIVersion(v string) SearchOption {
+	return func(o searchOptions) searchOptions {
+		o.apiVersion = v
 		return o
 	}
 }
