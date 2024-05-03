@@ -9,12 +9,13 @@ import (
 )
 
 const (
-	defaultBaseURL    = "https://api.search.brave.com/res/v1/"
-	imageSearchPath   = "images/search"
-	spellcheckPath    = "spellcheck/search"
-	suggestSearchPath = "suggest/search"
-	videoSearchPath   = "videos/search"
-	webSearchPath     = "web/search"
+	defaultBaseURL       = "https://api.search.brave.com/res/v1/"
+	imageSearchPath      = "images/search"
+	spellcheckPath       = "spellcheck/search"
+	suggestSearchPath    = "suggest/search"
+	videoSearchPath      = "videos/search"
+	webSearchPath        = "web/search"
+	summarizerSearchPath = "summarizer/search"
 )
 
 // Brave is an interface for fetching results from the Brave Search API.
@@ -215,6 +216,8 @@ type searchOptions struct {
 	units           UnitType
 	userAgent       string
 	apiVersion      string
+	summary         bool
+	entityInfo      bool
 }
 
 func (s searchOptions) getFreshness() string {
@@ -646,6 +649,10 @@ func WithLocPostalCode(v string) SearchOption {
 }
 
 // WithSpellcheck toggles spellchecking on or off.
+//
+// Refer to [Query Parameters] for more detail.
+//
+// [Query Parameters]: https://api.search.brave.com/app/documentation/query
 func WithSpellcheck(v bool) SearchOption {
 	return func(o searchOptions) searchOptions {
 		o.spellcheck = &v
@@ -654,9 +661,41 @@ func WithSpellcheck(v bool) SearchOption {
 }
 
 // WithAPIVersion specifies the version of the API to use for a request.
+//
+// Refer to [Query Headers] for more detail.
+//
+// [Query Headers]: https://api.search.brave.com/app/documentation/headers
 func WithAPIVersion(v string) SearchOption {
 	return func(o searchOptions) searchOptions {
 		o.apiVersion = v
+		return o
+	}
+}
+
+// WithSummary specifies whether a summary key should be requested.
+//
+// Applicable to [Brave.WebSearch].
+//
+// Refer to [Query Parameters] for more detail.
+//
+// [Query Parameters]: https://api.search.brave.com/app/documentation/query
+func WithSummary(v bool) SearchOption {
+	return func(o searchOptions) searchOptions {
+		o.summary = v
+		return o
+	}
+}
+
+// WithEntityInfo specifies whether entity information should be returned
+//
+// Applicable to [Brave.SummarizerSearch].
+//
+// Refer to [Query Parameters] for more detail.
+//
+// [Query Parameters]: https://api.search.brave.com/app/documentation/query
+func WithEntityInfo(v bool) SearchOption {
+	return func(o searchOptions) searchOptions {
+		o.entityInfo = v
 		return o
 	}
 }

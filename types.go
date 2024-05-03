@@ -171,7 +171,7 @@ type SearchResult struct {
 	Rating      *Rating         `json:"rating"`
 	Article     *Article        `json:"article"`
 	// Product     any             `json:"product"`
-	// ProductCluster []any `json:"product_cluster"`
+	ProductCluster []Product       `json:"product_cluster"`
 	ClusterType    string          `json:"cluster_type"`
 	Cluster        []Result        `json:"cluster"`
 	CreativeWork   *CreativeWork   `json:"creative_work"`
@@ -239,6 +239,7 @@ type Image struct {
 	Thumbnail  *Thumbnail       `json:"thumbnail"`
 	URL        string           `json:"url"`
 	Properties *ImageProperties `json:"properties"`
+	Text       string           `json:"text"`
 }
 
 type ImageProperties struct {
@@ -408,15 +409,15 @@ type Price struct {
 type Article struct {
 	Author              []Person      `json:"author"`
 	Date                string        `json:"date"`
-	Publisher           *Organization `json:"organization"`
+	Publisher           *Organization `json:"publisher"`
 	Thumbnail           *Thumbnail    `json:"thumbnail"`
 	IsAccessibleForFree bool          `json:"isAccessibleForFree"`
 }
 
 type Organization struct {
-	Person
-
-	Type string `json:"type"`
+	Type      string     `json:"type"`
+	Name      string     `json:"name"`
+	Thumbnail *Thumbnail `json:"thumbnail"`
 }
 
 type CreativeWork struct {
@@ -450,7 +451,49 @@ type Software struct {
 	IsPyPi         bool   `json:"is_pypi"`
 }
 
-type SummarizerSearchResult struct{}
+type Summarizer struct {
+	Type string `json:"type"`
+	Key  string `json:"key"`
+}
+
+type SummaryMessage struct {
+	Type string `json:"type"`
+	Data string `json:"data"`
+}
+
+type SummaryEnrichments struct {
+	Raw      string           `json:"raw"`
+	Images   []Image          `json:"images"`
+	QA       []SummaryAnswer  `json:"qa"`
+	Entities []SummaryEntity  `json:"entities"`
+	Context  []SummaryContext `json:"context"`
+}
+
+type SummaryAnswer struct {
+	Answer    string        `json:"answer"`
+	Score     float32       `json:"score"`
+	Highlight *TextLocation `json:"highlight"`
+}
+
+type SummaryEntity struct {
+	UUID      string         `json:"uuid"`
+	Name      string         `json:"name"`
+	URL       string         `json:"url"`
+	Text      string         `json:"text"`
+	Images    []Image        `json:"images"`
+	Highlight []TextLocation `json:"highlight"`
+}
+
+type SummaryContext struct {
+	Title   string   `json:"title"`
+	URL     string   `json:"url"`
+	MetaURL *MetaURL `json:"meta_url"`
+}
+
+type TextLocation struct {
+	Start Number `json:"start"`
+	End   Number `json:"end"`
+}
 
 type SuggestResult struct {
 	Query       string `json:"string"`
@@ -497,6 +540,22 @@ type GraphInfoBox struct {
 	Distance        *Unit          `json:"distance"`
 	Images          []Thumbnail    `json:"images"`
 	Movie           *MovieData     `json:"movie"`
+}
+
+type Product struct {
+	Type        string     `json:"type"`
+	Name        string     `json:"name"`
+	Price       string     `json:"price"`
+	Thumbnail   *Thumbnail `json:"thumbnail"`
+	Description string     `json:"description"`
+	Offers      []Offer    `json:"offers"`
+	Rating      *Rating    `json:"rating"`
+}
+
+type Offer struct {
+	URL           string `json:"url"`
+	Price         string `json:"price"`
+	PriceCurrency string `json:"priceCurrency"`
 }
 
 type ErrorResponse struct {
