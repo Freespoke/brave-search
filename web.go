@@ -37,14 +37,15 @@ func (b *brave) WebSearch(ctx context.Context, term string, options ...SearchOpt
 type WebSearchResult struct {
 	Type        string                             `json:"type"`
 	Discussions *ResultContainer[DiscussionResult] `json:"discussions"`
-	FAQ         any                                `json:"faq"`
+	FAQ         *ResultContainer[QA]               `json:"faq"`
 	InfoBox     *ResultContainer[GraphInfoBox]     `json:"infobox"`
-	Locations   *Locations                         `json:"locations"`
+	Locations   *ResultContainer[LocationResult]   `json:"locations"`
 	Mixed       *Mixed                             `json:"mixed"`
 	News        *ResultContainer[NewsResult]       `json:"news"`
 	Query       *Query                             `json:"query"`
 	Videos      *ResultContainer[VideoResult]      `json:"videos"`
 	Web         *ResultContainer[SearchResult]     `json:"web"`
+	Summarizer  *Summarizer                        `json:"summarizer"`
 }
 
 type webSearchParams struct {
@@ -62,6 +63,7 @@ type webSearchParams struct {
 	TextDecorations bool     `url:"text_decorations,omitempty"`
 	UILang          string   `url:"ui_lang,omitempty"`
 	Units           string   `url:"units,omitempty"`
+	Summary         bool     `url:"summary,omitempty"`
 }
 
 func (w *webSearchParams) fromSearchOptions(term string, options searchOptions) {
@@ -79,4 +81,5 @@ func (w *webSearchParams) fromSearchOptions(term string, options searchOptions) 
 	w.TextDecorations = options.textDecorations
 	w.UILang = options.uiLang
 	w.Units = options.units.String()
+	w.Summary = options.summary
 }
