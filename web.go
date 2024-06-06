@@ -35,17 +35,18 @@ func (b *brave) WebSearch(ctx context.Context, term string, options ...SearchOpt
 }
 
 type WebSearchResult struct {
-	Type        string                             `json:"type"`
-	Discussions *ResultContainer[DiscussionResult] `json:"discussions"`
-	FAQ         *ResultContainer[QA]               `json:"faq"`
-	InfoBox     *ResultContainer[GraphInfoBox]     `json:"infobox"`
-	Locations   *ResultContainer[LocationResult]   `json:"locations"`
-	Mixed       *Mixed                             `json:"mixed"`
-	News        *ResultContainer[NewsResult]       `json:"news"`
-	Query       *Query                             `json:"query"`
-	Videos      *ResultContainer[VideoResult]      `json:"videos"`
-	Web         *ResultContainer[SearchResult]     `json:"web"`
-	Summarizer  *Summarizer                        `json:"summarizer"`
+	Type                 string                             `json:"type"`
+	MoreResultsAvailable bool                               `json:"more_results_available"`
+	Discussions          *ResultContainer[DiscussionResult] `json:"discussions"`
+	FAQ                  *ResultContainer[QA]               `json:"faq"`
+	InfoBox              *ResultContainer[GraphInfoBox]     `json:"infobox"`
+	Locations            *ResultContainer[LocationResult]   `json:"locations"`
+	Mixed                *Mixed                             `json:"mixed"`
+	News                 *ResultContainer[NewsResult]       `json:"news"`
+	Query                *Query                             `json:"query"`
+	Videos               *ResultContainer[VideoResult]      `json:"videos"`
+	Web                  *ResultContainer[SearchResult]     `json:"web"`
+	Summarizer           *Summarizer                        `json:"summarizer"`
 }
 
 type webSearchParams struct {
