@@ -571,6 +571,32 @@ func (er ErrorResponse) Error() string {
 	return er.Detail
 }
 
+func (er ErrorResponse) Format(f fmt.State, c rune) {
+	switch c {
+	case 'v':
+		if f.Flag('+') {
+			meta := make([]string, 0, len(er.Meta.Errors))
+			for _, e := range er.Meta.Errors {
+				meta = append(meta,
+					fmt.Sprintf(
+						"(type [%s]; loc [%s]; input [%s]; msg [%s])",
+						e.Type, strings.Join(e.Loc, "."), e.Input, e.Message))
+			}
+
+			fmt.Fprintf(f, "error: %s (ID: %s; Status: %d; Code: %s); details: %s",
+				er.Detail, er.ID, er.Status, er.Code, strings.Join(meta, ", "))
+		} else {
+			fmt.Fprint(f, er.Detail)
+		}
+	case 's':
+		fmt.Fprint(f, er.Detail)
+	case 'q':
+		fmt.Fprintf(f, "%q", er.Detail)
+	default:
+		fmt.Fprint(f, er.Detail)
+	}
+}
+
 type ErrorMeta struct {
 	Component string           `json:"component"`
 	Errors    []ErrorMetaError `json:"errors"`
@@ -581,6 +607,7 @@ type ErrorMetaError struct {
 	Message string       `json:"msg"`
 	Type    string       `json:"type"`
 	Context ErrorContext `json:"ctx"`
+	Input   string       `json:"input"`
 }
 
 type ErrorContext struct {

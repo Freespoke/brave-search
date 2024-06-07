@@ -2,9 +2,11 @@ package brave_test
 
 import (
 	"encoding/json"
+	"fmt"
 	"testing"
 
 	"dev.freespoke.com/brave-search"
+	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
 
@@ -21,3 +23,18 @@ func TestTimestampUnmarshal(t *testing.T) {
 		require.False(t, ts.Time().IsZero(), c)
 	}
 }
+
+func TestErrorResponse(t *testing.T) {
+	var resp brave.ErrorResponse
+	if err := json.Unmarshal(errJSON, &resp); err != nil {
+		t.Fatal(err)
+	}
+
+	p := fmt.Sprintf("%+v", resp)
+	assert.Equal(t,
+		"error: Unable to validate request parameter(s) (ID: f49c8ffa-5ddc-4fbf-9841-6b3093c21eb2; Status: 422; Code: VALIDATION); details: (type [int_parsing]; loc [query.offset]; input [foo]; msg [Input should be a valid integer, unable to parse string as an integer])",
+		p,
+	)
+}
+
+var errJSON = []byte(`{"id": "f49c8ffa-5ddc-4fbf-9841-6b3093c21eb2","status": 422,"code": "VALIDATION","detail": "Unable to validate request parameter(s)","meta": {"errors": [{"type": "int_parsing","loc": ["query","offset"],"msg": "Input should be a valid integer, unable to parse string as an integer","input": "foo"}]}}`)
