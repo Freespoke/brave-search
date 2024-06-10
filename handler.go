@@ -20,6 +20,7 @@ func handleRequest[T any](client *http.Client, req *http.Request) (*T, error) {
 		}
 
 		resp.Error.Time = resp.Time
+		resp.Error.RawQuery = req.URL.RawQuery
 		return nil, resp.Error
 	}
 

@@ -559,12 +559,13 @@ type Offer struct {
 }
 
 type ErrorResponse struct {
-	ID     string     `json:"id"`
-	Status int        `json:"status"`
-	Code   string     `json:"code"`
-	Detail string     `json:"detail"`
-	Meta   ErrorMeta  `json:"meta"`
-	Time   *Timestamp `json:"-"`
+	ID       string     `json:"id"`
+	Status   int        `json:"status"`
+	Code     string     `json:"code"`
+	Detail   string     `json:"detail"`
+	Meta     ErrorMeta  `json:"meta"`
+	RawQuery string     `json:"raw_query"`
+	Time     *Timestamp `json:"-"`
 }
 
 func (er ErrorResponse) Error() string {
@@ -583,8 +584,8 @@ func (er ErrorResponse) Format(f fmt.State, c rune) {
 						e.Type, strings.Join(e.Loc, "."), e.Input, e.Message))
 			}
 
-			fmt.Fprintf(f, "error: %s (ID: %s; Status: %d; Code: %s); details: %s",
-				er.Detail, er.ID, er.Status, er.Code, strings.Join(meta, ", "))
+			fmt.Fprintf(f, "error: %s (ID: %s; Status: %d; Code: %s RawQuery: %s); details: %s",
+				er.Detail, er.ID, er.Status, er.Code, strings.Join(meta, ", "), er.RawQuery)
 		} else {
 			fmt.Fprint(f, er.Detail)
 		}
