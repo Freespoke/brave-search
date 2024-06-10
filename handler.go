@@ -21,7 +21,7 @@ func handleRequest[T any](client *http.Client, req *http.Request) (*T, error) {
 		}
 
 		resp.Error.Time = resp.Time
-		resp.RawQuery = req.URL.RawQuery
+		resp.Error.RawQuery = req.URL.RawQuery
 		return nil, resp.Error
 	}
 
@@ -34,7 +34,6 @@ func handleRequest[T any](client *http.Client, req *http.Request) (*T, error) {
 }
 
 type errorResponse struct {
-	Error    ErrorResponse `json:"error"`
-	RawQuery string        `json:"raw_query"`
-	Time     *Timestamp    `json:"time"`
+	Error ErrorResponse `json:"error"`
+	Time  *Timestamp    `json:"time"`
 }

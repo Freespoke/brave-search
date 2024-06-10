@@ -559,12 +559,13 @@ type Offer struct {
 }
 
 type ErrorResponse struct {
-	ID     string     `json:"id"`
-	Status int        `json:"status"`
-	Code   string     `json:"code"`
-	Detail string     `json:"detail"`
-	Meta   ErrorMeta  `json:"meta"`
-	Time   *Timestamp `json:"-"`
+	ID       string     `json:"id"`
+	Status   int        `json:"status"`
+	Code     string     `json:"code"`
+	Detail   string     `json:"detail"`
+	Meta     ErrorMeta  `json:"meta"`
+	RawQuery string     `json:"raw_query"`
+	Time     *Timestamp `json:"-"`
 }
 
 func (er ErrorResponse) Error() string {
