@@ -32,7 +32,7 @@ func TestErrorResponse(t *testing.T) {
 
 	p := fmt.Sprintf("%+v", resp)
 	assert.Equal(t,
-		"error: Unable to validate request parameter(s) (ID: f49c8ffa-5ddc-4fbf-9841-6b3093c21eb2; Status: 422; Code: VALIDATION); details: (type [int_parsing]; loc [query.offset]; input [foo]; msg [Input should be a valid integer, unable to parse string as an integer])",
+		"error: Unable to validate request parameter(s) (ID: f49c8ffa-5ddc-4fbf-9841-6b3093c21eb2; Status: 422; Code: VALIDATION); details: (type [int_parsing]; loc [query.offset]; input [foo]; msg [Input should be a valid integer, unable to parse string as an integer])); details: ",
 		p,
 	)
 }
