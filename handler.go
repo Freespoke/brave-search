@@ -2,14 +2,13 @@ package brave
 
 import (
 	"encoding/json"
-	"fmt"
 	"net/http"
 )
 
 func handleRequest[T any](client *http.Client, req *http.Request) (*T, error) {
 	res, err := client.Do(req)
 	if err != nil {
-		return nil, fmt.Errorf("error in request %s: %w", req.URL.String(), err)
+		return nil, err
 	}
 
 	defer res.Body.Close()

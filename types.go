@@ -584,8 +584,8 @@ func (er ErrorResponse) Format(f fmt.State, c rune) {
 						e.Type, strings.Join(e.Loc, "."), e.Input, e.Message))
 			}
 
-			fmt.Fprintf(f, "error: %s (ID: %s; Status: %d; Code: %s); details: %s",
-				er.Detail, er.ID, er.Status, er.Code, strings.Join(meta, ", "))
+			fmt.Fprintf(f, "error: %s (ID: %s; Status: %d; Code: %s RawQuery: %s); details: %s",
+				er.Detail, er.ID, er.Status, er.Code, strings.Join(meta, ", "), er.RawQuery)
 		} else {
 			fmt.Fprint(f, er.Detail)
 		}
