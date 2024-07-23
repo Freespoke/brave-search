@@ -169,14 +169,13 @@ type SearchResult struct {
 	ClusterType    string          `json:"cluster_type"`
 	CreativeWork   *CreativeWork   `json:"creative_work"`
 	FAQ            *FAQ            `json:"faq"`
-	Locations      *Locations      `json:"locations"`
+	Location       *LocationResult `json:"location"`
 	Movie          *MovieData      `json:"movie"`
 	MusicRecording *MusicRecording `json:"music_recording"`
 	ProductCluster []Product       `json:"product_cluster"`
 	QA             *QAPage         `json:"qa"`
 	Rating         *Rating         `json:"rating"`
 	Recipe         *Recipe         `json:"recipe"`
-	Restaurant     *LocationResult `json:"restaurant"`
 	Review         *Review         `json:"review"`
 	Software       *Software       `json:"software"`
 	Video          *VideoData      `json:"video"`
@@ -376,11 +375,6 @@ type Person struct {
 type PictureResults struct {
 	Results     []Thumbnail `json:"results"`
 	ViewMoreURL string      `json:"viewMoreUrl"`
-}
-
-type Locations struct {
-	Type    string           `json:"type"`
-	Results []LocationResult `json:"results"`
 }
 
 type MovieData struct {
