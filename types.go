@@ -153,32 +153,33 @@ type Thumbnail struct {
 
 type SearchResult struct {
 	Result
-	Type        string          `json:"type"`
-	Subtype     string          `json:"subtype"`
-	DeepResults *DeepResult     `json:"deep_results"`
-	Schemas     any             `json:"schemas"`
-	MetaURL     MetaURL         `json:"meta_url"`
-	Thumbnail   *Thumbnail      `json:"thumbnail"`
-	Age         *Timestamp      `json:"age"`
-	Language    string          `json:"language"`
-	Restaurant  *LocationResult `json:"restaurant"`
-	Locations   *Locations      `json:"locations"`
-	Video       *VideoData      `json:"video"`
-	Movie       *MovieData      `json:"movie"`
-	FAQ         *FAQ            `json:"faq"`
-	QA          *QAPage         `json:"qa"`
-	Book        *Book           `json:"book"`
-	Rating      *Rating         `json:"rating"`
-	Article     *Article        `json:"article"`
-	// Product     any             `json:"product"`
-	ProductCluster []Product       `json:"product_cluster"`
-	ClusterType    string          `json:"cluster_type"`
+	Type        string      `json:"type"`
+	DeepResults *DeepResult `json:"deep_results"`
+	Schemas     any         `json:"schemas"`
+	MetaURL     MetaURL     `json:"meta_url"`
+	Thumbnail   *Thumbnail  `json:"thumbnail"`
+	Age         *Timestamp  `json:"age"`
+	Language    string      `json:"language"`
+	ContentType string      `json:"content_type"`
+
+	Subtype        string          `json:"subtype"`
+	Article        *Article        `json:"article"`
+	Book           *Book           `json:"book"`
 	Cluster        []Result        `json:"cluster"`
+	ClusterType    string          `json:"cluster_type"`
 	CreativeWork   *CreativeWork   `json:"creative_work"`
+	FAQ            *FAQ            `json:"faq"`
+	Locations      *Locations      `json:"locations"`
+	Movie          *MovieData      `json:"movie"`
 	MusicRecording *MusicRecording `json:"music_recording"`
+	ProductCluster []Product       `json:"product_cluster"`
+	QA             *QAPage         `json:"qa"`
+	Rating         *Rating         `json:"rating"`
+	Recipe         *Recipe         `json:"recipe"`
+	Restaurant     *LocationResult `json:"restaurant"`
 	Review         *Review         `json:"review"`
 	Software       *Software       `json:"software"`
-	ContentType    string          `json:"content_type"`
+	Video          *VideoData      `json:"video"`
 }
 
 type ImageResult struct {
@@ -307,6 +308,33 @@ type Rating struct {
 	ReviewCount   int      `json:"reviewCount"`
 	Profile       *Profile `json:"profile"`
 	IsTripadvisor bool     `json:"is_tripadvisor"`
+}
+
+type Recipe struct {
+	Title          string     `json:"title"`
+	Description    string     `json:"description"`
+	Thumbnail      *Thumbnail `json:"thumbnail"`
+	URL            string     `json:"url"`
+	Domain         string     `json:"domain"`
+	Favicon        string     `json:"favicon"`
+	Time           *Duration  `json:"time"`
+	PrepTime       *Duration  `json:"prep_time"`
+	CookTime       *Duration  `json:"cook_time"`
+	Ingredients    string     `json:"ingredients"`
+	Instructions   []HowTo    `json:"instructions"`
+	Servings       int        `json:"servings"`
+	Calories       int        `json:"calories"`
+	Rating         *Rating    `json:"rating"`
+	RecipeCategory string     `json:"recipeCategory"`
+	RecipeCuisine  string     `json:"recipeCuisine"`
+	Video          *VideoData `json:"video"`
+}
+
+type HowTo struct {
+	Text  string   `json:"text"`
+	Name  string   `json:"name"`
+	URL   string   `json:"url"`
+	Image []string `json:"image"`
 }
 
 type DataProvider struct {
