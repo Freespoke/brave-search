@@ -11,6 +11,7 @@ import (
 
 	"dev.freespoke.com/brave-search"
 	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
 )
 
 func TestWeb(t *testing.T) {
@@ -123,6 +124,29 @@ func TestDuration(t *testing.T) {
 		assert.Nil(t, json.Unmarshal([]byte(`"`+c.input+`"`), &d))
 		assert.Equal(t, c.expected, d)
 	}
+}
+
+func TestRecipe(t *testing.T) {
+	svr := getTestServer("testdata/web_recipe.json", 200)
+
+	client, err := brave.New("fake", brave.WithHTTPClient(svr.Client()), brave.WithBaseURL(svr.URL))
+	if err != nil {
+		t.Fatal(err)
+	}
+
+	res, err := client.WebSearch(context.Background(), "speaker of the house")
+	require.Nil(t, err)
+	require.NotNil(t, res)
+
+	results := res.Web.Results
+	require.Len(t, results, 1)
+	r := results[0]
+	require.NotNil(t, r.Recipe)
+	require.Equal(t, "recipe", r.Subtype)
+
+	assert.Equal(t, "Chicken Alfredo", r.Recipe.Title)
+	assert.Equal(t, "desc", r.Recipe.Description)
+	assert.Equal(t, 40*time.Minute, *r.Recipe.Time.Duration())
 }
 
 func getTestServer(file string, status int) *httptest.Server {
