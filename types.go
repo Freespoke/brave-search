@@ -553,7 +553,7 @@ type GraphInfoBox struct {
 	Category        string         `json:"category"`
 	LongDesc        string         `json:"long_desc"`
 	Thumbnail       *Thumbnail     `json:"thumbnail"`
-	Attributes      []any          `json:"attributes"`
+	Attributes      [][]string     `json:"attributes"`
 	Profiles        []Profile      `json:"profiles"`
 	WebsiteURL      string         `json:"website_url"`
 	AttributesShown int            `json:"attributes_shown"`
