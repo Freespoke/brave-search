@@ -149,6 +149,7 @@ type Thumbnail struct {
 	Logo            bool   `json:"logo"`
 	Duplicated      bool   `json:"duplicated"`
 	Theme           string `json:"theme"`
+	Alt             string `json:"alt"`
 }
 
 type SearchResult struct {
@@ -272,6 +273,8 @@ type LocationResult struct {
 	ServesCuisine  []string        `json:"serves_cuisine"`
 	Timezone       string          `json:"timezone"`
 	TimezoneOffset float32         `json:"timezone_offset"`
+	Categories     []string        `json:"categories"`
+	IconCategory   string          `json:"icon_category"`
 }
 
 type PostalAddress struct {
@@ -386,6 +389,8 @@ type MovieData struct {
 	Directors   []Person   `json:"directors"`
 	Actors      []Person   `json:"actors"`
 	Rating      *Rating    `json:"rating"`
+	Genres      []string   `json:"genre"`
+	Query       string     `json:"query"`
 }
 
 type FAQ struct {
@@ -547,21 +552,26 @@ type ForumData struct {
 type GraphInfoBox struct {
 	Result
 
-	Type            string         `json:"type"`
-	Position        int            `json:"position"`
-	Label           string         `json:"label"`
-	Category        string         `json:"category"`
-	LongDesc        string         `json:"long_desc"`
-	Thumbnail       *Thumbnail     `json:"thumbnail"`
-	Attributes      [][]string     `json:"attributes"`
-	Profiles        []Profile      `json:"profiles"`
-	WebsiteURL      string         `json:"website_url"`
-	AttributesShown int            `json:"attributes_shown"`
-	Ratings         []Rating       `json:"ratings"`
-	Providers       []DataProvider `json:"providers"`
-	Distance        *Unit          `json:"distance"`
-	Images          []Thumbnail    `json:"images"`
-	Movie           *MovieData     `json:"movie"`
+	Type            string          `json:"type"`
+	Position        int             `json:"position"`
+	Label           string          `json:"label"`
+	Category        string          `json:"category"`
+	LongDesc        string          `json:"long_desc"`
+	Thumbnail       *Thumbnail      `json:"thumbnail"`
+	Attributes      [][]string      `json:"attributes"`
+	Profiles        []Profile       `json:"profiles"`
+	WebsiteURL      string          `json:"website_url"`
+	AttributesShown int             `json:"attributes_shown"`
+	Ratings         []Rating        `json:"ratings"`
+	Providers       []DataProvider  `json:"providers"`
+	Distance        *Unit           `json:"distance"`
+	Images          []Thumbnail     `json:"images"`
+	Movie           *MovieData      `json:"movie"`
+	Data            *QAPage         `json:"data"`
+	FoundInURLs     []string        `json:"found_in_urls"`
+	MetaURL         MetaURL         `json:"meta_url"`
+	Location        *LocationResult `json:"location"`
+	Coordinates     []float32       `json:"coordinates"`
 }
 
 type Product struct {
