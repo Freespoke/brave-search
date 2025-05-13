@@ -154,14 +154,15 @@ type Thumbnail struct {
 
 type SearchResult struct {
 	Result
-	Type        string      `json:"type"`
-	DeepResults *DeepResult `json:"deep_results"`
-	Schemas     any         `json:"schemas"`
-	MetaURL     MetaURL     `json:"meta_url"`
-	Thumbnail   *Thumbnail  `json:"thumbnail"`
-	Age         *Timestamp  `json:"age"`
-	Language    string      `json:"language"`
-	ContentType string      `json:"content_type"`
+	Type          string      `json:"type"`
+	DeepResults   *DeepResult `json:"deep_results"`
+	Schemas       any         `json:"schemas"`
+	MetaURL       MetaURL     `json:"meta_url"`
+	Thumbnail     *Thumbnail  `json:"thumbnail"`
+	Age           *Timestamp  `json:"age"`
+	Language      string      `json:"language"`
+	ContentType   string      `json:"content_type"`
+	ExtraSnippets []string    `json:"extra_snippets"`
 
 	Subtype        string          `json:"subtype"`
 	Article        *Article        `json:"article"`
